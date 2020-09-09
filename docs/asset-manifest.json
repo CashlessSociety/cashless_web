@@ -1,32 +1,32 @@
 {
   "files": {
     "main.css": "/static/css/main.17812269.chunk.css",
-    "main.js": "/static/js/main.5381fe03.chunk.js",
-    "main.js.map": "/static/js/main.5381fe03.chunk.js.map",
+    "main.js": "/static/js/main.7ac9b74b.chunk.js",
+    "main.js.map": "/static/js/main.7ac9b74b.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.931f22c1.js",
     "runtime-main.js.map": "/static/js/runtime-main.931f22c1.js.map",
     "static/js/2.42c10694.chunk.js": "/static/js/2.42c10694.chunk.js",
     "static/js/2.42c10694.chunk.js.map": "/static/js/2.42c10694.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.de9d951d48a23074648ac1fa91e62034.js": "/precache-manifest.de9d951d48a23074648ac1fa91e62034.js",
+    "precache-manifest.1c247b0df2132d7ff7c85ea8d179175f.js": "/precache-manifest.1c247b0df2132d7ff7c85ea8d179175f.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.17812269.chunk.css.map": "/static/css/main.17812269.chunk.css.map",
     "static/js/2.42c10694.chunk.js.LICENSE.txt": "/static/js/2.42c10694.chunk.js.LICENSE.txt",
     "static/media/ari_rodriguez.png": "/static/media/ari_rodriguez.a2f3dba2.png",
     "static/media/cashless_logo_white.png": "/static/media/cashless_logo_white.7db2ee08.png",
+    "static/media/empty_spanish_cover.png": "/static/media/empty_spanish_cover.9d29ccdb.png",
     "static/media/justin_wright.jpg": "/static/media/justin_wright.1b36621d.jpg",
     "static/media/linc_gasking.png": "/static/media/linc_gasking.5b792839.png",
-    "static/media/mexico_cover.png": "/static/media/mexico_cover.c49f5a50.png",
     "static/media/miles_in_front_of_church.jpg": "/static/media/miles_in_front_of_church.b9da22bd.jpg",
     "static/media/now-ui-kit.scss?v=1.4.0": "/static/media/nucleo-outline.8ebec31f.woff2",
-    "static/media/output.webm": "/static/media/output.3b7282ee.webm",
-    "static/media/output.ogv": "/static/media/output.8206da56.ogv",
-    "static/media/output.mp4": "/static/media/output.b94baf02.mp4"
+    "static/media/output.mp4": "/static/media/output.8e505c81.mp4",
+    "static/media/output.webm": "/static/media/output.b0ce57ee.webm",
+    "static/media/output.ogv": "/static/media/output.debf11b0.ogv"
   },
   "entrypoints": [
     "static/js/runtime-main.931f22c1.js",
     "static/js/2.42c10694.chunk.js",
     "static/css/main.17812269.chunk.css",
-    "static/js/main.5381fe03.chunk.js"
+    "static/js/main.7ac9b74b.chunk.js"
   ]
 }
