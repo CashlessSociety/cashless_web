@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a339d46f6479bd5261fd75952a4c6365",
+    "revision": "55e6f39aed73da9996e2979d4f30d58d",
     "url": "/index.html"
   },
   {
-    "revision": "8fcae1109f82b75fc4a5",
+    "revision": "f8af82745eb4c1a6d5f0",
     "url": "/static/css/main.17812269.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.42c10694.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "8fcae1109f82b75fc4a5",
-    "url": "/static/js/main.b90af15e.chunk.js"
+    "revision": "f8af82745eb4c1a6d5f0",
+    "url": "/static/js/main.a04c0810.chunk.js"
   },
   {
     "revision": "1d319c5107bbf1468a46",
@@ -32,16 +32,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/cashless_logo_white.7db2ee08.png"
   },
   {
-    "revision": "9d29ccdb3a76a02a671aebacbd4ead91",
-    "url": "/static/media/empty_spanish_cover.9d29ccdb.png"
-  },
-  {
     "revision": "1b36621da9f4fcf5ba77c0614dea419c",
     "url": "/static/media/justin_wright.1b36621d.jpg"
   },
   {
     "revision": "5b792839e48f3abbd1f36f4c40b5bd24",
     "url": "/static/media/linc_gasking.5b792839.png"
+  },
+  {
+    "revision": "c49f5a50d9acd0db9ba58f82f820d037",
+    "url": "/static/media/mexico_cover.c49f5a50.png"
   },
   {
     "revision": "b9da22bdf40cd42b9887812cbb4edff0",
