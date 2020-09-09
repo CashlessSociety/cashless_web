@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c9f85325.chunk.css",
+    "main.js": "/static/js/main.3da160eb.chunk.js",
+    "main.js.map": "/static/js/main.3da160eb.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.931f22c1.js",
+    "runtime-main.js.map": "/static/js/runtime-main.931f22c1.js.map",
+    "static/js/2.468ae24d.chunk.js": "/static/js/2.468ae24d.chunk.js",
+    "static/js/2.468ae24d.chunk.js.map": "/static/js/2.468ae24d.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.7e707267a3b5c73190efc7591dae7dc8.js": "/precache-manifest.7e707267a3b5c73190efc7591dae7dc8.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.c9f85325.chunk.css.map": "/static/css/main.c9f85325.chunk.css.map",
+    "static/js/2.468ae24d.chunk.js.LICENSE.txt": "/static/js/2.468ae24d.chunk.js.LICENSE.txt",
+    "static/media/ari_rodriguez.png": "/static/media/ari_rodriguez.a2f3dba2.png",
+    "static/media/cashless_logo_white.png": "/static/media/cashless_logo_white.7db2ee08.png",
+    "static/media/empty_spanish_cover.png": "/static/media/empty_spanish_cover.9d29ccdb.png",
+    "static/media/justin_wright.jpg": "/static/media/justin_wright.1b36621d.jpg",
+    "static/media/linc_gasking.png": "/static/media/linc_gasking.5b792839.png",
+    "static/media/miles_in_front_of_church.jpg": "/static/media/miles_in_front_of_church.b9da22bd.jpg",
+    "static/media/now-ui-kit.scss?v=1.4.0": "/static/media/nucleo-outline.8ebec31f.woff2",
+    "static/media/output.webm": "/static/media/output.8df16110.webm",
+    "static/media/output.mp4": "/static/media/output.ae81cf81.mp4",
+    "static/media/output.ogv": "/static/media/output.c86eff8b.ogv"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.931f22c1.js",
+    "static/js/2.468ae24d.chunk.js",
+    "static/css/main.c9f85325.chunk.css",
+    "static/js/main.3da160eb.chunk.js"
+  ]
+}
