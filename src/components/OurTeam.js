@@ -150,7 +150,7 @@ function OurTeam() {
                     <Button
                       className="btn-icon btn-round"
                       color="info"
-                      href="https://linkedin.com/in//ari-rodriguez-9b201b33"
+                      href="https://www.linkedin.com/in/linkjustinwright/"
                       target = "_blank" 
                       rel = "noopener noreferrer"
                     >
