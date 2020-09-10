@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.075c36d1.chunk.css",
-    "main.js": "/static/js/main.bc962bd4.chunk.js",
-    "main.js.map": "/static/js/main.bc962bd4.chunk.js.map",
+    "main.css": "/static/css/main.d4e8e626.chunk.css",
+    "main.js": "/static/js/main.b667ed0d.chunk.js",
+    "main.js.map": "/static/js/main.b667ed0d.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.931f22c1.js",
     "runtime-main.js.map": "/static/js/runtime-main.931f22c1.js.map",
     "static/js/2.42c10694.chunk.js": "/static/js/2.42c10694.chunk.js",
     "static/js/2.42c10694.chunk.js.map": "/static/js/2.42c10694.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.94162954d0d8e1dd2ccf9309f507c3cc.js": "/precache-manifest.94162954d0d8e1dd2ccf9309f507c3cc.js",
+    "precache-manifest.213a2648bd5d8b73481bb0bd23c30c1c.js": "/precache-manifest.213a2648bd5d8b73481bb0bd23c30c1c.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.075c36d1.chunk.css.map": "/static/css/main.075c36d1.chunk.css.map",
+    "static/css/main.d4e8e626.chunk.css.map": "/static/css/main.d4e8e626.chunk.css.map",
     "static/js/2.42c10694.chunk.js.LICENSE.txt": "/static/js/2.42c10694.chunk.js.LICENSE.txt",
     "static/media/ari_rodriguez.png": "/static/media/ari_rodriguez.a2f3dba2.png",
     "static/media/cashless_logo_white.png": "/static/media/cashless_logo_white.7db2ee08.png",
@@ -26,7 +26,7 @@
   "entrypoints": [
     "static/js/runtime-main.931f22c1.js",
     "static/js/2.42c10694.chunk.js",
-    "static/css/main.075c36d1.chunk.css",
-    "static/js/main.bc962bd4.chunk.js"
+    "static/css/main.d4e8e626.chunk.css",
+    "static/js/main.b667ed0d.chunk.js"
   ]
 }
