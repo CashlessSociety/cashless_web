@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 // reactstrap components
 import {
   Collapse,
@@ -52,8 +51,14 @@ function IndexNavbar() {
               href="//"
               target="_blank"
               id="navbar-brand"
+              onClick={(e) => {
+                e.preventDefault();
+                document
+                  .getElementById("video-header")
+                  .scrollIntoView();
+              }}
             >
-              <img src={require("assets/img/cashless_white_sm.png")} /> Cashless
+              <img src={require("assets/img/cashless_white_sm.png")} alt="Cashless Logo" /> Cashless
             </NavbarBrand>
             <button
               className="navbar-toggler navbar-toggler"
@@ -75,7 +80,7 @@ function IndexNavbar() {
             navbar
           >
             <Nav navbar>
-              <NavItem>
+              {/* <NavItem>
                 <NavLink
                   href="#pablo"
                   onClick={(e) => {
@@ -88,7 +93,7 @@ function IndexNavbar() {
                   <i className="now-ui-icons objects_spaceship"></i>
                   <p>About Us</p>
                 </NavLink>
-              </NavItem>
+              </NavItem> */}
               
               <NavItem>
                 <NavLink

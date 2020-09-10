@@ -5,14 +5,13 @@ import React from "react";
 
 // core components
 import IndexNavbar from "components/Navbars/IndexNavbar.js";
-import LandingPageHeader from "components/Headers/LandingPageHeader.js";
 import DefaultFooter from "components/Footers/DefaultFooter.js";
 import VideoHeader from "components/Headers/VideoHeader";
 import OurTeam from "components/OurTeam";
 
 function IndexPage() {
-  const [firstFocus, setFirstFocus] = React.useState(false);
-  const [lastFocus, setLastFocus] = React.useState(false);
+  // const [firstFocus, setFirstFocus] = React.useState(false);
+  // const [lastFocus, setLastFocus] = React.useState(false);
   React.useEffect(() => {
     document.body.classList.add("landing-page");
     document.body.classList.add("sidebar-collapse");
@@ -30,7 +29,7 @@ function IndexPage() {
       <IndexNavbar />
       <div className="wrapper">
         <VideoHeader />
-        <OurTeam />
+        {/* <OurTeam /> */}
         <DefaultFooter />
       </div>
     </>

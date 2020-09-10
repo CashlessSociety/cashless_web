@@ -25,7 +25,7 @@ function VideoHeader() {
 
   return (
     <>
-      <div className="hero page-header clear-filter" >
+      <div id="video-header" className="hero page-header clear-filter" >
         <div className="page-header-video"
             ref={pageHeader}>
           <video 
@@ -33,7 +33,7 @@ function VideoHeader() {
               autoPlay="autoplay" 
               muted="muted" 
               loop="loop"
-              poster={require("assets/img/empty_spanish_cover.png")} >
+              poster={require("assets/img/video_cover.png")} >
             <source src={require("assets/img/output.mp4")} type="video/mp4" />
             <source src={require("assets/img/output.webm")} type="video/webm" />
             <source src={require("assets/img/output.ogv")} type="video/ogg" />
@@ -41,12 +41,14 @@ function VideoHeader() {
         </div>
         <div className="container">
           <div className="row">
-            <div className="col-md-8">
-                  <h1 className="title">Reinventing money for a kinder, more empowered post COVID world.</h1>
+            <div className="col-lg-3 col-md-2"></div>
+            <div className="col-lg-6 col-md-8 overlay_panel">
+                  <h1 className="title">Introducing the peer to peer credit network.</h1>
                   <h2 className="cashless_title">
                     <img src={require("assets/img/cashless_logo_white.png")} /> Cashless</h2>
                   <h3>Coming soon.</h3>
             </div>
+            <div className="col-lg-3 col-md-2"></div>
           </div>
         </div>
       </div>
