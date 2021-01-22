@@ -8,6 +8,7 @@ import IndexNavbar from "components/Navbars/IndexNavbar.js";
 import DefaultFooter from "components/Footers/DefaultFooter.js";
 import VideoHeader from "components/Headers/VideoHeader";
 import OurTeam from "components/OurTeam";
+import ContactForm from "components/ContactForm"
 
 function IndexPage() {
   // const [firstFocus, setFirstFocus] = React.useState(false);
@@ -29,7 +30,8 @@ function IndexPage() {
       <IndexNavbar />
       <div className="wrapper">
         <VideoHeader />
-        {/* <OurTeam /> */}
+        <ContactForm />
+        {/* <OurTeam />  */}
         <DefaultFooter />
       </div>
     </>

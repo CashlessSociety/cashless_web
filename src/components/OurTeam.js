@@ -29,10 +29,9 @@ function OurTeam() {
                     <h4 className="title">Miles Thompson</h4>
                     <p className="category text-info">CEO</p>
                     <p className="description">
-                    Economist and mathematician. First CTO at CreditSights, 
-                    an independent financial research company and leading 
-                    voice on credit risk. Recently, CTO at Chatterize, 
-                    AI post-seed startup.
+                    Economist and mathematician. Founding CTO at <a href="https://www.creditsights.com">CreditSights</a>. 
+                    an independent financial research company and a 
+                    leading voice on global credit (Recently sold to Fitch Ratings). Most recently, founding CTO at <a href="https://chatterize.com">Chatterize</a>.
                     </p>
                     <Button
                       className="btn-icon btn-round"
@@ -75,7 +74,7 @@ function OurTeam() {
                     <p className="description">
                         30 years serial entrepreneur. First startup acquired by 
                         DreamWorks in 2000. Founded Volumetric industry as CEO 
-                        of multi-million dollar 8i. Award-winning photographer.
+                        of multi-million dollar <a href="https://8i.com/">8i</a>. Award-winning photographer.
                         Emmy Award finalist. Co-founded Women Without Borders.
                     </p>
                     <Button
