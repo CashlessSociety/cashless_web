@@ -23,7 +23,7 @@ function ContactForm() {
           <Container>
           <div className="subscribe">
                 <h5 className="info-text">
-                    Join our early access waiting list to find out more!
+                    Join our early access waiting list!
                  </h5>
                 <Row>
                     <Col className="text-center ml-auto mr-auto" lg="6" md="8">
