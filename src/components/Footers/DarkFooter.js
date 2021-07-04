@@ -11,11 +11,12 @@ function DarkFooter() {
         <nav>
           <ul>
             <li>
-              <a
-                href="https://github.com/factn"
-                target="_blank"
-              >
-                FACTION COOPERATIVE
+                <a
+                  href="https://github.com/cashlesssociety"
+                  target="_blank"
+                >
+                  Cashless Society Github
+                </a>
               </a>
             </li>
             {/* <li>
