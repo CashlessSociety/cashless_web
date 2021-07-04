@@ -15,9 +15,10 @@ function DefaultFooter() {
             <ul>
               <li>
                 <a
-                  href="https://cashless.social"
+                  href="https://github.com/cashlesssociety"
+                  target="_blank"
                 >
-                  Cashless
+                  Cashless Society Github
                 </a>
               </li>
               <li>|</li>
