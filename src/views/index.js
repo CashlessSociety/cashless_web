@@ -6,9 +6,10 @@ import React from "react";
 // core components
 import IndexNavbar from "components/Navbars/IndexNavbar.js";
 import DefaultFooter from "components/Footers/DefaultFooter.js";
-import VideoHeader from "components/Headers/VideoHeader";
-import OurTeam from "components/OurTeam";
-import ContactForm from "components/ContactForm"
+import VideoHeader from "components/Headers/VideoHeader.js";
+import ContactForm from "components/ContactForm.js";
+import Features from "components/Features.js";
+import Features2 from "components/Features-2.js";
 
 function IndexPage() {
   // const [firstFocus, setFirstFocus] = React.useState(false);
@@ -30,8 +31,9 @@ function IndexPage() {
       <IndexNavbar />
       <div className="wrapper">
         <VideoHeader />
+        <Features />
+        <Features2 />
         <ContactForm />
-        {/* <OurTeam />  */}
         <DefaultFooter />
       </div>
     </>
