@@ -40,6 +40,8 @@ $screen-xl-min: 1200px;
     }
  }
 
+
+
 .page-header {
 
     h1.title {
@@ -134,3 +136,30 @@ $screen-xl-min: 1200px;
     }
 }
   
+.cashless-features{
+    .info{
+        max-width: none;
+        margin: 0 auto;
+        padding: 10px 0 0px;
+    }
+    .phone-container{
+        max-width: 200px;
+        margin: 0 auto;
+    }
+}
+
+.features-6{
+    color:red;
+    .phone-container{
+        max-width: 260px;
+        margin: 60px auto 0;
+    }
+    .info{
+        max-width: none;
+        margin: 0 auto;
+        padding: 10px 0 0px;
+    }
+    .info:first-child{
+        padding-top: 130px;
+    }
+}
