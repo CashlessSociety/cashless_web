@@ -14,10 +14,7 @@ import {
 // core components
 
 function ContactForm() {
-  
-  
-
-  return (
+   return (
     <>
         <div className="section section-contact-us text-center">
           <Container>

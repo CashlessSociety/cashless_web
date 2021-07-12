@@ -13,7 +13,7 @@ function Features2() {
           <Container>
             <Row>
               <Col className="ml-auto mr-auto text-center" md="8">
-                <h2 className="title">Working is a pleasure</h2>
+                <h2 className="title">A web of thank-you's</h2>
                 <h4 className="description">
                   This is the paragraph where you can write more details about
                   your product. Keep you user engaged by providing meaningful
@@ -28,7 +28,7 @@ function Features2() {
                     <i className="now-ui-icons design-2_html5"></i>
                   </div>
                   <div className="description">
-                    <h5 className="info-title">For Developers</h5>
+                    <h5 className="info-title">Connect your wallet</h5>
                     <p>
                       The moment you use Now UI Kit, you know you’ve never felt
                       anything like it. With a single use, this powerfull UI Kit
@@ -41,7 +41,7 @@ function Features2() {
                     <i className="now-ui-icons design_palette"></i>
                   </div>
                   <div className="description">
-                    <h4 className="info-title">For Designers</h4>
+                    <h4 className="info-title">Collaborate together</h4>
                     <p>
                       Divide details about your product or agency work into
                       parts. Write a few lines about each one. A paragraph
@@ -52,7 +52,7 @@ function Features2() {
               </Col>
               <Col md="4">
                 <div className="phone-container">
-                
+                  <img alt="..." src={require("assets/img/iphone2.png")}></img>
                 </div>
               </Col>
               <Col md="4">
@@ -61,7 +61,7 @@ function Features2() {
                     <i className="now-ui-icons design-2_ruler-pencil"></i>
                   </div>
                   <div className="description">
-                    <h5 className="info-title">Bootstrap Grid</h5>
+                    <h5 className="info-title">Extend credit</h5>
                     <p>
                       Divide details about your product or agency work into
                       parts. Write a few lines about each one. A paragraph
@@ -74,7 +74,7 @@ function Features2() {
                     <i className="now-ui-icons files_single-copy-04"></i>
                   </div>
                   <div className="description">
-                    <h4 className="info-title">Example Pages Included</h4>
+                    <h4 className="info-title">Get what you need!</h4>
                     <p>
                       Divide details about your product or agency work into
                       parts. Write a few lines about each one. A paragraph
