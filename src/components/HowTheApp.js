@@ -5,7 +5,7 @@ import { Card, Container, Row, Col } from "reactstrap";
 
 // core components
 
-function Features() {
+function HowTheApp() {
   return (
     <>
       <div className="cd-section" id="features">
@@ -13,17 +13,15 @@ function Features() {
           <Container>
             <Row>
               <Col md="5">
-                <h2 className="title">Working is a pleasure</h2>
+                <h2 className="title">Cashless App</h2>
                 <div className="info info-horizontal">
                   <div className="icon icon-info icon-circle">
                     <i className="now-ui-icons location_world"></i>
                   </div>
                   <div className="description">
-                    <h4 className="info-title">Hundreds of Components</h4>
+                    <h4 className="info-title">Be your own bank</h4>
                     <p>
-                      The moment you use Now UI Kit, you know you’ve never felt
-                      anything like it. With a single use lets you do more than
-                      ever before.
+                      [Something about Banks cancel out checks overnight. Cashless gives you the ability to cancel out things that are owed to you]
                     </p>
                   </div>
                 </div>
@@ -32,7 +30,7 @@ function Features() {
                     <i className="now-ui-icons sport_user-run"></i>
                   </div>
                   <div className="description">
-                    <h4 className="info-title">Easy to Use</h4>
+                    <h4 className="info-title">Other key point</h4>
                     <p>
                       Divide details about your product or agency work into
                       parts. Write a few lines about each one. A paragraph
@@ -45,7 +43,7 @@ function Features() {
                     <i className="now-ui-icons ui-2_time-alarm"></i>
                   </div>
                   <div className="description">
-                    <h4 className="info-title">Fast Prototyping</h4>
+                    <h4 className="info-title">Your team, your community</h4>
                     <p>
                       Divide details about your product or agency work into
                       parts. Write a few lines about each one. A paragraph
@@ -70,4 +68,4 @@ function Features() {
   );
 }
 
-export default Features;
+export default HowTheApp;
