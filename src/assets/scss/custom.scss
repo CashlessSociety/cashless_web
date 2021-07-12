@@ -148,8 +148,11 @@ $screen-xl-min: 1200px;
     }
 }
 
+
+.3-points {
+  text-align: center; }
+
 .features-6{
-    color:red;
     .phone-container{
         max-width: 260px;
         margin: 60px auto 0;
@@ -161,5 +164,75 @@ $screen-xl-min: 1200px;
     }
     .info:first-child{
         padding-top: 130px;
+    }
+}
+
+.card-key h2.title {
+  margin-top: 5px;
+  margin-bottom: 15px; }
+
+.card-key .info {
+  padding: 0; }
+  .card-key .info p {
+    margin: 0; }
+
+.card-key .card-background {
+  margin-bottom: 0; }
+  .card-key .card-background .card-body {
+    padding-top: 140px;
+    padding-bottom: 140px; }
+
+.card-key hr {
+  margin: 70px auto;
+  max-width: 970px; }
+
+ 
+ // The Governance.js module styling is bork at the moment and I can't quite figure out why
+ .govern {
+    overflow: hidden;
+    position: relative;
+    .title{
+        color: #FFFFFF;
+        }
+    }
+
+.govern{
+    overflow: hidden;
+    .info-title{
+        color: #FFFFFF;
+    }
+    .info-horizontal{
+        padding: 15px 0 0;
+
+        &:first-child{
+            padding-top: 45px;
+        }
+    }
+}
+
+.govern .image-container{
+        max-width: 1200px;
+        position: relative;
+        height: 550px;
+        margin-top: 58px;
+
+        img{
+            max-width: 1200px;
+            left: 100px;
+            top: 0;
+            height: 100%;
+            position: absolute;
+        }
+    }
+
+
+@media screen and (max-width: 768px) {
+.govern .image-container img{
+        left: 0px;
+        top: 0;
+        max-width: inherit;
+        width: 100%;
+        height: auto;
+        position: relative;
     }
 }
