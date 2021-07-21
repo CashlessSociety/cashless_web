@@ -16,8 +16,10 @@ function IntroRow() {
                 <h2 className="title">Financially free, together.</h2>
                 <h4 className="description">
                   Cashless keeps track of the movement of value through a community.
-                  It lets people share their strengths and build networks of exchanges that empower their purposes before ever having to reach for a wallet.
-.                </h4>
+                  It lets people share their strengths and build <span className="comment">[cryptographic] </span>
+                  networks of exchanges that empower purposes before ever 
+                  having to reach for a wallet.</h4>
+                <h3><span className="comment"><b>[IMG - Network Effects/Trading Web]</b></span></h3>
               </Col>
             </Row>
             <Row>
@@ -39,7 +41,8 @@ function IntroRow() {
                   </div>
                   <h4 className="info-title">Distributed</h4>
                   <p className="description">
-                    Cashless is distributed by design. <b>[more]</b>
+                    <b>Cashless is distributed by design.</b>
+                    <br />Keep the power where it matters, because Distributed Ledger Technology is bigger than bitcoin. 
                   </p>
                 </div>
               </Col>
@@ -50,7 +53,10 @@ function IntroRow() {
                   </div>
                   <h4 className="info-title">Credit Autonomy</h4>
                   <p className="description">
-                    [Communities can do <b>[thisThing]</b>] and define sharing in ways that respect<b>[/honour] their needs]</b>. 
+                    We believe in putting communities in charge of their own credit 
+                    - letting communities create <span className="comment">[relation-driven, reliable 
+                    exchange without banks.]</span> their own, reliable credit without 
+                    banks <span className="comment">[could remove w/o banks;; adversarial]</span>.
                   </p>
                 </div>
               </Col>

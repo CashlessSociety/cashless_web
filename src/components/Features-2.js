@@ -15,9 +15,8 @@ function Features2() {
               <Col className="ml-auto mr-auto text-center" md="8">
                 <h2 className="title">A web of thank-you's</h2>
                 <h4 className="description">
-                  This is the paragraph where you can write more details about
-                  your product. Keep you user engaged by providing meaningful
-                  information.
+                  Value exchange means real human relationships. 
+                  Build and track networks of reciprocity that <span className="comment">[do thing]</span>
                 </h4>
               </Col>
             </Row>
@@ -41,7 +40,7 @@ function Features2() {
                     <i className="now-ui-icons design_palette"></i>
                   </div>
                   <div className="description">
-                    <h4 className="info-title">Collaborate together</h4>
+                    <h5 className="info-title">Collaborate together</h5>
                     <p>
                       Divide details about your product or agency work into
                       parts. Write a few lines about each one. A paragraph
@@ -52,7 +51,7 @@ function Features2() {
               </Col>
               <Col md="4">
                 <div className="phone-container">
-                  <img alt="..." src={require("assets/img/iphone2.png")}></img>
+                  <img alt="..." src={require("assets/img/cashless_mob1.png")}></img>
                 </div>
               </Col>
               <Col md="4">
@@ -74,7 +73,7 @@ function Features2() {
                     <i className="now-ui-icons files_single-copy-04"></i>
                   </div>
                   <div className="description">
-                    <h4 className="info-title">Get what you need!</h4>
+                    <h5 className="info-title">Get what you need!</h5>
                     <p>
                       Divide details about your product or agency work into
                       parts. Write a few lines about each one. A paragraph

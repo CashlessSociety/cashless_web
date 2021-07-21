@@ -21,8 +21,11 @@ function HowTheApp() {
                   <div className="description">
                     <h4 className="info-title">Be your own bank</h4>
                     <p>
-                      [Something about Banks cancel out checks overnight. Cashless gives you the ability to cancel out things that are owed to you]
-                    </p>
+                      Every dollar of bank-created credit creates 
+                      interest owed to the bank that created it. <br /><br />
+                      With Cashless, people create and extend credit to each other, 
+                      building natural networks of reciprocity without interest-bearing debt.
+                      </p>
                   </div>
                 </div>
                 <div className="info info-horizontal">
@@ -30,11 +33,10 @@ function HowTheApp() {
                     <i className="now-ui-icons sport_user-run"></i>
                   </div>
                   <div className="description">
-                    <h4 className="info-title">Other key point</h4>
+                    <h4 className="info-title">Give anyone credit</h4>
                     <p>
-                      Divide details about your product or agency work into
-                      parts. Write a few lines about each one. A paragraph
-                      describing a feature.
+                      <span className="comment">[extend description of 
+                      app use but give relevance in terms of higher level dialogue. Do we introduce the cheque & vesting here?]</span><br />
                     </p>
                   </div>
                 </div>
@@ -43,11 +45,10 @@ function HowTheApp() {
                     <i className="now-ui-icons ui-2_time-alarm"></i>
                   </div>
                   <div className="description">
-                    <h4 className="info-title">Your team, your community</h4>
+                    <h4 className="info-title">Pay with time or money</h4>
                     <p>
-                      Divide details about your product or agency work into
-                      parts. Write a few lines about each one. A paragraph
-                      describing a feature.
+                      Get what you need and cancel out the cost against the great 
+                      stuff you've done in the service of others.
                     </p>
                   </div>
                 </div>
@@ -56,7 +57,7 @@ function HowTheApp() {
                 <div className="tablet-container">
                   <img
                     alt="..."
-                    src={require("assets/img/ipad2-inverted.png")}
+                    src={require("assets/img/cashless_padportrait1.png")}
                   ></img>
                 </div>
               </Col>
