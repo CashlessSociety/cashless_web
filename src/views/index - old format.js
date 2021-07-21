@@ -7,13 +7,12 @@ import React from "react";
 import IndexNavbar from "components/Navbars/IndexNavbar.js";
 import DefaultFooter from "components/Footers/DefaultFooter.js";
 import VideoHeader from "components/Headers/VideoHeader.js";
+import ContactForm from "components/ContactForm.js";
 import HowTheApp from "components/HowTheApp.js";
 import Features2 from "components/Features-2.js";
 import CardAndKeys from "components/CardAndKeys.js";
 import IntroRow from "components/IntroRow.js";
-import PainPoints from "components/AccessToCredit.js";
 import Governance from "components/Governance.js";
-import ContactUs from "components/ContactUs.js";
 
 function IndexPage() {
   // const [firstFocus, setFirstFocus] = React.useState(false);
@@ -36,12 +35,11 @@ function IndexPage() {
       <div className="wrapper">
         <VideoHeader />
         <IntroRow />
+        <CardAndKeys />
         <HowTheApp />
         <Features2 />
-        <PainPoints />
         <Governance />
-        <CardAndKeys />
-        <ContactUs />
+        <ContactForm />
         <DefaultFooter />
       </div>
     </>
