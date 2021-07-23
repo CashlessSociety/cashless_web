@@ -13,7 +13,7 @@ import {
 
 // core components
 
-function ContactForm() {
+function ContactForm2() {
    return (
     <>
         <div className="section section-contact-us text-center">
@@ -49,4 +49,4 @@ function ContactForm() {
   );
 }
 
-export default ContactForm;
+export default ContactForm2;

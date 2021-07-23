@@ -1,21 +1,22 @@
+/*eslint-disable*/
 import React from "react";
 
 function NucleoIcons() {
   const [open, setOpen] = React.useState(false);
   React.useEffect(() => {
     document.documentElement.classList.add("nucleo-icons-page-styles");
-    window.scrollTo(0, 0);
-    document.body.scrollTop = 0;
     return function cleanup() {
       document.documentElement.classList.remove("nucleo-icons-page-styles");
     };
-  }, []);
+  });
   return (
     <>
       <header>
         <h1>Nucleo Outline Web Font v2.9</h1>
         <p>
-          <a href="https://nucleoapp.com/?ref=1712">nucleoapp.com</a>
+          <a href="https://nucleoapp.com/?ref=1712" target="_blank">
+            nucleoapp.com
+          </a>
         </p>
       </header>
       <div id="cd-nav">

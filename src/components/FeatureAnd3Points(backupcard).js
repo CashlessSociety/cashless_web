@@ -20,7 +20,7 @@ import {
 
 // core components
 
-function CardAndKeys() {
+function CardAndKeysBak() {
   return (
     <>
     <div className="cd-section" id="projects">
@@ -164,6 +164,6 @@ The web of irrevocable peer to peer credit transactions we are building allows v
   );
 }
 
-export default CardAndKeys;
+export default CardAndKeysBak;
 
 

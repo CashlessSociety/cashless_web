@@ -5,7 +5,7 @@ import { Card, Container, Row, Col } from "reactstrap";
 
 // core components
 
-function Features2() {
+function WebOfThankyous() {
   return (
     <>
       <div className="cd-section" id="features">
@@ -20,7 +20,10 @@ function Features2() {
                 </h4>
               </Col>
             </Row>
-            <Row>
+
+{/*            Dont use this content for now but keeping comment
+            because we probably wanna use somewhere else.
+*/}           {/* <Row>
               <Col md="4">
                 <div className="info info-horizontal">
                   <div className="icon icon-info">
@@ -82,7 +85,7 @@ function Features2() {
                   </div>
                 </div>
               </Col>
-            </Row>
+            </Row>*/}
           </Container>
         </div>
       </div>
@@ -90,4 +93,4 @@ function Features2() {
   );
 }
 
-export default Features2;
+export default WebOfThankyous;
