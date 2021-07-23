@@ -6,9 +6,10 @@ import React from "react";
 // core components
 import IndexNavbar from "components/Navbars/IndexNavbar.js";
 import DefaultFooter from "components/Footers/DefaultFooter.js";
-import VideoHeader from "components/Headers/VideoHeader.js";
+//import VideoHeader from "components/VideoHeader.js";
+import NetworkHeader from "components/NetworkHeader.js";
 import HowTheApp from "components/HowTheApp.js";
-import Features2 from "components/Features-2.js";
+import WebOfThankyous from "components/WebOfThankyous.js";
 import CardAndKeys from "components/CardAndKeys.js";
 import IntroRow from "components/IntroRow.js";
 import PainPoints from "components/AccessToCredit.js";
@@ -34,10 +35,10 @@ function IndexPage() {
     <>
       <IndexNavbar />
       <div className="wrapper">
-        <VideoHeader />
+        <NetworkHeader />
         <IntroRow />
         <HowTheApp />
-        <Features2 />
+        <WebOfThankyous />
         <PainPoints />
         <Governance />
         <CardAndKeys />
