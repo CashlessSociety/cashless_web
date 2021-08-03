@@ -50,7 +50,6 @@
     }
 }
 
-.govern,
 .features-2,
 .features-8{
     position: relative;
@@ -76,20 +75,16 @@
     }
 }
 
-.features-8,
-.govern{
+.features-8{
+
     .title{
         color: #FFFFFF;
     }
-}
 
-.features-8{
     .title + .description{
         margin-bottom: 70px;
     }
-}
 
-.govern{
     overflow: hidden;
 
     .info-title{
