@@ -63,9 +63,6 @@ a {
     font-weight: 400;
 }
 
-.features-3 .description {
-    font-weight: 400
-}
 .page-header {
 
     h1.title {
@@ -129,8 +126,8 @@ a {
     padding-right: 30px;
 }
 
+/* page-header-video == VideoHeader */
 .page-header-video  {
-
     position: relative;
     background-color: black;
     height: 120vh;
@@ -161,66 +158,134 @@ a {
     }
 }
   
-.cashless-features{
+[class*="features-"],
+[class*="cashless-features"],
+[class*="team-"],
+[class*="projects-"],
+[class*="pricing-"],
+[class*="testimonials-"],
+[class*="contactus-"]{
+    padding: 40px 0;
+}
+
+
+/* features-3 == IntroRow */
+.features-3 {
+    .description {
+        font-weight: 400
+    }
+}
+
+/* how_it_works == HowTheApp */
+.how_it_works {
     .info{
         max-width: none;
         margin: 0 auto;
         padding: 10px 0 0px;
     }
     .phone-container{
-        max-width: 200px;
-        margin: 0 auto;
+        max-width: 300px;
+        margin: 50px auto 0;
+    
+        @media screen and (min-width: 1024px) {
+            max-width: 300px;
+            margin: 40px auto 0;
+        }
+
+        @media screen and (max-width: 768px) {
+            max-width: 360px;
+            margin: 40px auto 0;
+        }
+    }
+}
+   
+
+/* .contactus-1 == ContactUS */
+.contactus-1 {
+    &.section-image:after 
+    {
+        background-color: rgba(141, 99, 99, .7);
     }
 }
 
 
-.3-points {
-  text-align: center; }
-
-.features-6{
-    .phone-container{
-        max-width: 260px;
-        margin: 60px auto 0;
+/* .current-status == CurrentStatus */
+.current-status {
+    &.section-image:after 
+    {
+        background-color: rgba(186,209,235,.14)
     }
+    .title {
+        color: #5b5959;
+    }
+}
+
+/* .features-5 == Details */
+.features-5 {
+    .cashless-cheque-container {
+        margin: 50px auto 0;
+    }
+    .cashless-cycle-container {
+        margin: 50px auto 0;
+        max-width: 560px;
+        
+        @media screen and (min-width: 1024px) {
+            max-width: 360px;
+            margin: 40px auto 0;
+        }
+
+        @media screen and (max-width: 768px) {
+            max-width: 360px;
+            margin: 40px auto 0;
+        }
+    }
+   
+}
+
+/* features-6 == WebOfThankyous */
+.features-6 {
+
     .info{
         max-width: none;
         margin: 0 auto;
         padding: 10px 0 0px;
     }
     .info:first-child{
-        padding-top: 130px;
+        padding-top: inherit;
+    }
+
+    .network-container{
+        max-width: 300px;
+        margin: 50px auto 0;
+    
+        @media screen and (min-width: 1024px) {
+            max-width: 360px;
+            margin: 40px auto 0;
+        }
+
+        @media screen and (max-width: 768px) {
+            max-width: 360px;
+            margin: 40px auto 0;
+        }
     }
 }
 
-.card-key h2.title {
-  margin-top: 5px;
-  margin-bottom: 15px; }
+/* projects-5 = WhatCouldGoWrong */
 
-.card-key .info {
-  padding: 0; }
-  .card-key .info p {
-    margin: 0; }
+.projects-5 {
 
-.card-key .card-background {
-  margin-bottom: 0; }
-  .card-key .card-background .card-body {
-    padding-top: 140px;
-    padding-bottom: 140px; }
+}
 
-.card-key hr {
-  margin: 70px auto;
-  max-width: 970px; }
-
- .govern {
+/* govern == Governance */
+.access_to_credit,
+.govern {
     overflow: hidden;
     position: relative;
+
     .title{
         color: #FFFFFF;
-        }
     }
 
-.govern{
-    overflow: hidden;
     .info-title{
         color: #FFFFFF;
     }
@@ -231,9 +296,7 @@ a {
             padding-top: 45px;
         }
     }
-}
-
-.govern{    
+   
     position: relative;
     &:after{
         display: block;
@@ -246,9 +309,8 @@ a {
         z-index: 1;
         background-color: rgba(0,0,0,.5);
     }
-}
 
-.govern .image-container{
+    .image-container{
         max-width: 1200px;
         position: relative;
         height: 550px;
@@ -263,20 +325,16 @@ a {
         }
     }
 
-
-@media screen and (max-width: 768px) {
-.govern .image-container img{
-        left: 0px;
-        top: 0;
-        max-width: inherit;
-        width: 100%;
-        height: auto;
-        position: relative;
+    @media screen and (max-width: 768px) {
+        .image-container img{
+            left: 0px;
+            top: 0;
+            max-width: inherit;
+            width: 100%;
+            height: auto;
+            position: relative;
+        }
     }
-}
-
-.govern{
-    position: relative;
 
     &:after{
         display: block;

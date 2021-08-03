@@ -7,24 +7,19 @@ import { Card, Container, Row, Col } from "reactstrap";
 
 function Governance() {
   return (
-    <div className="govern section-image"
+    <div className="features-8 govern section-image"
       style={{
         backgroundImage: "url(" + require("assets/img/bg22.jpg") + ")",
       }}>
       <Col className="mr-auto ml-auto text-center" md="8">
-        <h2 className="title"><span className="comment dark"><b>How we get there [CTA / Leadership / Governance stuff here]</b></span>
+        <h2 className="title">Governance
 </h2>
         <h4 className="description">
           <span className="comment dark">[Call to action supplementary]</span>
-      </h4>
+        </h4>
       </Col>
       <Container fluid>
         <Row>
-          <Col md="6">
-            <div className="image-container">
-              <img alt="..." src={require("assets/img/cashless_pad1.png")}></img>
-            </div>
-          </Col>
           <Col className="px-0" md="6">
             <Col sm="12">
               <div className="info info-horizontal">
