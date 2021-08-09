@@ -41,7 +41,6 @@ function IndexPage() {
         <NetworkHeader />
         <IntroRow />
         <HowTheApp />
-        <CurrentStatus />
         <Details />
         <PainPoints />
         <div className="cashless-features"><Container><Row><Col md="12">
@@ -53,7 +52,7 @@ function IndexPage() {
                 Regardless of any other payments, team members will be awarded ownership stake via the governance token.
               </div>
         </Col></Row></Container></div>
- 
+        <CurrentStatus />
         <div className="cashless-features"><Container><Row><Col md="12">
               <h4 className="title">Our contributors</h4>
         </Col></Row></Container></div>
