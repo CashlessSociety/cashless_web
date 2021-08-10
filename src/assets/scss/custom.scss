@@ -211,19 +211,17 @@ a {
 
 /* .current-status == CurrentStatus */
 .current-status {
-    &.section-image:after 
-    {
-        background-color: rgba(186,209,235,.14)
+    &.section-image:after {
+        background-color: rgba(21, 100, 154, .76);
     }
-    .title {
-        color: #5b5959;
-    }
+    a { color: #e1f2c1; }
 }
 
 /* .features-5 == Details */
 .features-5 {
     .cashless-cheque-container {
         margin: 50px auto 0;
+        max-width: 560px;
     }
     .cashless-cycle-container {
         margin: 50px auto 0;
