@@ -46,19 +46,12 @@ function IndexPage() {
         <div className="cashless-features"><Container><Row><Col md="12">
               <h4 className="title">Roadmap</h4>
         </Col></Row></Container></div>
-        <div className="cashless-features"><Container><Row><Col md="12">
-              <h4 className="title">Governance / DAO / Business Model</h4>
-              <div className="description">
-                Regardless of any other payments, team members will be awarded ownership stake via the governance token.
-              </div>
-        </Col></Row></Container></div>
-        <CurrentStatus />
+        <Governance />
         <div className="cashless-features"><Container><Row><Col md="12">
               <h4 className="title">Our contributors</h4>
         </Col></Row></Container></div>
-
-{/*        <Governance />
-        <CardAndKeys />*/}
+        <CurrentStatus />
+{/*        <CardAndKeys />*/}
         <ContactUs />
         <DefaultFooter />
       </div>
