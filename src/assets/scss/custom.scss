@@ -219,6 +219,91 @@ a {
 
 /* .features-5 == Details */
 .features-5 {
+  
+    .credit-lifecycle {
+      background: $smoke-bg;
+      
+      .info { 
+        padding-left :80px;
+        .icon { 
+          position: absolute;
+          margin: 0 0 0 -80px;
+          transition: all 200ms ease-in-out;
+          border: 1px solid $brand-primary;
+          color:  $brand-primary;
+        }
+        .description {
+          opacity: 0.6;
+          transition: all 200ms ease-in-out;
+        }
+        
+        &:before {  
+          // vertical line
+          content: "";
+          display: block;
+          width: 0;
+          height: 100%;
+          border-left: 10px solid $brand-primary;
+          position: absolute;
+          left: 35px;
+          z-index: 0;
+          animation: border-arrow-animation 1.5s infinite;
+        }
+        
+        &:after {
+          // down arrow
+          content: "";
+          display: block;
+          width: 0; 
+          height: 0; 
+          border-left: 15px solid transparent;
+          border-right: 15px solid transparent;
+          border-top: 15px solid $brand-primary;
+          position: absolute;
+          top: -40px;
+          left: 25px;
+          z-index: 1;
+          margin-top: 40px;
+        }
+        
+        &:hover {
+          .icon {
+            background-color: $brand-primary;
+            color: white;
+          }
+          .info-title {
+            color: $brand-primary;
+          }
+          .description {
+            opacity: 1;
+          }
+        
+        }
+      }  
+      div[class^=col-]{
+        &:first-child {
+          .info:after { 
+            display: none;
+          }
+        }
+        &:nth-child(2){
+          .info:before { 
+            animation-delay: 0.2s;
+          }
+        }
+        &:nth-child(3){
+          .info:before {
+            animation-delay: 0.5s;
+          }
+        }
+        &:last-child {
+          .info:before {
+            display: none;
+          }
+          
+        } 
+      }
+    }
     .cashless-cheque-container {
         margin: 50px auto 0;
         max-width: 560px;
@@ -239,6 +324,18 @@ a {
     }
    
 }
+
+@keyframes border-arrow-animation {
+   20% {
+      border-color: #d45026;
+    }
+  70% {
+      border-color: #ff926f;
+  }
+}
+
+
+
 
 /* features-6 == WebOfThankyous */
 .features-6 {
