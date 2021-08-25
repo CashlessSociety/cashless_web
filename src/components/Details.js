@@ -23,52 +23,81 @@ function Details() {
               </div>
             </Col>
           </Row>
-          <Row>
-            <Col md="12">
-              <div className="info info-horizontal">
-                <div className="icon icon-info icon-circle">
-                  <i className="now-ui-icons location_world"></i>
+        </Container>
+        <div className="credit-lifecycle py-5 my-5">
+          <Container>
+          <h2 className="title">The Cashless Credit Cycle</h2>
+            <Row className="no-gutters">
+              <Col sm="12">
+                <div className="info">
+                  <div className="icon icon-info icon-circle">
+                    <i className="now-ui-icons ui-1_send"></i>
+                  </div>
+                  <div className="description text-left">
+                    <h5 className="info-title font-weight-bold">Send Cashless Credit</h5>
+                    <p>
+                    The fundamental unit of cashless is the cashless credit. You use the app to make a signed and non-repudiatable 'promise to pay it forward'. You can send someone a cashless credit as payment or acknowledgement of work done for you by others. The 'denomination' of this cashless credit is a unit of measure and can be anything. In this example it is USD (as measured by USDC).
+                    </p>
+                  </div>
                 </div>
-                <div className="description">
-                  <h4 className="info-title"> Cashless Credit </h4>
-                  <p>
-                  The fundamental unit of cashless is the cashless credit. You use the app to make a signed and non-repudiatable 'promise to pay it forward'. You can send someone a cashless credit as payment or acknowledgement of work done for you by others. The 'denomination' of this cashless credit is a unit of measure and can be anything. In this example it is USD (as measured by USDC).
-                  </p>
+              </Col>
+            
+            {/*<Row>
+              <Col>
+                <div className="cashless-cycle-container">
+                  <img
+                    alt="..."
+                    src={require("assets/img/cycle.png")}
+                  ></img>
                 </div>
-              </div>
-            </Col>
-          </Row>
-          <Row>
-            <Col md="12">
-              <div className="cashless-cycle-container">
-                <img
-                  alt="..."
-                  src={require("assets/img/cycle.png")}
-                ></img>
-              </div>
-            </Col>
-          </Row>
-          <Row>
-            <Col md="12">
-              <div className="info info-horizontal">
-                <div className="icon icon-info icon-circle">
-                  <i className="now-ui-icons ui-2_favourite-28"></i>
+              </Col>
+            </Row>*/}
+            
+              <Col sm="12">
+                <div className="info">
+                  <div className="icon icon-info icon-circle">
+                    <i className="now-ui-icons emoticons_satisfied"></i>
+                  </div>
+                  <div className="description text-left">
+                    <h5 className="info-title font-weight-bold">Vesting</h5>
+                    <p>For the first two months the locked reserves grow in value and the recipient is incentivized to hold on to them. Once fully vested they are like ripe fruit that may be picked at any time.
+                    </p>
+                  </div>
                 </div>
-                <div className="description">
-                  <h4 className="info-title"> Vesting and demurrage </h4>
-                  <p>Like all living systems, cashless promises go through a natural birth, growth, and decay cycle. For the first two months the locked reserves grow in value and the recipient is incentivized to hold on to them. Once fully vested they are like ripe fruit that may be picked at any time. After a nother month or so they start to fade away again in value, further encouraging the incentive to spend. Unlike the infinite growth imperative of traditional interest bearing debt, or the speculation and accumulation incentive of traditional crypto, Cashless promises live in harmony with natural forces and are designed to stimulate community, relationships and local engagement.
-                  </p>
+              </Col>
+              <Col sm="12"> 
+                <div className="info">
+                  <div className="icon icon-info icon-circle">
+                    <i className="now-ui-icons arrows-1_refresh-69"></i>
+                  </div>
+                  <div className="description text-left">
+                    <h5 className="info-title font-weight-bold">Reciprocate</h5>
+                    <p>There’s a period of time where you’re encouraged to make connections and incentivized to spend to get the most value. The Cashless AI will help you find these connections.</p>
+                  </div>
                 </div>
-              </div>
-            </Col>
-          </Row>
+              </Col>
+              <Col sm="12">
+                <div className="info">
+                  <div className="icon icon-info icon-circle">
+                    <i className="now-ui-icons ui-2_time-alarm"></i>
+                  </div>
+                  <div className="description text-left">
+                    <h5 className="info-title font-weight-bold">Demurrage</h5>
+                    <p>Unlike the infinite growth imperative of traditional interest bearing debt, or the speculation and accumulation incentive of traditional crypto, Cashless promises live in harmony with natural forces and are designed to stimulate community, relationships and local engagement.</p>
+                  </div>
+                </div>
+              </Col>
+            </Row>
+          </Container>
+        </div>
+        <Container>
           <Row>
             <Col md="7">
               <div className="info info-horizontal">
                 <div className="icon icon-info icon-circle">
                   <i className="now-ui-icons arrows-1_refresh-69"></i>
                 </div>
-                <div className="description">
+                <div className="description text-left">
                   <h4 className="info-title">Clear your payments 'hour for hour'</h4>
                   <p>
                   One way to clear or 'pay back' credits is with an equal value of your time in return. Let's say a graphic designer helps you with a logo and then you help them with some of their work - you've found a 'reciprocity' that cancels out that debt. You can also find loops of more complicated type. The Cashless AI works hard to find and recommend trades that will cancel out your outstanding loops. 
