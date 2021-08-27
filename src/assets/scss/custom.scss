@@ -265,8 +265,7 @@ a {
           z-index: 1;
           margin-top: 40px;
         }
-        
-        
+                
         
         &:hover {
           .icon {
@@ -281,7 +280,7 @@ a {
           }
         
         }
-        
+    
         .alt-up-line {
           &:before {  
             // vertical line
@@ -374,6 +373,7 @@ a {
         } 
       }
       
+
     }
     .cashless-cheque-container {
         margin: 50px auto 0;
@@ -397,9 +397,9 @@ a {
 }
 
 @keyframes border-arrow-animation {
-   20% {
+  20% {
       opacity: 0.8;
-    }
+  }
   50% {
       opacity: 0.5;
   }
