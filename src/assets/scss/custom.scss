@@ -266,6 +266,8 @@ a {
           margin-top: 40px;
         }
         
+        
+        
         &:hover {
           .icon {
             background-color: $brand-primary;
@@ -279,7 +281,75 @@ a {
           }
         
         }
+        
+        .alt-up-line {
+          &:before {  
+            // vertical line
+            content: "";
+            display: block;
+            width: 0;
+            height: calc(100% - 15px);
+            border-left: 5px solid $success-color;
+            position: absolute;
+            left: 60px;
+            z-index: 0;
+            animation: border-arrow-animation 1.5s infinite;
+            border-left-style: dotted;
+            margin-top: 15px;
+          }
+          &:after {
+            // up arrow
+            content: "";
+            display: block;
+            width: 0; 
+            height: 0; 
+            border-left: 8px solid transparent;
+            border-right: 8px solid transparent;
+            border-bottom: 8px solid $success-color;
+            position: absolute;
+            top: 80px;
+            left: 54px;
+            z-index: 1;
+          }
+        }
+        
+        .alt-down-line {
+          &:before {  
+            // vertical line
+            content: "";
+            display: block;
+            width: 0;
+            height: calc(100% - 15px);
+            border-left: 5px solid $default-color;
+            position: absolute;
+            left: 60px;
+            z-index: 0;
+            animation: border-arrow-animation 1.5s infinite;
+            border-left-style: dotted;
+            margin-top: 15px;
+          }
+        }
+        
+        .alt-down-arrow {
+          &:before {
+            // down arrow
+            content: "";
+            display: block;
+            width: 0; 
+            height: 0; 
+            border-left: 8px solid transparent;
+            border-right: 8px solid transparent;
+            border-top: 8px solid $default-color;
+            position: absolute;
+            top: 6px;
+            left: 54px;
+            z-index: 1;
+      
+          }
+        }
       }  
+      
+      // vertical lines
       div[class^=col-]{
         &:first-child {
           .info:after { 
@@ -303,6 +373,7 @@ a {
           
         } 
       }
+      
     }
     .cashless-cheque-container {
         margin: 50px auto 0;
@@ -327,10 +398,13 @@ a {
 
 @keyframes border-arrow-animation {
    20% {
-      border-color: #d45026;
+      opacity: 0.8;
     }
-  70% {
-      border-color: #ff926f;
+  50% {
+      opacity: 0.5;
+  }
+  80% {
+      opacity: 0.2;
   }
 }
 
