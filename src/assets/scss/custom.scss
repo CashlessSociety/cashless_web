@@ -550,3 +550,11 @@ a {
         margin-bottom: 70px;
     }
 }
+
+.inline_bullets {
+    li {
+        float:left;
+        padding-left: 20px;
+        padding-right: 40px;
+    }
+}
