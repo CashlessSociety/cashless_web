@@ -12,11 +12,9 @@ function IntroRow() {
         <Container>
           <Row>
             <Col className="ml-auto mr-auto" md="12">
-              <h2 className="title">Financially free, together</h2>
+              <h2 className="title">Live life on your own terms with Cashless.</h2>
               <h4 className="description">
-                Cashless keeps track of the movement of value through a community. We empower you to share strengths and build networks of credit, achieving our goals without banks.</h4>
-              {/*
-              <h3><span className="comment"><b>[IMG - Network Effects/Trading Web]</b></span></h3>*/}
+                Cashless is an alternative way to keep track of credit through communities. <br />We provide trust and transparency but <b>you are your own bank.</b></h4>
             </Col>
           </Row>
           <Row>
@@ -27,7 +25,7 @@ function IntroRow() {
                 </div>
                 <h4 className="info-title">Distributed</h4>
                 <p className="description">
-                  <b>Cashless is distributed by design.</b> Distributed ledger technology puts data where it belongs - in your hands. Not in the cloud - or even on the blockchain. 
+                  Cashless is distributed by design. Distributed ledger technology puts <b>data where it belongs</b> - in your hands. Not in the cloud - or even on the blockchain.
                 </p>
               </div>
             </Col>
@@ -38,7 +36,7 @@ function IntroRow() {
                 </div>
                 <h4 className="info-title">Autonomous</h4>
                  <p className="description">
-                <b>Give anyone credit.</b> You choose who to accept it and within which communities. We provide credit clearing and reputation but <b>you are your own bank</b>. 
+                 <b>Give anyone credit.</b> You choose who to accept it and within which communities. We provide credit clearing and reputation but you, collectively, act as your own bank.
                 </p>
               </div>
             </Col>
@@ -49,7 +47,7 @@ function IntroRow() {
                 </div>
                 <h4 className="info-title">Collective</h4>
                 <p className="description">
-                    We put communities in charge of their own credit. We act as a node within that fabric, providing tools that let communities build their own social / financial networks <b>free from interest bearing debt</b>.
+                    We put communities in charge of their own credit. We act as a node within that fabric, providing tools that let communities build their own financial future <b>free from interest bearing debt</b>.
                     </p>
               </div>
             </Col>
