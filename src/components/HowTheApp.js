@@ -13,17 +13,7 @@ function HowTheApp() {
           <Row>
             <Col md="5">
               <h2 className="title">How It Works</h2>
-              <div className="info info-horizontal">
-                <div className="icon icon-info icon-circle">
-                  <i className="now-ui-icons location_world"></i>
-                </div>
-                <div className="description">
-                  <h4 className="info-title">Be your own bank</h4>
-                    <p>
-                      With Cashless, people create and extend credit to each other, building natural networks of reciprocity.
-                    </p>
-                </div>
-              </div>
+
               <div className="info info-horizontal">
                 <div className="icon icon-info icon-circle">
                   <i className="now-ui-icons sport_user-run"></i>
@@ -42,9 +32,19 @@ function HowTheApp() {
                 <div className="description">
                   <h4 className="info-title">Pay with time or money</h4>
                   <p>
-                    Get what you need. Cancel out your debts through 
-                    work done in the service of others.
+                    Buy what you need. Then pay your balance over time through work in service of others. Or just load cash into your wallet to ensure your credit remains pristine.
                   </p>
+                </div>
+              </div>
+              <div className="info info-horizontal">
+                <div className="icon icon-info icon-circle">
+                  <i className="now-ui-icons location_world"></i>
+                </div>
+                <div className="description">
+                  <h4 className="info-title">Act as your own bank</h4>
+                    <p>
+                      With Cashless, people create and extend credit to each other, building natural networks of reciprocity. See our whitepaper for why this form of credit is the next step in distributed finance. 
+                    </p>
                 </div>
               </div>
             </Col>

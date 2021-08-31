@@ -5,7 +5,7 @@ import { Card, Container, Row, Col } from "reactstrap";
 
 // core components
 
-function PainPoints() {
+function Why() {
   return (
   <>
     <div className="features-8 cashless-features section-image"
@@ -22,23 +22,23 @@ function PainPoints() {
             <Col sm="12">
               <div className="info info-horizontal">
                 <div className="icon">
-                  <i className="now-ui-icons objects_spaceship"></i>
-                </div>
-                <div className="description">
-                  <h5 className="info-title">Build your network</h5>
-                  <p className="description">
-                   Community organizers have long known that interest free mutual credit is an amazing tool for helping communities grow and become self reliant. But until now, such communities have lacked the extra liquidity and transparency that cashless credit can provide.
-                  </p>
-                </div>
-              </div>
-              <div className="info info-horizontal">
-                <div className="icon">
                   <i className="now-ui-icons objects_umbrella-13"></i>
                 </div>
                 <div className="description">
                   <h5 className="info-title">End Poverty</h5>
                   <p className="description">
-                    Credit unions, micro-credit and community banks are well known to be effective ways to lift communities out of poverty. Cashless leverages recent advances in distributed finance and cryptography to do the same thing without banks, in a more meaningful way.
+                    Credit unions, micro-credit and community banks are well known to be effective ways to lift communities out of poverty. Cashless leverages recent advances in distributed finance and cryptography to do the same thing without banks, and without interest, in a much more scalable way.
+                  </p>
+                </div>
+              </div>
+              <div className="info info-horizontal">
+                <div className="icon">
+                  <i className="now-ui-icons objects_spaceship"></i>
+                </div>
+                <div className="description">
+                  <h5 className="info-title">Build community</h5>
+                  <p className="description">
+                   Community organizers have long known that interest free mutual credit is an amazing tool for helping communities grow and become self reliant. But until now, such communities have lacked the extra liquidity and transparency that cashless credit can provide.
                   </p>
                 </div>
               </div>
@@ -66,4 +66,4 @@ function PainPoints() {
   );
 }
 
-export default PainPoints;
+export default Why;
