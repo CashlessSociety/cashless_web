@@ -12,9 +12,9 @@ function CurrentStatus() {
     <>
       <div className="cashless-features current-status">
         <Container>
+        <h2 className="title">Current Status</h2>
          <Row>
-            <Col md="7">
-              <h2 className="title">Current Status</h2>
+            <Col md={6}>
               <div>
                 <div>
                   <p>
@@ -35,7 +35,7 @@ function CurrentStatus() {
                 </div>
               </div>
             </Col>
-            <Col md="5">
+            <Col md={6}>
               <img
                 alt="social"
                 src={require("assets/img/clip-coop.png")}

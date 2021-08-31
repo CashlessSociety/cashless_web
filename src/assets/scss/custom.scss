@@ -64,7 +64,15 @@ a {
         color: #e3cc8d !important;
 }
 
+.description { color: $light-black}
+
 .info-title { font-weight: $font-weight-bold;}
+.icon > img {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
 
 
 .page-header {
