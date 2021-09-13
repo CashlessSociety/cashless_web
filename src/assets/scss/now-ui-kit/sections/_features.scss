@@ -50,36 +50,7 @@
     }
 }
 
-.features-2,
 .features-8{
-    position: relative;
-
-    &:after{
-        display: block;
-        content: "";
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        top: 0;
-        left: 0;
-        z-index: 1;
-        background-color: rgba(0,0,0,.5);
-    }
-
-    .container,
-    .container-fluid,
-    .title,
-    .description{
-        position: relative;
-        z-index: 2;
-    }
-}
-
-.features-8{
-
-    .title{
-        color: #FFFFFF;
-    }
 
     .title + .description{
         margin-bottom: 70px;
@@ -88,7 +59,7 @@
     overflow: hidden;
 
     .info-title{
-        color: #FFFFFF;
+
     }
     .info-horizontal{
         padding: 15px 0 0;

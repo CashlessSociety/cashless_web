@@ -8,13 +8,13 @@ import { Card, Container, Row, Col } from "reactstrap";
 function Possibilities() {
   return (
     <>
-      <div className="features-5">
+      <div className="features-5 text-center ">
         <div className="py-5 my-5">
           <Container>
             <h2 className="title">This is just the beginning.</h2>
             <Row className="justify-content-md-center">
-              <Col md="7">
-                <lottie-player src="https://assets3.lottiefiles.com/packages/lf20_vf4s9n4i.json"  background="transparent"  speed="1"  style={{width: "600px", height: "auto"}}  loop  autoplay></lottie-player>
+              <Col md="5">
+                <lottie-player src="https://assets3.lottiefiles.com/packages/lf20_vf4s9n4i.json"  background="transparent"  speed="1"  style={{width: "100%", height: "auto"}}  loop  autoplay></lottie-player>
               </Col>
             </Row>
             <Row className="no-gutters">

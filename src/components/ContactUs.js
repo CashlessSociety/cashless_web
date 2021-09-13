@@ -123,20 +123,15 @@ function ContactUs() {
   const [email2Focus, setEmail2Focus] = React.useState(false);
   return (
     <>
-     <div
-        className="contactus-1 cashless-features section-image"
-        style={{
-          backgroundImage: "url(" + require("assets/img/i_love_you.jpg") + ")",
-        }}
-      >
+     <div className="contactus-1 cashless-features bg-sunset">
         <Container>
           <Row>
             <Col md="5">
               <h2 className="title">Contact us</h2>
-              <h4 className="description">
+              <h4>
                 We're putting together a team. Applications are invite only for now, but if you would like to leave a message, feel free.
                </h4>
-                <h4 className="description">
+                <h4>
               Please feel free to drop us a message in the message box to the right. 
               </h4>
               {/*<div className="info info-horizontal">

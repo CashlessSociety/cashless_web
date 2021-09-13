@@ -66,9 +66,9 @@ h6, .h6{
     text-transform: uppercase;
 }
 p{
-    line-height: 1.61em;
-    font-weight: 300;
-    font-size: 1.2em;
+    line-height: $line-height-general;
+    font-weight: $font-weight-normal;
+    font-size: 1em;
 }
 
 .title{
