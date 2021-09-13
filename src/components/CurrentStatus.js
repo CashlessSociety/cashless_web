@@ -10,29 +10,21 @@ import { Card, Container, Row, Col } from "reactstrap";
 function CurrentStatus() {
   return (
     <>
-      <div className="features-5 cashless-features current-status  section-image"    
-        style={{
-          backgroundImage: "url(" + require("assets/img/current_status.png") + ")",
-        }}
-      >
+      <div className="cashless-features current-status">
         <Container>
+        <h2 className="title">Current Status</h2>
          <Row>
-            <Col md="12">
-              <h2 className="title">Current Status</h2>
-            </Col>
-          </Row>
-          <Row>
-            <Col md="12">
-              <div className="info info-horizontal">
+            <Col md={6}>
+              <div>
                 <div>
-                  <p className="description">
+                  <p>
                   Right now we have:
                   <ul><li>A small team</li>
                       <li>A proof of concept <a href="https://startups.cashless.social">(deployed on main net)</a></li>
                       <li>A vision of where we're going</li>
                   </ul>
                   </p>
-                  <p className="description">
+                  <p>
                     We're working on:
                     <ul><li><a href="https://github.com/CashlessSociety/cashless-ui">The 100% open source MVP and reference implementation</a></li>
                     <li>A comprehensive white paper.</li>
@@ -42,6 +34,12 @@ function CurrentStatus() {
                   </p>
                 </div>
               </div>
+            </Col>
+            <Col md={6}>
+              <img
+                alt="social"
+                src={require("assets/img/clip-coop.png")}
+              ></img>
             </Col>
           </Row>
         </Container>
