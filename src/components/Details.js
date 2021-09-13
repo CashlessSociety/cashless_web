@@ -53,7 +53,7 @@ function Details() {
                   <div className="description text-left">
                     <Row>
                       <Col>
-                      <h5 className="info-title font-weight-bold">Reciprocity</h5>
+                      <h5 className="info-title font-weight-bold">Clearing</h5>
                         <p>
                           The simplest way to erase your cashless credits is offering back an equal value of your time in exchange. For example, if a graphic designer helped you design a logo and you helped with some of their work in turn you have found a ‘reciprocity’ loop that erases the debt. But you don't have to find an exact swap. The Cashless AI works hard at finding and suggesting trades that will help you erase your outstanding debits or spend your credits.
                         </p>
