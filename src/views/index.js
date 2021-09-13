@@ -18,6 +18,7 @@ import Possibilities from "components/Possibilities.js";
 import Governance from "components/Governance.js";
 import ContactUs from "components/ContactUs.js";
 import Details from "components/Details.js";
+import Guarantees from "components/Guarantees.js";
 import CurrentStatus from "components/CurrentStatus.js";
 
 function IndexPage() {
@@ -42,9 +43,10 @@ function IndexPage() {
         <NetworkHeader />
         <IntroRow />
         <HowTheApp />
-        <Details />
         <Why />
-        <Possibilities />
+        <Details />
+        <Guarantees />
+{/*        <Possibilities />*/}
         <Governance />
         <CurrentStatus />
         <div className="cashless-features"><Container><Row><Col md="12">
