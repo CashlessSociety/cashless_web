@@ -123,7 +123,7 @@ function ContactUs() {
   const [email2Focus, setEmail2Focus] = React.useState(false);
   return (
     <>
-     <div className="contactus-1 cashless-features bg-sunset">
+     <div id="contact-us" className="contactus-1 cashless-features bg-sunset">
         <Container>
           <Row>
             <Col md="5">
