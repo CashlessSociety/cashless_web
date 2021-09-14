@@ -10,7 +10,7 @@ import { Card, Container, Row, Col } from "reactstrap";
 function CurrentStatus() {
   return (
     <>
-      <div className="cashless-features current-status">
+      <div id="status" className="cashless-features current-status">
         <Container>
         <h2 className="title">Current Status</h2>
          <Row>
