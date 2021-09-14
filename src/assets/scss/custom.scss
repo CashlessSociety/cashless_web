@@ -54,6 +54,10 @@ $screen-xl-min: 1200px;
 a {
       color:#de6f47;
 }
+
+.lead { 
+  font-weight: $font-weight-normal;
+}
 .comment {
     font-weight: 400;
     font-style: bold;
@@ -469,8 +473,32 @@ a {
 }
 
 /* govern == Governance */
-.access_to_credit,
 .govern {
+  background-size: cover;
+  background-image: url("../img/governance.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  
+  
+  .info { 
+    max-width: none;
+    text-align: left;
+    padding-top: 0;
+    .info-title { 
+      margin-top: $margin-base-vertical;
+      @extend .h6;
+    }
+    .description {
+      background-color: $opacity-8;
+      border-radius: $border-radius-large;
+      padding: $padding-base-vertical $padding-base-horizontal;
+    }
+    p { font-size: $font-size-base;}
+  }
+}
+
+
+.access_to_credit{
     overflow: hidden;
     position: relative;
 

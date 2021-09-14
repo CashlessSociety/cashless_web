@@ -9,7 +9,7 @@ import { Container } from "reactstrap";
 function DefaultFooter() {
   return (
     <>
-      <footer className="footer footer-default">
+      <footer className="footer footer-white">
         <Container>
           <nav>
             <ul>

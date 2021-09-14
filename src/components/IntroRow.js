@@ -8,7 +8,7 @@ import { Card, Container, Row, Col } from "reactstrap";
 function IntroRow() {
   return (
     <>
-      <div className="features-3 cashless-features">
+      <div className="features-3 cashless-features text-center">
         <Container>
           <Row>
             <Col className="ml-auto mr-auto" md="12">
