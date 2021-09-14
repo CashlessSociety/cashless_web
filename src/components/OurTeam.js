@@ -30,8 +30,7 @@ function OurTeam() {
                     <p className="category text-info">CEO</p>
                     <p className="description">
                     Economist and mathematician. Founding CTO at <a href="https://www.creditsights.com">CreditSights</a>. 
-                    an independent financial research company and a 
-                    leading voice on global credit (Recently sold to Fitch Ratings). Most recently, founding CTO at <a href="https://chatterize.com">Chatterize</a>.
+                    an independent financial research company  (Recently acquired by Fitch Ratings). Founding CTO at <a href="https://chatterize.com">Chatterize</a>. AI team lead at papareo.nz
                     </p>
                     <Button
                       className="btn-icon btn-round"

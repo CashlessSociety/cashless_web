@@ -80,21 +80,62 @@ function IndexNavbar() {
             navbar
           >
             <Nav navbar>
-              {/* <NavItem>
+
+               <NavItem>
                 <NavLink
-                  href="#pablo"
-                  onClick={(e) => {
+                  href="#pablo" onClick={(e) => {
                     e.preventDefault();
-                    document
-                      .getElementById("team-section")
-                      .scrollIntoView();
-                  }}
-                >
-                  <i className="now-ui-icons objects_spaceship"></i>
-                  <p>About Us</p>
+                    document.getElementById("how-the-app").scrollIntoView();
+                  }}>
+                  <p>The App</p>
                 </NavLink>
-              </NavItem> */}
-              
+              </NavItem>
+              <NavItem>
+                <NavLink
+                  href="#pablo" onClick={(e) => {
+                    e.preventDefault();
+                    document.getElementById("why").scrollIntoView();
+                  }}>
+                  <p>Why </p>
+                </NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink
+                  href="#pablo" onClick={(e) => {
+                    e.preventDefault();
+                    document.getElementById("details").scrollIntoView();
+                  }}>
+                  <p>Cashless Credit</p>
+                </NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink
+                  href="#pablo" onClick={(e) => {
+                    e.preventDefault();
+                    document.getElementById("governance").scrollIntoView();
+                  }}>
+                  <p>Governance </p>
+                </NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink
+                  href="#pablo" onClick={(e) => {
+                    e.preventDefault();
+                    document.getElementById("get-involved").scrollIntoView();
+                  }}>
+                  <p>Get Involved</p>
+                </NavLink>
+              </NavItem>
+{/*              <NavItem>
+                <NavLink
+                  href="#pablo" onClick={(e) => {
+                    e.preventDefault();
+                    document.getElementById("team-section").scrollIntoView();
+                  }}>
+                  <p>Contact</p>
+                </NavLink>
+              </NavItem>*/}
+             
               <NavItem>
                 <NavLink
                   href="https://twitter.com/cashless_social?ref=cashless_web"
