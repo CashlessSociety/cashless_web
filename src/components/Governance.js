@@ -7,7 +7,7 @@ import { Card, Container, Row, Col } from "reactstrap";
 
 function Governance() {
   return (
-    <div className="features-8 govern">
+    <div id="governance" className="features-8 govern">
       <Col className="mr-auto ml-auto text-center" md="8">
         <h2 className="title">
           Governance
@@ -35,7 +35,8 @@ function Governance() {
                   </p>
                 </div>
               </div>
-              <div className="info">
+{/*              Move this to handbook - but keep it here fo rnow 
+*/}{/*              <div className="info">
                 <div className="description">
                   <h5 className="info-title">Business model</h5>
                   <p>
@@ -44,7 +45,7 @@ function Governance() {
                     <p>Cashless will be building an AI recommendation business, which will essentially act as a concierge to facilitate credit worthy  transactions. It won't be necessary to use this particular app, but it will be an option amongst many that allows you to interact with the protocol in a way optimized for your success.
                   </p>
                 </div>
-              </div>
+              </div>*/}
             </Col>
           </Col>
           <Col className="px-0" md="6">
@@ -65,14 +66,7 @@ function Governance() {
                   </p>
                 </div>
               </div>
-              <div className="info">
-                <div className="description">
-                  <h5 className="info-title">Current status</h5>
-                  <p>
-                    Right now we are just a group of people building apps that matter. We are still evaluating the best ways to establish our DAO. This is a decision that needs to be made carefully. Once we launch the DAO, anyone with an interest in becoming a part of our innovation community will be able to sign the agreement, become a member and start earning (or investing in) governance tokens. 
-                  </p>
-                </div>
-              </div>
+             
             </Col>
           </Col>
         </Row>

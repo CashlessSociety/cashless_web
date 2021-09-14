@@ -10,12 +10,19 @@ import { Card, CardBody, Container, Row, Col } from "reactstrap";
 function Details() {
   return (
     <>
-      <div className="features-5">
+      <div id="details" className="features-5">
         <div className="credit-lifecycle bg-grey py-5 my-5">
           <Container>
-            <h2 className="title">The Cashless Credit Cycle</h2>
             <Row className="no-gutters">
-              <Col md="9">
+              <Col md="8">
+                <h2 className="title">The Cashless Credit Cycle</h2>
+              </Col>
+              <Col md="4">
+                <lottie-player src="https://assets8.lottiefiles.com/private_files/lf30_tcuqw7ib.json"  background="transparent"  speed="1"  style={{width: "200px", height: "auto"}} hover loop autoplay></lottie-player>
+              </Col>
+            </Row>
+            <Row className="no-gutters">
+              <Col md="8">
                 <div className="info">
                   <span className="alt-up-line"></span>
                   <div className="icon icon-info icon-circle">
@@ -29,9 +36,7 @@ function Details() {
                   </div>
                 </div>
               </Col>
-              <Col md="3">
-                <lottie-player src="https://assets8.lottiefiles.com/private_files/lf30_tcuqw7ib.json"  background="transparent"  speed="1"  style={{width: "100%", height: "auto"}} hover loop autoplay></lottie-player>
-              </Col>
+
             </Row>
             {/*<Row>
               <Col>
@@ -44,7 +49,7 @@ function Details() {
               </Col>
             </Row>*/}
             <Row>
-              <Col sm="12"> 
+              <Col sm="8"> 
                 <div className="info">
                   <span className="alt-down-line"></span>
                   <div className="icon icon-info icon-circle">
@@ -53,7 +58,7 @@ function Details() {
                   <div className="description text-left">
                     <Row>
                       <Col>
-                      <h5 className="info-title font-weight-bold">Clearing</h5>
+                      <h5 className="info-title font-weight-bold">Reciprocity</h5>
                         <p>
                           The simplest way to erase your cashless credits is offering back an equal value of your time in exchange. For example, if a graphic designer helped you design a logo and you helped with some of their work in turn you have found a ‘reciprocity’ loop that erases the debt. But you don't have to find an exact swap. The Cashless AI works hard at finding and suggesting trades that will help you erase your outstanding debits or spend your credits.
                         </p>
@@ -64,7 +69,7 @@ function Details() {
               </Col>
             </Row>
             <Row>
-              <Col sm="12">
+              <Col sm="8">
                 <div className="info">
                   <span className="alt-down-line"></span>
                   <div className="icon icon-info icon-circle">
@@ -84,7 +89,7 @@ function Details() {
               </Col>
             </Row>
             <Row>
-              <Col sm="12">
+              <Col sm="8">
                 <div className="info">
                   <span className="alt-down-arrow"></span>
                   <div className="icon icon-info icon-circle">

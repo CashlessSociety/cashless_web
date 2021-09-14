@@ -8,7 +8,7 @@ import { Card, Container, Row, Col } from "reactstrap";
 function HowTheApp() {
   return (
     <>
-      <div className="how_it_works cashless-features">
+      <div id="how-the-app" className="how_it_works cashless-features">
         <Container>
           <Row>
             <Col md="5">

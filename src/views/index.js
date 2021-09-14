@@ -11,10 +11,10 @@ import DefaultFooter from "components/Footers/DefaultFooter.js";
 import NetworkHeader from "components/NetworkHeader.js";
 import HowTheApp from "components/HowTheApp.js";
 import WebOfThankyous from "components/WebOfThankyous.js";
-import CardAndKeys from "components/CardAndKeys.js";
+import Contributors from "components/Contributors.js";
 import IntroRow from "components/IntroRow.js";
 import Why from "components/Why.js";
-import Possibilities from "components/Possibilities.js";
+import GetInvolved from "components/GetInvolved.js";
 import Governance from "components/Governance.js";
 import ContactUs from "components/ContactUs.js";
 import Details from "components/Details.js";
@@ -46,13 +46,10 @@ function IndexPage() {
         <Why />
         <Details />
         <Guarantees />
-{/*        <Possibilities />*/}
         <Governance />
         <CurrentStatus />
-        <div className="cashless-features"><Container><Row><Col md="12">
-              <h4 className="title">Our contributors</h4>
-        </Col></Row></Container></div>
-{/*        <CardAndKeys />*/}
+        <GetInvolved />
+        <Contributors />
         <ContactUs />
         <DefaultFooter />
       </div>
