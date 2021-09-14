@@ -8,7 +8,7 @@ import { Card, Container, Row, Col } from "reactstrap";
 function Why() {
   return (
   <>
-    <div className="features-8 cashless-features bg-sunset">
+    <div id="why" className="features-8 cashless-features bg-sunset">
       <Container>
         <Row>
           <Col md={7} className="pr-5">
