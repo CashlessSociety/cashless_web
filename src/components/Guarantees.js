@@ -47,10 +47,11 @@ function Guarantees() {
                         <Col md={8}>
                           <h4 className="info-title">Your community</h4>
                           <p>
-                            Communities and community tokens are the final piece of the puzzle.  Community nodes act as focal points that increase the likelihood of reciprocal payments but also provide member validation. They can provide a final guarantee of payments (up to a point) for every member of their community.
+                            Communities and community tokens are the final piece of the puzzle.  Community tokens provide a final guarantee of payments (up to a point) for every member of the community using that token.
+                     
                           </p>
                           <p className="mb-0">
-                            Communities  provide places for people to connect and engage with each other. Members / token holders are incentivised to build their communities. Each community token comes with a token-bonding contract that locks in an extra layer of collective protection for all members - visible to everyone and managed by members of that community.
+                            Communities also act as focal points to increase the likelihood of reciprocal payment provide places for people to connect and engage with each other. Members / token holders are incentivised to build their communities. Each community token comes with a token-bonding contract that locks in an extra layer of collective protection for all members - visible to everyone and managed by members of that community.
                           </p>
 {/*                          <p>
                             Anyone can create a community and create a token. For example, a community of ‘tech startups’ could focus on connecting web developers to coders, or a localized community token might focus on a particular local city.
