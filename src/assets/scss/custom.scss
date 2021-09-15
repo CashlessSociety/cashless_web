@@ -47,6 +47,31 @@ $screen-xl-min: 1200px;
 .bg-sunset { 
   background: linear-gradient(#ffd9d6, #fff3e7);
 }
+
+.highlight-underline-primary {
+  background: url("data:image/svg+xml;charset=utf8,%3Csvg version='1.1' xmlns='http://www.w3.org/2000/svg' x='0px' y='0px' width='1px' height='1px' viewBox='0 0 1 1' preserveAspectRatio='none'%3E%3Crect x='0' y='0' width='1' height='1' fill='#{$primary-color-opacity}' /%3E%3C/svg%3E") no-repeat 100% 100%;
+  background-size: 100% 50%;
+}
+
+.highlight-underline-info {
+  background: url("data:image/svg+xml;charset=utf8,%3Csvg version='1.1' xmlns='http://www.w3.org/2000/svg' x='0px' y='0px' width='1px' height='1px' viewBox='0 0 1 1' preserveAspectRatio='none'%3E%3Crect x='0' y='0' width='1' height='1' fill='#{$info-color-opacity}' /%3E%3C/svg%3E") no-repeat 100% 100%;
+  background-size: 100% 50%;
+}
+
+.highlight-underline-success {
+  background: url("data:image/svg+xml;charset=utf8,%3Csvg version='1.1' xmlns='http://www.w3.org/2000/svg' x='0px' y='0px' width='1px' height='1px' viewBox='0 0 1 1' preserveAspectRatio='none'%3E%3Crect x='0' y='0' width='1' height='1' fill='#{$success-color-opacity}' /%3E%3C/svg%3E") no-repeat 100% 100%;
+  background-size: 100% 50%;
+}
+
+.highlight-underline-warning {
+  background: url("data:image/svg+xml;charset=utf8,%3Csvg version='1.1' xmlns='http://www.w3.org/2000/svg' x='0px' y='0px' width='1px' height='1px' viewBox='0 0 1 1' preserveAspectRatio='none'%3E%3Crect x='0' y='0' width='1' height='1' fill='#{$warning-color-opacity}' /%3E%3C/svg%3E") no-repeat 100% 100%;
+  background-size: 100% 50%;
+}
+.highlight-underline-danger {
+  background: url("data:image/svg+xml;charset=utf8,%3Csvg version='1.1' xmlns='http://www.w3.org/2000/svg' x='0px' y='0px' width='1px' height='1px' viewBox='0 0 1 1' preserveAspectRatio='none'%3E%3Crect x='0' y='0' width='1' height='1' fill='#{$danger-color-opacity}' /%3E%3C/svg%3E") no-repeat 100% 100%;
+  background-size: 100% 50%;
+}
+
   
 
 // TEXT & FONTS
@@ -474,10 +499,12 @@ a {
 
 /* govern == Governance */
 .govern {
-  background-size: cover;
+  background-size: 70% auto;
   background-image: url("../img/governance.jpg");
   background-attachment: fixed;
   background-repeat: no-repeat;
+  background-color: #ebebeb;
+  background-position: center center;
   
   
   .info { 
@@ -587,10 +614,40 @@ a {
     }
 }
 
-.inline_bullets {
-    li {
-        float:left;
-        padding-left: 20px;
-        padding-right: 40px;
-    }
+.inline-bullets {
+  li {
+      float:left;
+      padding-left: 20px;
+      padding-right: 40px;
+  }
 }
+
+.custom_bullets {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 24px;
+  text-indent: -24px;
+  
+  li { 
+    margin-bottom: 1em;
+    b { 
+      @extend .highlight-underline-info;
+    }
+  }
+
+  li:before {
+    content: "+";
+    padding-right: 0.5em;
+    display: block;
+    float: left;
+    width: 24px;
+    color: $danger-color-opacity;
+    line-height: 24px;
+    font-size: 36px;
+  }
+}
+
+
+
+
+
