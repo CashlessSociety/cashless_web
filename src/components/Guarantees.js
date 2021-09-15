@@ -37,15 +37,18 @@ function Guarantees() {
             </Row>
             <Row>
               <Col md={12}>
-                <Card className="description">
+                <Card>
                   <CardBody>
-                    <Container>
                       <Row className="mt-5">
-                        <Col md={4}>
-                          <lottie-player src="https://assets6.lottiefiles.com/packages/lf20_dsmgi54l.json" background="transparent" speed="1" style={{width: "100%", height: "auto"}} loop autoplay></lottie-player>
+                        <Col md={6} className="p-5">
+                          <img
+                            alt="social"
+                            src={require("assets/img/clip-coop.png")}
+                          ></img>
+                          {/*<lottie-player src="https://assets6.lottiefiles.com/packages/lf20_dsmgi54l.json" background="transparent" speed="1" style={{width: "100%", height: "auto"}} loop autoplay></lottie-player>*/}
                         </Col>
-                        <Col md={8}>
-                          <h4 className="info-title">Your community</h4>
+                        <Col md={6}>
+                          <h6>Your community</h6>
                           <p>
                             Communities and community tokens are the final piece of the puzzle.  Community tokens provide a final guarantee of payments (up to a point) for every member of the community using that token.
                      
@@ -53,6 +56,8 @@ function Guarantees() {
                           <p className="mb-0">
                             Communities also act as focal points to increase the likelihood of reciprocal payment provide places for people to connect and engage with each other. Members / token holders are incentivised to build their communities. Each community token comes with a token-bonding contract that locks in an extra layer of collective protection for all members - visible to everyone and managed by members of that community.
                           </p>
+                          <lottie-player src="https://assets3.lottiefiles.com/temp/lf20_pO3t5Q.json"  background="transparent"  speed="0.6"  style={{width: "100%", height: "200px"}}  loop  autoplay></lottie-player>
+                          
 {/*                          <p>
                             Anyone can create a community and create a token. For example, a community of ‘tech startups’ could focus on connecting web developers to coders, or a localized community token might focus on a particular local city.
                           </p>
@@ -64,7 +69,6 @@ function Guarantees() {
                           </p>*/}
                         </Col>
                       </Row>
-                    </Container>
                   </CardBody>
                 </Card>
               </Col>

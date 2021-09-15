@@ -44,13 +44,13 @@ function GetInvolved() {
                     <p className="lead">
                       Nothing is sacred but the boundaries of <i>this collaboration</i>  are around <b>peer to peer credit</b> that is:
                     </p>
-                    <ul>
+                    <ul className="custom_bullets">
                       <li><b>Fair</b> - Reducing inequality is at the heart of what we are doing.</li>
                       <li><b>Robust</b> - By distributing risk we are building a form of credit suited to changeable times ahead.</li>
                       <li><b>Compassionate</b> - We believe in a kinder and gentler form of money.</li>
                       <li><b>Transparent</b> - Data needs boundaries but corruption, inequality and instability grow in darkness. </li>
                       <li><b>Distributed</b> - We are building structures that put the user in control of their own data, and their own credit.</li>
-                    </ul>  
+                    </ul>
                   </CardBody>
                 </Card>
                 <Card>
