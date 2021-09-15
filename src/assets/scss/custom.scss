@@ -72,9 +72,15 @@ $screen-xl-min: 1200px;
   background-size: 100% 50%;
 }
 
-  
 
 // TEXT & FONTS
+
+body, .wrapper { 
+  position: relative;   // required for scrollspy
+}
+
+.wrapper { height: 100%; overflow-y: scroll;}
+  
 
 a {
       color:#de6f47;

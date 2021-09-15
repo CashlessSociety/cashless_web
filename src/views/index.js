@@ -21,6 +21,9 @@ import Details from "components/Details.js";
 import Guarantees from "components/Guarantees.js";
 import CurrentStatus from "components/CurrentStatus.js";
 
+import { Scrollspy } from 'reactstrap-scrollspy';
+
+
 function IndexPage() {
   // const [firstFocus, setFirstFocus] = React.useState(false);
   // const [lastFocus, setLastFocus] = React.useState(false);
@@ -38,21 +41,25 @@ function IndexPage() {
   
   return (
     <>
-      <IndexNavbar />
-      <div className="wrapper">
-        <NetworkHeader />
-        <IntroRow />
-        <HowTheApp />
-        <Why />
-        <Details />
-        <Guarantees />
-        <Governance />
-        <CurrentStatus />
-        <GetInvolved />
-        <Contributors />
-        <ContactUs />
-        <DefaultFooter />
-      </div>
+      <Scrollspy names={['how-the-app', 'why', 'details', 'governance', 'get-involved', 'team-section', null]} 
+        homeIndex={1}
+      >
+        <IndexNavbar />
+        <div className="wrapper">
+          <NetworkHeader />
+          <IntroRow />
+          <HowTheApp />
+          <Why />
+          <Details />
+          <Guarantees />
+          <Governance />
+          <CurrentStatus />
+          <GetInvolved />
+          <Contributors />
+          <ContactUs />
+          <DefaultFooter />
+        </div>
+      </Scrollspy>
     </>
   );
 }

@@ -11,6 +11,8 @@ import {
   UncontrolledTooltip,
 } from "reactstrap";
 
+import { ScrollspyNavLink } from 'reactstrap-scrollspy';
+
 function IndexNavbar() {
   const [navbarColor, setNavbarColor] = React.useState("navbar-transparent");
   const [collapseOpen, setCollapseOpen] = React.useState(false);
@@ -82,58 +84,52 @@ function IndexNavbar() {
             <Nav navbar>
 
                <NavItem>
-                <NavLink
-                  href="#pablo" onClick={(e) => {
-                    e.preventDefault();
-                    document.getElementById("how-the-app").scrollIntoView();
-                  }}>
-                  <p>The App</p>
-                </NavLink>
+                <ScrollspyNavLink name="how-the-app">
+                  <NavLink
+                    href="#how-the-app">
+                    <p>The App</p>
+                  </NavLink>
+                </ScrollspyNavLink>
               </NavItem>
               <NavItem>
-                <NavLink
-                  href="#pablo" onClick={(e) => {
-                    e.preventDefault();
-                    document.getElementById("why").scrollIntoView();
-                  }}>
-                  <p>Why </p>
-                </NavLink>
+                <ScrollspyNavLink name="why">
+                  <NavLink
+                    href="#why">
+                    <p>Why </p>
+                  </NavLink>
+                </ScrollspyNavLink>
               </NavItem>
               <NavItem>
-                <NavLink
-                  href="#pablo" onClick={(e) => {
-                    e.preventDefault();
-                    document.getElementById("details").scrollIntoView();
-                  }}>
-                  <p>Cashless Credit</p>
-                </NavLink>
+                <ScrollspyNavLink name="details">
+                  <NavLink
+                    href="#details">
+                    <p>Cashless Credit</p>
+                  </NavLink>
+                </ScrollspyNavLink>
               </NavItem>
               <NavItem>
-                <NavLink
-                  href="#pablo" onClick={(e) => {
-                    e.preventDefault();
-                    document.getElementById("governance").scrollIntoView();
-                  }}>
-                  <p>Governance </p>
-                </NavLink>
+                <ScrollspyNavLink name="governance">
+                  <NavLink
+                    href="#governance">
+                    <p>Governance </p>
+                  </NavLink>
+                </ScrollspyNavLink>
               </NavItem>
               <NavItem>
-                <NavLink
-                  href="#pablo" onClick={(e) => {
-                    e.preventDefault();
-                    document.getElementById("get-involved").scrollIntoView();
-                  }}>
-                  <p>Get Involved</p>
-                </NavLink>
+                <ScrollspyNavLink name="get-involved">
+                  <NavLink
+                    href="#get-involved">
+                    <p>Get Involved</p>
+                  </NavLink>
+                </ScrollspyNavLink>
               </NavItem>
 {/*              <NavItem>
-                <NavLink
-                  href="#pablo" onClick={(e) => {
-                    e.preventDefault();
-                    document.getElementById("team-section").scrollIntoView();
-                  }}>
-                  <p>Contact</p>
-                </NavLink>
+                <ScrollspyNavLink name="team-section">
+                  <NavLink
+                    href="#team-section">
+                    <p>Contact</p>
+                  </NavLink>
+                </ScrollspyNavLink>
               </NavItem>*/}
              
               <NavItem>
