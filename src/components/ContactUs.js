@@ -128,38 +128,12 @@ function ContactUs() {
           <Row>
             <Col md="5">
               <h2 className="title">Contact us</h2>
-              <h4>
+              <p className="lead">
                 We're putting together a team. Applications are invite only for now, but if you would like to leave a message, feel free.
-               </h4>
-                <h4>
-              Please feel free to drop us a message in the message box to the right. 
-              </h4>
-              {/*<div className="info info-horizontal">
-                <div className="icon icon-info">
-                  <i className="now-ui-icons location_pin"></i>
-                </div>
-                <div className="description">
-                  <h4 className="info-title">Find us at the office</h4>
-                  <p className="description">
-                    Bld Mihail Kogalniceanu, nr. 8, <br></br>
-                    7652 Bucharest, <br></br>
-                    Romania
-                  </p>
-                </div>
-              </div>
-              <div className="info info-horizontal">
-                <div className="icon icon-info">
-                  <i className="now-ui-icons tech_mobile"></i>
-                </div>
-                <div className="description">
-                  <h4 className="info-title">Give us a ring</h4>
-                  <p className="description">
-                    Michael Jordan <br></br>
-                    +40 762 321 762 <br></br>
-                    Mon - Fri, 8:00-22:00
-                  </p>
-                </div>
-              </div>*/}
+              </p>
+              <p className="lead">
+                  Have questions, comments, ideas? 
+              </p>
             </Col>
             <Col className="ml-auto mr-auto" md="5">
               <Card className="card-contact card-raised">

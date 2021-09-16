@@ -13,7 +13,7 @@ function GetInvolved() {
           <Container>
             <h2 className="title text-center">Get involved!</h2>
             <Row>
-              <Col md="6">
+              <Col lg="6">
                 
                   <div className=" text-left">
                     <img alt="future" src={require("assets/img/future.png")}></img>
@@ -38,7 +38,7 @@ function GetInvolved() {
                   </div>
                 
               </Col>
-              <Col md="5" className="offset-md-1">
+              <Col lg="5" className="offset-lg-1">
                 <Card>
                   <CardBody className="p-5">
                     <p className="lead">
