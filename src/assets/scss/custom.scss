@@ -491,11 +491,110 @@ a {
     }
 }
 
-/* projects-5 = WhatCouldGoWrong */
+/* contributors = WhatCouldGoWrong */
 
-.projects-5 {
+.contributors {
 
 }
+.contributor-large,
+.contributor-small {
+  @extend .flip-container;
+  display: flex;
+  align-items: center;
+  padding: $padding-simple-horizontal;
+  flex-direction: column;
+  
+  > .row {align-items: center;}
+  p {
+    font-size: $font-size-small;
+    margin-bottom: 0;
+  }
+}
+
+.contributor-large {
+  height: 15em;
+  flex: 0 0 30%;
+  @media screen and (max-width: 1024px) { 
+    flex: 0 0 50%;
+  }
+}
+
+.contributor-small {  
+  height: 15em;
+  flex: 0 0 15%;
+}
+
+.contributor-image {
+  width: 6em;
+  height: 6em;
+  margin: 0 auto;
+  position: relative;
+  img {border-radius: 100%;}
+}
+
+.contributor-bio {
+  padding: $padding-base-vertical;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) { 
+  .contributor-large,
+  .contributor-small {
+    height: auto;
+    .front,.back {
+      height: auto !important;
+      transform: none !important;
+      position: static !important;
+    }
+    
+    .back .contributor-image {
+      display: none;
+      transition: all 0.4s ease-in;
+    }
+    &:hover .back .contributor-image { 
+      display: block;
+      position: absolute;
+      top: 22px;
+      left: 0;
+      right: 0;
+    }
+  }
+
+}
+
+
+// animated flip of a container on mouseover/touch
+.flip-container {
+  position: relative;
+
+  .front, .back{
+    width: 100%;
+    height: 100%;
+    overflow:hidden;
+    backface-visibility:hidden;
+    position:absolute;
+    transition: transform .4s cubic-bezier(0.455, 0.030, 0.515, 0.955);
+  }
+  .back{
+    transform:rotateY(180deg);
+  }
+  .front{
+    background: $white-color;
+  }
+  
+  &:hover > .front{
+    transform: perspective(600px) rotateY(-180deg);
+    cursor: default;
+  }
+  &:hover > .back{
+    transform: perspective(600px) rotateY(0deg);
+    cursor: default;
+  }
+}
+
+
+
+
 
 /* govern == Governance */
 .govern {

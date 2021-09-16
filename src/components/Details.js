@@ -13,12 +13,12 @@ function Details() {
       <div id="details" className="features-5">
         <div className="credit-lifecycle bg-grey py-5 my-5">
           <Container>
-            <Row className="no-gutters">
+            <Row>
               <Col md="8">
                 <h2 className="title">The Cashless Credit Cycle</h2>
               </Col>
               <Col md="4">
-                <lottie-player src="https://assets8.lottiefiles.com/private_files/lf30_tcuqw7ib.json"  background="transparent"  speed="1"  style={{width: "200px", height: "auto"}} hover loop autoplay></lottie-player>
+                <lottie-player src="https://assets8.lottiefiles.com/private_files/lf30_tcuqw7ib.json"  background="transparent"  speed="1"  style={{width: "auto", height: "200px", marginTop: "-100px"}} hover loop autoplay></lottie-player>
               </Col>
             </Row>
             <Row className="no-gutters">

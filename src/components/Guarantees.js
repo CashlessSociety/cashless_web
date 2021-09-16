@@ -10,11 +10,11 @@ function Guarantees() {
       <div className="features-5">
         <div>
           <Container>
-            <h4 className="info-title">The three gaurantees</h4>
+            <h4 className="info-title">The three guarantees</h4>
             <Row>
               <Col md={6}>
                 <Card>
-                  <CardBody className="p-4 text-center">
+                  <CardBody className="p-5 text-center">
                     <img alt="rating" src={require("assets/img/clip-rating.png")} height={150} className="m-3"></img>
                     <h6>Your reputation</h6>
                     <p>
@@ -25,7 +25,7 @@ function Guarantees() {
               </Col>
               <Col md={6}>
                 <Card>
-                  <CardBody className="p-4 text-center">
+                  <CardBody className="p-5 text-center">
                     <img alt="rating" src={require("assets/img/clip-payment.png")} height={150}  className="m-3"></img>
                     <h6>Your personal reserves </h6>
                     <p className="text-small">
@@ -38,9 +38,9 @@ function Guarantees() {
             <Row>
               <Col md={12}>
                 <Card>
-                  <CardBody>
-                      <Row className="mt-5">
-                        <Col md={6} className="p-5">
+                  <CardBody className="p-5">
+                      <Row>
+                        <Col md={6}>
                           <img
                             alt="social"
                             src={require("assets/img/clip-coop.png")}
@@ -48,7 +48,8 @@ function Guarantees() {
                           {/*<lottie-player src="https://assets6.lottiefiles.com/packages/lf20_dsmgi54l.json" background="transparent" speed="1" style={{width: "100%", height: "auto"}} loop autoplay></lottie-player>*/}
                         </Col>
                         <Col md={6}>
-                          <h6>Your community</h6>
+                        <lottie-player src="https://assets3.lottiefiles.com/temp/lf20_pO3t5Q.json"  background="transparent"  speed="0.6"  style={{width: "100%", height: "200px", marginTop: "-50px", marginBottom: "-30px"}}  loop  autoplay></lottie-player>
+                          <h6 className="text-center">Your community</h6>
                           <p>
                             Communities and community tokens are the final piece of the puzzle.  Community tokens provide a final guarantee of payments (up to a point) for every member of the community using that token.
                      
@@ -56,7 +57,7 @@ function Guarantees() {
                           <p className="mb-0">
                             Communities also act as focal points to increase the likelihood of reciprocal payment provide places for people to connect and engage with each other. Members / token holders are incentivised to build their communities. Each community token comes with a token-bonding contract that locks in an extra layer of collective protection for all members - visible to everyone and managed by members of that community.
                           </p>
-                          <lottie-player src="https://assets3.lottiefiles.com/temp/lf20_pO3t5Q.json"  background="transparent"  speed="0.6"  style={{width: "100%", height: "200px"}}  loop  autoplay></lottie-player>
+                          
                           
 {/*                          <p>
                             Anyone can create a community and create a token. For example, a community of ‘tech startups’ could focus on connecting web developers to coders, or a localized community token might focus on a particular local city.
@@ -84,7 +85,7 @@ function Guarantees() {
                   </div>
                 </div>
               </Col>
-              <Col md="3" className="pt-4">
+              <Col md="3" className="pt-4 col-6 container">
                 <img
                   alt="social"
                   src={require("assets/img/clip-welcome.png")}
