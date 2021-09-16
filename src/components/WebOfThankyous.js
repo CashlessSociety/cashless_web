@@ -76,7 +76,7 @@ function WebOfThankyous() {
                  
                   <h5 className="info-title">Collectivism</h5>
                   <p>
-                    We honor and value our work. Safety in numbers provides space for insurance and gaurantees.
+                    We honor and value our work. Safety in numbers provides space for insurance and guarantees.
                   </p>
                 </div>
                 </div>

@@ -27,12 +27,6 @@ function Why() {
           </Col>
         </Row>
         <Row>
-          <Col md={4}>
-            <img
-              alt="work together"
-              src={require("assets/img/clip-brainstorm.png")}
-            ></img>
-          </Col>
           <Col md={8}>
             <div>
               <div>
@@ -42,6 +36,12 @@ function Why() {
                 </p>
               </div>
             </div>
+          </Col>
+          <Col md={4} className="order-md-first">
+            <img
+              alt="work together"
+              src={require("assets/img/clip-brainstorm.png")}
+            ></img>
           </Col>
         </Row>
       </Container>
