@@ -87,7 +87,7 @@ function IndexNavbar() {
                     e.preventDefault();
                     document.getElementById("how-the-app").scrollIntoView();
                   }}>
-                  <p>The App</p>
+                  <p>What</p>
                 </NavLink>
               </NavItem>
               <NavItem>
@@ -96,7 +96,7 @@ function IndexNavbar() {
                     e.preventDefault();
                     document.getElementById("why").scrollIntoView();
                   }}>
-                  <p>Why </p>
+                  <p>Why</p>
                 </NavLink>
               </NavItem>
               <NavItem>
@@ -105,7 +105,16 @@ function IndexNavbar() {
                     e.preventDefault();
                     document.getElementById("details").scrollIntoView();
                   }}>
-                  <p>Cashless Credit</p>
+                  <p>Credit Cycle</p>
+                </NavLink>
+              </NavItem>
+                <NavItem>
+                <NavLink
+                  href="#pablo" onClick={(e) => {
+                    e.preventDefault();
+                    document.getElementById("gaurantees").scrollIntoView();
+                  }}>
+                  <p>Gaurantees</p>
                 </NavLink>
               </NavItem>
               <NavItem>
@@ -124,6 +133,16 @@ function IndexNavbar() {
                     document.getElementById("get-involved").scrollIntoView();
                   }}>
                   <p>Get Involved</p>
+                </NavLink>
+              </NavItem>
+
+              <NavItem>
+                <NavLink
+                  href="#pablo" onClick={(e) => {
+                    e.preventDefault();
+                    document.getElementById("contributors").scrollIntoView();
+                  }}>
+                  <p>Contributors</p>
                 </NavLink>
               </NavItem>
 {/*              <NavItem>
