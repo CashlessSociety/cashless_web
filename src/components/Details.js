@@ -98,7 +98,7 @@ function Details() {
                   <div className="description text-left">
                     <h5 className="info-title font-weight-bold">Demurrage</h5>
                     <p>
-                      Unlike the growth imperative of traditional debt based money, or the speculation incentives on most blockchains, Cashless credits live in balance with nature. They start to depreciate back to zero a few months after reaching their highest value. We believe that credit should serve the community, not the other way around. We believe that credit should serve the community, not the other way around, and that nobody should be subjected to endless cycles of compounding debt. Cashless credits ‘want’ to be spent and dissapear. This encourages your local community, local relationships, and local engagement.
+                      Unlike the growth imperative of traditional debt based money, or the speculation incentives on most blockchains, Cashless credits live in balance with nature. They start to depreciate back to zero a few months after reaching their highest value. We believe that credit should serve the community, not the other way around. Nobody should be subjected to endless cycles of compounding debt. Cashless credits ‘want’ to be spent and dissapear. This encourages your local community, local relationships, and local engagement.
                     </p>
                   </div>
                 </div>
