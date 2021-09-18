@@ -60,7 +60,7 @@ function Details() {
                       <Col>
                       <h5 className="info-title font-weight-bold">Reciprocity</h5>
                         <p>
-                          The simplest way to erase your cashless credits is offering back an equal value of your time in exchange. For example, if a graphic designer helped you design a logo and you helped with some of their work in turn you have found a ‘reciprocity’ loop that erases the debt. But you don't have to find an exact swap. The Cashless AI works hard at finding and suggesting trades that will help you erase your outstanding debits or spend your credits.
+                          The best way to pay off cashless credits you send is to offer back an equal value of your time in exchange. For example, a graphic designer helped you design a logo and you helped with some of their work in return. You have found a two person ‘reciprocity’ loop that erases both debts. But you don't have to find an exact swap. The Cashless AI works hard at finding and suggesting trades that will help everyone cancel outstanding debts and spend their credits.
                         </p>
                       </Col>
                     </Row>
@@ -80,7 +80,11 @@ function Details() {
                       <Col>
                         <h5 className="info-title font-weight-bold">Vest & Spend</h5>
                         <p>
-                          Like any living system, the reserves underpinning cashless promises undergo a natural birth, growth and decay cycle. If no reciprocity is found, the value of reserves build up over time, rewarding the recipient for holding on to the promise token. As they mature, promises bear fruit in the form of hard currency reserves, that can be picked into the receiver’s wallet as soon as they vest.
+                          If no reciprocity is found, cashless credits also have a reserves system. As they mature, promises bear fruit in the form of hard currency reserves, that can be transferred into the receiver’s wallet as soon as they vest.
+
+                          Like any living system, the reserves underpinning cashless promises undergo a natural birth, growth and decay cycle. 
+
+                          The value of reserves build up over time, rewarding the recipient for holding on to the promise token.
                         </p>
                       </Col>
                     </Row>

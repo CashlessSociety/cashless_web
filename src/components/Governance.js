@@ -31,7 +31,7 @@ function Governance() {
                 <div className="description">
                   <h5 className="info-title">Committed to Open Source</h5>
                   <p>
-                    Cashless is an open source MPL licensed protocol with a truly open source reference implementation. There are no 'hooks' or embedded crypto tokens required to run it. We want anyone and everyone to be able to build on this protocol. 
+                    Cashless is an open source MPL licensed protocol with a truly open source reference implementation. There are no 'hooks' or embedded crypto tokens required to run it. We want anyone and everyone to be able to build on this protocol. We will make money by building value-add products on top of the open protocol. 
                   </p>
                 </div>
               </div>
