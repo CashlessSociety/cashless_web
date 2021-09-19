@@ -112,9 +112,9 @@ function IndexNavbar() {
                 <NavLink
                   href="#pablo" onClick={(e) => {
                     e.preventDefault();
-                    document.getElementById("gaurantees").scrollIntoView();
+                    document.getElementById("guarantees").scrollIntoView();
                   }}>
-                  <p>Gaurantees</p>
+                  <p>Guarantees</p>
                 </NavLink>
               </NavItem>
               <NavItem>

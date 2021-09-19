@@ -157,6 +157,12 @@ a {
     margin-top: 80px;
 }
 
+@media screen and (max-width: 991px) {
+  .nav-open .navbar-collapse {
+    width: 150px;
+  }
+}
+
 .navbar-translate img {
     height: 14px;
     margin-right: 6px;
@@ -514,6 +520,7 @@ a {
 .contributor-large {
   height: 15em;
   flex: 0 0 30%;
+  font-size: 14px;
   @media screen and (max-width: 1024px) { 
     flex: 0 0 50%;
   }
@@ -522,6 +529,7 @@ a {
 .contributor-small {  
   height: 15em;
   flex: 0 0 15%;
+  font-size: 12px;
 }
 
 .contributor-image {
@@ -546,10 +554,15 @@ a {
       transform: none !important;
       position: static !important;
     }
-    
-    .back .contributor-image {
-      display: none;
-      transition: all 0.4s ease-in;
+    .back {
+      .contributor-long-bio,
+      .contributor-links,
+      .contributor-image,
+      .contributor-title
+      {
+        display: none;
+        transition: all 0.4s ease-in;
+      }
     }
     &:hover .back .contributor-image { 
       display: block;
@@ -567,7 +580,7 @@ a {
 .flip-container {
   position: relative;
 
-  .front, .back{
+  .front, .back {
     width: 100%;
     height: 100%;
     overflow:hidden;
