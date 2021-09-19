@@ -129,7 +129,7 @@ function ContactUs() {
             <Col md="5">
               <h2 className="title">Contact us</h2>
               <p className="lead">
-                We're putting together a team. Applications are invite only for now, but if you would like to leave a message, feel free.
+                We're putting together a team. See above for more details on that, but if you would like to leave us a general message, feel free.
               </p>
               <p className="lead">
                   Have questions, comments, ideas? 
