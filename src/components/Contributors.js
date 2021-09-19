@@ -4,20 +4,7 @@ import ContributorSmall from './ContributorSmall.js'
 
 // reactstrap components
 import {
-  Badge,
-  Button,
-  Card,
-  CardBody,
-  CardFooter,
-  CardTitle,
-  NavItem,
-  NavLink,
-  Nav,
-  TabContent,
-  TabPane,
-  Container,
-  Row,
-  Col,
+  Container
 } from "reactstrap";
 
 function Contributors() {
@@ -26,7 +13,6 @@ function Contributors() {
       <div id="contributors" className="contributors">
         <Container>
           <h2 className="title text-center">Contributors</h2>
-          <h5 className="mt-3 text-center">Core Contributors </h5>
           <div className="d-flex flex-wrap justify-content-center">
 
             <ContributorLarge 
@@ -68,6 +54,17 @@ function Contributors() {
             />
            
             <ContributorLarge 
+              name="Linc Gasking"
+              bio={
+                <p>30 years serial entrepreneur.</p>
+              }
+              longBio={
+                 <p>30 years serial entrepreneur. First startup acquired DreamWorks. Founded Volumetric industry as CEO of multi-million dollar <a href="https://8i.com/">8i</a>. Award-winning photographer. Emmy Award finalist. Co-founder Women Without Borders.</p>
+              }
+              profileUrl={'https://avataaars.io/?avatarStyle=Circle&topType=ShortHairShortFlat&accessoriesType=Blank&hairColor=Black&facialHairType=BeardLight&facialHairColor=Auburn&clotheType=BlazerShirt&eyeType=Default&eyebrowType=RaisedExcitedNatural&mouthType=Smile&skinColor=Pale'}
+            />
+            
+            <ContributorLarge 
               name="Ari Rodriguez"
               title="Cryptographer"
               bio={
@@ -79,6 +76,16 @@ function Contributors() {
               profileUrl={'https://avataaars.io/?avatarStyle=Circle&topType=LongHairNotTooLong&accessoriesType=Blank&hairColor=BlondeGolden&facialHairType=BeardMajestic&facialHairColor=BlondeGolden&clotheType=Hoodie&clotheColor=Gray02&eyeType=Default&eyebrowType=Default&mouthType=Default&skinColor=Light'}
             />
 
+            <ContributorLarge 
+              name="Graham Munro"
+              bio={
+                <p>Currency expert.</p>
+              }
+              longBio={
+                 <p>Community Currency expert. Crypto pioneer.</p>
+              }
+              profileUrl={'https://avataaars.io/?avatarStyle=Circle&topType=ShortHairShortFlat&accessoriesType=Blank&hairColor=Black&facialHairType=Blank&clotheType=BlazerShirt&eyeType=Side&eyebrowType=Default&mouthType=Default&skinColor=Light'}
+            />
 
             <ContributorLarge 
               name="Luandro"
@@ -91,9 +98,8 @@ function Contributors() {
               }
               profileUrl={'https://avataaars.io/?avatarStyle=Circle&topType=LongHairCurly&hairColor=BrownDark&facialHairType=BeardMajestic&facialHairColor=BrownDark&clotheType=Overall&clotheColor=Gray01&eyeType=Close&eyebrowType=RaisedExcitedNatural&mouthType=Eating&skinColor=Light'}
             />
-            
+
         </div>
-        <h5 className="mt-3 text-center">All Contributors </h5>
         <div className="d-flex flex-wrap justify-content-center">
    
             <ContributorSmall
@@ -131,32 +137,12 @@ function Contributors() {
 
 
           </div>
-          <h5 className="mt-3 text-center">Key Advisors / Investors </h5>
+          {/*<h5 className="mt-3 text-center">Key Advisors and/or Investors </h5>
           <div className="d-flex flex-wrap justify-content-center">
 
-            <ContributorLarge 
-              name="Linc Gasking"
-              bio={
-                <p>30 years serial entrepreneur.</p>
-              }
-              longBio={
-                 <p>30 years serial entrepreneur. First startup acquired DreamWorks. Founded Volumetric industry as CEO of multi-million dollar <a href="https://8i.com/">8i</a>. Award-winning photographer. Emmy Award finalist. Co-founder Women Without Borders.</p>
-              }
-              profileUrl={'https://avataaars.io/?avatarStyle=Circle&topType=ShortHairShortFlat&accessoriesType=Blank&hairColor=Black&facialHairType=BeardLight&facialHairColor=Auburn&clotheType=BlazerShirt&eyeType=Default&eyebrowType=RaisedExcitedNatural&mouthType=Smile&skinColor=Pale'}
-            />
+           -- Put advisors and investors here --
 
-            <ContributorLarge 
-              name="Graham Munro"
-              bio={
-                <p>Currency expert.</p>
-              }
-              longBio={
-                 <p>Community Currency expert. Crypto pioneer.</p>
-              }
-              profileUrl={'https://avataaars.io/?avatarStyle=Circle&topType=ShortHairShortFlat&accessoriesType=Blank&hairColor=Black&facialHairType=Blank&clotheType=BlazerShirt&eyeType=Side&eyebrowType=Default&mouthType=Default&skinColor=Light'}
-            />
-
-          </div>
+          </div>*/}
 
         </Container>
       </div>

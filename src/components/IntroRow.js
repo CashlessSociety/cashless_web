@@ -1,7 +1,7 @@
 import React from "react";
 
 // reactstrap components
-import { Card, Container, Row, Col } from "reactstrap";
+import { Container, Row, Col } from "reactstrap";
 
 // core components
 
@@ -25,7 +25,7 @@ function IntroRow() {
                 </div>
                 <h4 className="info-title">Distributed</h4>
                 <p className="description">
-                  Cashless is distributed by design. Distributed ledger technology puts <b>data where it belongs</b> - in your hands. Not in the cloud - or even on the blockchain.
+                  Cashless is distributed by design. With no central server, small-world-ledger technology keeps <b>credit data where it belongs</b> - in your hands. Not in the cloud or even on a global blockchain ledger.
                 </p>
               </div>
             </Col>
@@ -36,7 +36,7 @@ function IntroRow() {
                 </div>
                 <h4 className="info-title">Autonomous</h4>
                  <p className="description">
-                 <b>Give anyone credit.</b> You choose who to accept it and within which communities. We provide credit clearing and reputation but you, collectively, act as your own bank.
+                 <b>Give anyone credit.</b> You choose who to accept it from and within which communities. We provide credit clearing and reputation. You <b>act as your own bank</b>.
                 </p>
               </div>
             </Col>

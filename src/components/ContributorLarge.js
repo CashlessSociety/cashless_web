@@ -1,23 +1,5 @@
 import React from "react";
 
-// reactstrap components
-import {
-  Badge,
-  Button,
-  Card,
-  CardBody,
-  CardFooter,
-  CardTitle,
-  NavItem,
-  NavLink,
-  Nav,
-  TabContent,
-  TabPane,
-  Container,
-  Row,
-  Col,
-} from "reactstrap";
-
 const ContributorLarge = (props) => {
   const flipProfileUrl = props.flipProfileUrl || props.profileUrl;
   return (
