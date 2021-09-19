@@ -1,4 +1,6 @@
-import React from "react";
+import React from 'react';
+import ContributorLarge from './ContributorLarge.js'
+import ContributorSmall from './ContributorSmall.js'
 
 // reactstrap components
 import {
@@ -23,261 +25,138 @@ function Contributors() {
     <>
       <div id="contributors" className="contributors">
         <Container>
-          <h2 className="title text-center">Our Contributors</h2>
-          <div class="d-flex flex-wrap justify-content-center">
-           
+          <h2 className="title text-center">Contributors</h2>
+          <h5 className="mt-3 text-center">Core Contributors </h5>
+          <div className="d-flex flex-wrap justify-content-center">
 
-            {/*-- Miles --*/}
-            <div className="contributor-large">
-              <div className="front">
-                <div className="contributor-image">
-                <img
-                  className="default-image"
-                  alt="contributor"
-                  src={'https://avataaars.io/?avatarStyle=Circle&topType=ShortHairFrizzle&accessoriesType=Round&hairColor=Auburn&facialHairType=BeardMajestic&facialHairColor=Brown&clotheType=ShirtScoopNeck&clotheColor=Blue02&eyeType=Squint&eyebrowType=UpDownNatural&mouthType=Tongue&skinColor=Light'}
-                ></img>
-                </div>
-                <div className="contributor-bio">
-                  <h6><span className="highlight-underline-primary">Miles</span></h6>
-                  <p>Economist, founder.
-                  </p>
-                </div>
-              </div>
-              <div className="back">
-                <div className="contributor-image">
-                  <img
-                      className="default-image"
-                    alt="contributor"
-                    src={require("assets/img/miles_in_front_of_church.jpg")}
-                  ></img>
-                </div>
-                <div className="contributor-bio">
-                  <h6>Founder</h6>
-                  <p> Founding CTO at <a href="https://www.creditsights.com">CreditSights</a>. 
-                    (recently acquired). Founding CTO at <a href="https://chatterize.com">Chatterize</a>. AI lead at <a href="http://papareo.nz">papareo.nz</a>.
-                  </p>
-                  <Button
-                  className="btn-icon btn-round"
-                  color="primary"
-                  href="https://linkedin.com/in/milesthompson"
-                  target = "_blank" 
-                  rel = "noopener noreferrer"
-                >
-                  <i className="fab fa-linkedin"></i>
-                </Button>
-                </div>
-              </div>
-            </div>
+            <ContributorLarge 
+              name="Miles Thompson"
+              title="Summoner"
+              bio={
+                  <p>Mathematician, sociologist, programmer.</p>
+              }
+              profileUrl={"https://avataaars.io/?avatarStyle=Circle&topType=ShortHairShortWaved&accessoriesType=Blank&hairColor=BlondeGolden&facialHairType=BeardMajestic&facialHairColor=BlondeGolden&clotheType=BlazerShirt&eyeType=Side&eyebrowType=Default&mouthType=Smile&skinColor=Light"}
+              flipProfileUrl={require("assets/img/miles_in_front_of_church.jpg")}
+              longBio={
+                 <p>Founding CTO at NY financial research company CreditSights, acquired 2020, and AI startup Chatterize, seed round 2020. AI Lead Dev at <a href="http://papareo.nz">Papa Reo</a>. In 2020, co-founder of <a href="http://mutualaid.world">Mutual Aid World</a> project.</p>
+              }
+            />
 
-
-
-            <div className="contributor-large">
-              <div className="front">
-                <div className="contributor-image">
-                  <img
-                    alt="contributor"
-                    src={require("assets/img/avataaars-karen.svg")}
-                  ></img>
-                </div>
-                <div className="contributor-bio">
-                  <h6><span className="highlight-underline-primary">Karen</span></h6>
-                  <p>Lead Designer</p>
-                </div>
-              </div>
-              <div className="back">
-              <div className="contributor-image">
-                <img
-                  alt="contributor"
-                  src={require("assets/img/karen_lo.jpg")}
-                ></img>
-              </div>
-              <div className="contributor-bio">
-                <h6>UX Design</h6>
-                <p>Full-Stack UX & Product Designer · Consultant · UX · UI · Systems/Platforms Design</p>
-                <Button
-                  className="btn-icon btn-round"
-                  color="primary"
-                  href="https://linkedin.com/in/lokaren"
-                  target = "_blank" 
-                  rel = "noopener noreferrer"
-                >
-                  <i className="fab fa-linkedin"></i>
-                </Button>
-              </div>
-              </div>
-            </div>
-
-
-            {/*-- Dean --*/}
-            <div className="contributor-large">
-              <div className="front">
-                <div className="contributor-image">
-                <img
-                    className="default-image"
-                  alt="contributor"
-                  src={'https://avataaars.io/?avatarStyle=Circle&topType=Hat&accessoriesType=Prescription02&facialHairType=BeardMedium&facialHairColor=BrownDark&clotheType=ShirtVNeck&clotheColor=PastelRed&eyeType=Happy&eyebrowType=DefaultNatural&mouthType=Smile&skinColor=Brown'}
-                ></img>
-                </div>
-                <div className="contributor-bio">
-                  <h6><span className="highlight-underline-primary">Dean</span></h6>
-                  <p>Community Engagement
-                  </p>
-                </div>
-              </div>
-              <div className="back">
-                <div className="contributor-image">
-                  <img
-                    className="default-image"
-                  alt="contributor"
-                  src={'https://avataaars.io/?avatarStyle=Circle&topType=Hat&accessoriesType=Prescription02&facialHairType=BeardMedium&facialHairColor=BrownDark&clotheType=ShirtVNeck&clotheColor=PastelRed&eyeType=Happy&eyebrowType=DefaultNatural&mouthType=Smile&skinColor=Brown'}
-                ></img>
-                </div>
-                <div className="contributor-bio">
-                  <h6>Dean</h6>
-                  <p>Developer and leader for community timebanks in Christchurch, NZ
-                  </p>
-                </div>
-              </div>
-            </div>
-
-
-
-
-            <div className="contributor-large">
-              <div className="front">
-                <div className="contributor-image">
-                  <img
-                    className="default-image"
-                  alt="contributor"
-                  src={'https://avataaars.io/?avatarStyle=Circle&topType=LongHairNotTooLong&accessoriesType=Blank&hairColor=BlondeGolden&facialHairType=BeardMajestic&facialHairColor=BlondeGolden&clotheType=Hoodie&clotheColor=Gray02&eyeType=Default&eyebrowType=Default&mouthType=Default&skinColor=Light'}
-                ></img>
-                </div>
-                <div className="contributor-bio">
-                  <h6><span className="highlight-underline-primary">Ari</span></h6>
-                  <p>Mathematician &amp; cryptographer</p>
-                </div>
-              </div>
-              <div className="back">
-                <div className="contributor-image">
-                  <img
-                    className="default-image"
-                  alt="contributor"
-                  src={'https://avataaars.io/?avatarStyle=Circle&topType=LongHairNotTooLong&accessoriesType=Blank&hairColor=BlondeGolden&facialHairType=BeardMajestic&facialHairColor=BlondeGolden&clotheType=Hoodie&clotheColor=Gray02&eyeType=Default&eyebrowType=Default&mouthType=Default&skinColor=Light'}
-                ></img>
-                </div>
-                <div className="contributor-bio">
-                  <h6>Ari Rodriguez</h6>
-                  <p>Mathematician &amp; cryptographer, leader in homomorphic encryption and block chain developer.</p>
-                </div>
-              </div>
-            </div>
+            <ContributorLarge 
+              name="Karen Lo"
+              title="Lead Designer"
+              bio={
+                <p>Full-Stack UX & Product Designer</p>
+              }
+              longBio={
+                 <p>Full-Stack UX & Product Designer · Consultant · UX · UI · Systems/Platforms Design</p>
+              }
+              profileUrl={require("assets/img/avataaars-karen.svg")}
+              flipProfileUrl={require("assets/img/karen_lo.jpg")}
+            />
             
+            <ContributorLarge 
+              name="Dean"
+              title="Coordinator"
+              bio={
+                <p>Community Engagement</p>
+              }
+              longBio={
+                 <p>Developer and leader for community timebanks in Christchurch, NZ</p>
+              }
+              profileUrl='https://avataaars.io/?avatarStyle=Circle&topType=LongHairNotTooLong&facialHairType=BeardLight&facialHairColor=BrownDark&clotheType=ShirtVNeck&clotheColor=PastelRed&eyeType=Happy&eyebrowType=DefaultNatural&mouthType=Smile&skinColor=Brown'
+            />
+           
+            <ContributorLarge 
+              name="Ari Rodriguez"
+              title="Cryptographer"
+              bio={
+                <p>Mathematician &amp; cryptographer</p>
+              }
+              longBio={
+                 <p>Mathematician &amp; cryptographer, leader in homomorphic encryption and block chain developer.</p>
+              }
+              profileUrl={'https://avataaars.io/?avatarStyle=Circle&topType=LongHairNotTooLong&accessoriesType=Blank&hairColor=BlondeGolden&facialHairType=BeardMajestic&facialHairColor=BlondeGolden&clotheType=Hoodie&clotheColor=Gray02&eyeType=Default&eyebrowType=Default&mouthType=Default&skinColor=Light'}
+            />
 
 
-            <div className="contributor-large">
-              <div className="front">
-                <div className="contributor-image">
-                  <img
-                    className="default-image"
-                    alt="contributor"
-                    src={'https://avataaars.io/?avatarStyle=Circle&topType=LongHairCurly&accessoriesType=Sunglasses&hairColor=BrownDark&facialHairType=BeardMajestic&facialHairColor=BrownDark&clotheType=Overall&clotheColor=Gray01&eyeType=Close&eyebrowType=RaisedExcitedNatural&mouthType=Eating&skinColor=Light'}
-                  ></img>
-                </div>
-                <div className="contributor-bio">
-                  <h6><span className="highlight-underline-primary">Luandro</span></h6>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                </div>
-              </div>
-              <div className="back">
-                <div className="contributor-image">
-                  <img
-                    className="default-image"
-                    alt="contributor"
-                    src={'https://avataaars.io/?avatarStyle=Circle&topType=LongHairCurly&accessoriesType=Sunglasses&hairColor=BrownDark&facialHairType=BeardMajestic&facialHairColor=BrownDark&clotheType=Overall&clotheColor=Gray01&eyeType=Close&eyebrowType=RaisedExcitedNatural&mouthType=Eating&skinColor=Light'}
-                  ></img>
-                </div>
-                <div className="contributor-bio">
-                  <h6>Luandro</h6>
-                  <p>Hello!</p>
-                </div>
-              </div>
-            </div>
+            <ContributorLarge 
+              name="Luandro"
+              title="Ssb developer"
+              bio={
+                <p>React and ssb developer</p>
+              }
+              longBio={
+                 <p>Developer experimenting with distributed tools for the purpose of #decolonisation from Moinho people Brazil. Believer in a global Swaraj.</p>
+              }
+              profileUrl={'https://avataaars.io/?avatarStyle=Circle&topType=LongHairCurly&hairColor=BrownDark&facialHairType=BeardMajestic&facialHairColor=BrownDark&clotheType=Overall&clotheColor=Gray01&eyeType=Close&eyebrowType=RaisedExcitedNatural&mouthType=Eating&skinColor=Light'}
+            />
+            
+        </div>
+        <h5 className="mt-3 text-center">All Contributors </h5>
+        <div className="d-flex flex-wrap justify-content-center">
+   
+            <ContributorSmall
+              name="Joshua Wu"
+              bio={
+                <p>Senior react dev</p>
+              }
+              profileUrl={'https://avataaars.io/?avatarStyle=Circle&topType=ShortHairShortFlat&accessoriesType=Blank&hairColor=Black&facialHairType=Blank&clotheType=GraphicShirt&clotheColor=PastelBlue&graphicType=Cumbia&eyeType=Side&eyebrowType=DefaultNatural&mouthType=Default&skinColor=Tanned'}
+            />
+
+            <ContributorSmall
+              name="Daniel Huerta"
+              bio={
+                <p>Project manager</p>
+              }
+              profileUrl={'https://avataaars.io/?avatarStyle=Circle&topType=ShortHairShortFlat&accessoriesType=Blank&hairColor=Black&facialHairType=Blank&clotheType=GraphicShirt&clotheColor=PastelBlue&graphicType=Cumbia&eyeType=Side&eyebrowType=DefaultNatural&mouthType=Default&skinColor=Tanned'}
+            />
+
+            <ContributorSmall
+              name="Sarah"
+              bio={
+                <p>Developer from NZ</p>
+              }
+              profileUrl={'https://avataaars.io/?avatarStyle=Circle&topType=ShortHairShortFlat&accessoriesType=Blank&hairColor=Black&facialHairType=Blank&clotheType=GraphicShirt&clotheColor=PastelBlue&graphicType=Cumbia&eyeType=Side&eyebrowType=DefaultNatural&mouthType=Default&skinColor=Tanned'}
+            />
 
 
-            <div className="contributor-small">
-              <div className="contributor-image">
-                <img
-                  className="default-image"
-                  alt="contributor"
-                  src={'https://avataaars.io/?avatarStyle=Circle&topType=LongHairMiaWallace&accessoriesType=Wayfarers&hairColor=Blonde&facialHairType=Blank&clotheType=GraphicShirt&clotheColor=Pink&graphicType=Pizza&eyeType=Side&eyebrowType=AngryNatural&mouthType=Smile&skinColor=Light'}
-                ></img>
-              </div>
-              <div className="contributor-bio">
-                <h6><span className="highlight-underline-primary">Name</span></h6>
-                <p>Short bio</p>
-              </div>
-            </div>
-
-            {/*
-            <div className="contributor-small">
-              <div className="contributor-image">
-                <img
-                  className="default-image"
-                  alt="contributor"
-                  src={'https://avataaars.io/?avatarStyle=Circle&topType=LongHairBigHair&accessoriesType=Wayfarers&hairColor=Blue&facialHairType=Blank&clotheType=GraphicShirt&clotheColor=PastelBlue&graphicType=Diamond&eyeType=Dizzy&eyebrowType=Default&mouthType=Serious&skinColor=Tanned'}
-                ></img>
-              </div>
-              <div className="contributor-bio">
-                <h6><span className="highlight-underline-primary">Name</span></h6>
-                <p>Short bio</p>
-              </div>
-            </div>*/}
+            <ContributorSmall
+              name="Reinor"
+              bio={
+                <p>Developer from Cuba</p>
+              }
+              profileUrl={'https://avataaars.io/?avatarStyle=Circle&topType=ShortHairShortFlat&accessoriesType=Blank&hairColor=Black&facialHairType=Blank&clotheType=GraphicShirt&clotheColor=PastelBlue&graphicType=Cumbia&eyeType=Side&eyebrowType=DefaultNatural&mouthType=Default&skinColor=Tanned'}
+            />
 
 
           </div>
-          <h5 className="mt-3 text-center">Advisors</h5>
-         
+          <h5 className="mt-3 text-center">Key Advisors / Investors </h5>
+          <div className="d-flex flex-wrap justify-content-center">
 
-          <div class="d-flex flex-wrap justify-content-center">
-            <div className="contributor-small">
-              <div className="contributor-image">
-                <img
-                  className="default-image"
-                  alt="contributor"
-                  src={'https://avataaars.io/?avatarStyle=Circle&topType=NoHair&accessoriesType=Prescription02&facialHairType=Blank&clotheType=BlazerShirt&eyeType=Happy&eyebrowType=Angry&mouthType=Smile&skinColor=Light'}
-                ></img>
-                </div>
-              <div className="contributor-bio">
-                <h6>
-                  <span className="highlight-underline-primary">Linc Gasking</span>
-                </h6>
-                <p>30 years serial entrepreneur.{/* First startup acquired by 
-                        DreamWorks in 2000. Founded Volumetric industry as CEO 
-                        of multi-million dollar <a href="https://8i.com/">8i</a>. Award-winning photographer.
-                        Emmy Award finalist. Co-founded Women Without Borders.*/}
-</p>
-                </div>
-            </div>
+            <ContributorLarge 
+              name="Linc Gasking"
+              bio={
+                <p>30 years serial entrepreneur.</p>
+              }
+              longBio={
+                 <p>30 years serial entrepreneur. First startup acquired DreamWorks. Founded Volumetric industry as CEO of multi-million dollar <a href="https://8i.com/">8i</a>. Award-winning photographer. Emmy Award finalist. Co-founder Women Without Borders.</p>
+              }
+              profileUrl={'https://avataaars.io/?avatarStyle=Circle&topType=ShortHairShortFlat&accessoriesType=Blank&hairColor=Black&facialHairType=BeardLight&facialHairColor=Auburn&clotheType=BlazerShirt&eyeType=Default&eyebrowType=RaisedExcitedNatural&mouthType=Smile&skinColor=Pale'}
+            />
+
+            <ContributorLarge 
+              name="Graham Munro"
+              bio={
+                <p>Currency expert.</p>
+              }
+              longBio={
+                 <p>Community Currency expert. Crypto pioneer.</p>
+              }
+              profileUrl={'https://avataaars.io/?avatarStyle=Circle&topType=ShortHairShortFlat&accessoriesType=Blank&hairColor=Black&facialHairType=Blank&clotheType=BlazerShirt&eyeType=Side&eyebrowType=Default&mouthType=Default&skinColor=Light'}
+            />
+
           </div>
-{/*
- <div class="d-flex flex-wrap justify-content-center">
-            <div className="contributor-small">
-              <div className="contributor-image">
-                <img
-                  className="default-image"
-                  alt="contributor"
-                  src={'https://avataaars.io/?avatarStyle=Circle&topType=NoHair&accessoriesType=Prescription02&facialHairType=Blank&clotheType=BlazerShirt&eyeType=Happy&eyebrowType=Angry&mouthType=Smile&skinColor=Light'}
-                ></img>
-                </div>
-              <div className="contributor-bio">
-                <h6>
-                  <span className="highlight-underline-primary">Grahah Munro</span>
-                </h6>
-                <p>Community Currency expert.
-</p>
-                </div>
-            </div>
-          </div>*/}
 
         </Container>
       </div>
