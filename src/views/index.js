@@ -1,16 +1,11 @@
 import React from "react";
 
-// reactstrap components
-// import { } from "reactstrap";
-import { Container, Row, Col } from "reactstrap";
-
 // core components
 import IndexNavbar from "components/Navbars/IndexNavbar.js";
 import DefaultFooter from "components/Footers/DefaultFooter.js";
 //import VideoHeader from "components/VideoHeader.js";
 import NetworkHeader from "components/NetworkHeader.js";
 import HowTheApp from "components/HowTheApp.js";
-import WebOfThankyous from "components/WebOfThankyous.js";
 import Contributors from "components/Contributors.js";
 import IntroRow from "components/IntroRow.js";
 import Why from "components/Why.js";
