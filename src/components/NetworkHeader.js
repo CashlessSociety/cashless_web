@@ -46,7 +46,7 @@ function NetworkHeader() {
                   <h1 className="title">Introducing the peer to peer credit network.</h1>
                   <h2 className="cashless_title">
                     <img src={require("assets/img/cashless_logo_white.png")} /> Cashless</h2>
-                  <h3>Finanically free, together.</h3>
+                  <h3>Financially free, together.</h3>
             </div>
             <div className="col-lg-3 col-md-2"></div>
           </div>

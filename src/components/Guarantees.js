@@ -7,7 +7,7 @@ import { Card, CardBody, Container, Row, Col } from "reactstrap";
 function Guarantees() {
   return (
     <>
-      <div className="features-5" id="gaurantees">
+      <div className="features-5" id="guarantees">
         <div>
           <Container>
             <h2 className="title">The three guarantees</h2>
