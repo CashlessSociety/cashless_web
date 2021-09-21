@@ -42,7 +42,7 @@ function GetInvolved() {
                 <Card>
                   <CardBody className="p-5">
                     <p className="lead">
-                      The boundaries of this collaboration is people working on <b>peer-to-peer mutual credit</b> that is:
+                      The boundary of this collaboration is good people working on <b>peer-to-peer mutual credit</b> that is:
                     </p>
                     <ul className="custom_bullets">
                       <li><b>Fair</b> - Reducing inequality is at the heart of what we are doing.</li>
