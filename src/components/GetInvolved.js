@@ -11,13 +11,13 @@ function GetInvolved() {
       <div id="get-involved" className="">
         <div className="py-5 my-5">
           <Container>
-            <h2 className="title text-center">Get involved!</h2>
+            <h2 className="title text-center">Is it for you?</h2>
             <Row>
               <Col lg="6">
                 
                   <div className=" text-left">
                     <img alt="future" src={require("assets/img/future.png")}></img>
-                    <h5 className="info-title font-weight-bold">Is it for you?</h5>
+                    <h5 className="info-title font-weight-bold">There are so many possibilities.</h5>
                     <p>
                     The above is just a brief summary of the work so far. But it is not the only way to enable peer-to-peer mutual credit. We are open to your ideas, your contributions and your partnerships.         
                     </p>
