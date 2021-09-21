@@ -45,12 +45,12 @@ function Contributors() {
               name="Dean"
               title="Coordinator"
               bio={
-                <p>Community Engagement</p>
+                <p>Community leader on community timebanks in NZ</p>
               }
               longBio={
-                 <p>Developer and leader for community timebanks in Christchurch, NZ</p>
+                 <p>Developer and leader for community timebanks in Christchurch, NZ. Rites-of-passage facilitator, Masters Ecology, end-to-end Wordpress. Listener, learner, joker. Tech enthusiast, perpetual optimist.</p>
               }
-              profileUrl='https://avataaars.io/?avatarStyle=Circle&topType=LongHairNotTooLong&facialHairType=BeardLight&facialHairColor=BrownDark&clotheType=ShirtVNeck&clotheColor=PastelRed&eyeType=Happy&eyebrowType=DefaultNatural&mouthType=Smile&skinColor=Brown'
+              profileUrl='https://avataaars.io/?accessoriesType=Blank&avatarStyle=Circle&clotheColor=PastelRed&clotheType=ShirtScoopNeck&eyeType=Happy&eyebrowType=DefaultNatural&facialHairColor=BrownDark&facialHairType=BeardLight&hairColor=Brown&hatColor=Blue03&mouthType=Smile&skinColor=Light&topType=LongHairNotTooLong'
             />
            
             <ContributorLarge 

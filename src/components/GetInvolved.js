@@ -17,11 +17,11 @@ function GetInvolved() {
                 
                   <div className=" text-left">
                     <img alt="future" src={require("assets/img/future.png")}></img>
-                    <h5 className="info-title font-weight-bold"> There are so many  possibilities!</h5>
+                    <h5 className="info-title font-weight-bold">Is it for you?</h5>
                     <p>
-              The above is just a brief summary of the work so far. But it is not the only way to enable peer-to-peer mutual credit. We are open to new ideas, new contributions and new partnerships.         
+                    The above is just a brief summary of the work so far. But it is not the only way to enable peer-to-peer mutual credit. We are open to your ideas, your contributions and your partnerships.         
                     </p>
-                    <p>Right now (until Oct 30) we're looking to expand the team and would like to offer an invitation for interested contributors to get in touch. There are a range of areas that we could look for contribution.</p>
+                    <p>Right now we're open to expanding the team. would like to offer an invitation for interested contributors to get in touch. There are a range of areas that we could look for contribution.</p>
                     <ul>
                       <li>DAO, Governance and Community</li>
                       <li>Design, UX, Front End and Product </li>
