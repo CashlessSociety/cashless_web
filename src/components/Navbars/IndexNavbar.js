@@ -83,7 +83,7 @@ function IndexNavbar() {
 
                <NavItem>
                 <NavLink
-                  href="#pablo" onClick={(e) => {
+                  href="#how" onClick={(e) => {
                     e.preventDefault();
                     document.getElementById("how-the-app").scrollIntoView();
                   }}>
@@ -92,7 +92,7 @@ function IndexNavbar() {
               </NavItem>
               <NavItem>
                 <NavLink
-                  href="#pablo" onClick={(e) => {
+                  href="#why" onClick={(e) => {
                     e.preventDefault();
                     document.getElementById("why").scrollIntoView();
                   }}>
@@ -105,16 +105,7 @@ function IndexNavbar() {
                     e.preventDefault();
                     document.getElementById("details").scrollIntoView();
                   }}>
-                  <p>Credit Cycle</p>
-                </NavLink>
-              </NavItem>
-                <NavItem>
-                <NavLink
-                  href="#pablo" onClick={(e) => {
-                    e.preventDefault();
-                    document.getElementById("guarantees").scrollIntoView();
-                  }}>
-                  <p>Guarantees</p>
+                  <p>How</p>
                 </NavLink>
               </NavItem>
               <NavItem>

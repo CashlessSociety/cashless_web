@@ -30,7 +30,7 @@ function Contributors() {
 
             <ContributorLarge 
               name="Karen Lo"
-              title="Lead Designer"
+              title="Designer"
               bio={
                 <p>Full-Stack UX & Product Designer</p>
               }
