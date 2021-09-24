@@ -12,10 +12,15 @@ const ContributorSmall = (props) => {
             ></img>
           </div>
           <div className="contributor-bio">
-            <h6><span className="highlight-underline-primary">{props.name}</span></h6>
-            <span className="contributor-bio-small">
+            <h6>
+              <span className="highlight-underline-primary">{props.name}</span>
+            </h6>
+            <div className="contributor-bio-small">
               {props.bio}
-            </span>
+            </div>
+            <div className="contributor-links">
+              {props.oneLink}
+            </div>
           </div>
         </div>
 

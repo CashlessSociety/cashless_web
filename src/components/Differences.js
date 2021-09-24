@@ -1,12 +1,12 @@
 import React from "react";
 
 // reactstrap components
-import { Container, Row, Col } from "reactstrap";
+import { Container, Row, Col, Card, CardBody } from "reactstrap";
 
 function Differences() {
   return (
     <>
-      <div id="differences" className="features-5">
+      <div id="differences" className="">
         <div className="differences bg-grey py-5 my-5">
           <Container>
             <Row>
@@ -16,7 +16,7 @@ function Differences() {
             </Row>
             <Row className="no-gutters">
               <Col sm="12">
-                <div className="info">
+                
                   <div className="description text-left">
                     <h5 className="info-title font-weight-bold">Bitcoin, Ethereum or other crypto?</h5>
                      <p>Cashless credit is a relationship not a token. Most crypto is like gold or precious stones in that it has value because of market sentiment. Credit has value because it is a promise of future payment. Bitcoin has a proof of work to enforce limited supply. Credit on the other hand, can be created as a promises, and accepted whenever plausible. 
@@ -26,12 +26,12 @@ function Differences() {
                       <p>Cashless is like a layer 2 solution in that promises of reserves are kept local but exchange of underlying currency reserves, when necessary, happens using Ethereum <a href="https://github.com/CashlessSociety/cashless/tree/tumu/contracts">Cashless smart contracts</a> on mainnet.
                      </p>
                   </div>
-                </div>
+                
               </Col>
             </Row>
             <Row>
               <Col sm="12"> 
-                <div className="info">
+                
                   <div className="description text-left">
                     <Row>
                       <Col>
@@ -44,12 +44,12 @@ function Differences() {
                       </Col>
                     </Row>
                   </div>
-                </div>
+        
               </Col>
             </Row>
             <Row>
               <Col sm="12">
-                <div className="info">
+                
                   <div className="description text-left">
                     <Row>
                       <Col>
@@ -62,19 +62,21 @@ function Differences() {
                       </Col>
                     </Row>
                   </div>
-                </div>
+          
               </Col>
             </Row>
             <Row>
               <Col sm="12">
-                <div className="info">
-                  <div className="description text-left">
-                    <h5 className="info-title font-weight-bold">Cashless is a hybrid
-                    </h5>
-                    <p>Cashless is a type of mutual credit strongly informed by years in the alternative currency movement and attempts to address the practical problems that arose when running a timebank. It's also informed by years of providing technology for credit analysis on Wall Street. At the end of the day it's something of a hybrid of mutual credit, block chain and more mainstream credit risk management technology.
-                    </p>
-                  </div>
-                </div>
+                <Card>
+                  <CardBody>
+                    <div className="description text-left">
+                      <h5 className="info-title font-weight-bold">Cashless is a hybrid
+                      </h5>
+                      <p>Cashless is a type of mutual credit strongly informed by years in the alternative currency movement and attempts to address the practical problems that arose when running a timebank. It's also informed by years of providing technology for credit analysis on Wall Street. At the end of the day it's something of a hybrid of mutual credit, block chain and more mainstream credit risk management technology.
+                      </p>
+                    </div>
+                  </CardBody>
+                </Card>
               </Col>
             </Row>
           </Container>
