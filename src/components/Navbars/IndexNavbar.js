@@ -12,7 +12,7 @@ import {
 } from "reactstrap";
 
 function IndexNavbar() {
-  const [navbarColor, setNavbarColor] = React.useState("navbar-transparent");
+  const [navbarColor, setNavbarColor] = React.useState("navbar-at-top");
   const [collapseOpen, setCollapseOpen] = React.useState(false);
   React.useEffect(() => {
     const updateNavbarColor = () => {
@@ -25,7 +25,7 @@ function IndexNavbar() {
         document.documentElement.scrollTop < 10 ||
         document.body.scrollTop < 100
       ) {
-        setNavbarColor("navbar-transparent");
+        setNavbarColor("navbar-at-top");
       }
     };
     window.addEventListener("scroll", updateNavbarColor);
@@ -52,7 +52,7 @@ function IndexNavbar() {
               target="_blank"
               id="navbar-brand"
               onClick={(e) => {
-                e.preventDefault();
+               
                 document
                   .getElementById("video-header")
                   .scrollIntoView();
@@ -83,66 +83,66 @@ function IndexNavbar() {
 
                <NavItem>
                 <NavLink
-                  href="#how" onClick={(e) => {
-                    e.preventDefault();
+                  href="#how-the-app" onClick={(e) => {
                     document.getElementById("how-the-app").scrollIntoView();
+                    document.documentElement.classList.toggle("nav-open");
                   }}>
-                  <p>What</p>
+                  What
                 </NavLink>
               </NavItem>
               <NavItem>
                 <NavLink
                   href="#why" onClick={(e) => {
-                    e.preventDefault();
                     document.getElementById("why").scrollIntoView();
+                    document.documentElement.classList.toggle("nav-open");
                   }}>
-                  <p>Why</p>
+                  Why
                 </NavLink>
               </NavItem>
               <NavItem>
                 <NavLink
-                  href="#pablo" onClick={(e) => {
-                    e.preventDefault();
+                  href="#details" onClick={(e) => {
                     document.getElementById("details").scrollIntoView();
+                    document.documentElement.classList.toggle("nav-open");
                   }}>
-                  <p>How</p>
+                  How
                 </NavLink>
               </NavItem>
               <NavItem>
                 <NavLink
-                  href="#pablo" onClick={(e) => {
-                    e.preventDefault();
+                  href="#governance" onClick={(e) => {
                     document.getElementById("governance").scrollIntoView();
+                    document.documentElement.classList.toggle("nav-open");
                   }}>
-                  <p>Governance </p>
+                  Governance 
                 </NavLink>
               </NavItem>
               <NavItem>
                 <NavLink
-                  href="#pablo" onClick={(e) => {
-                    e.preventDefault();
+                  href="#get-involved" onClick={(e) => {
                     document.getElementById("get-involved").scrollIntoView();
+                    document.documentElement.classList.toggle("nav-open");
                   }}>
-                  <p>Get Involved</p>
+                  Get Involved
                 </NavLink>
               </NavItem>
 
               <NavItem>
                 <NavLink
-                  href="#pablo" onClick={(e) => {
-                    e.preventDefault();
+                  href="#contributors" onClick={(e) => {
                     document.getElementById("contributors").scrollIntoView();
+                    document.documentElement.classList.toggle("nav-open");
                   }}>
-                  <p>Contributors</p>
+                  Contributors
                 </NavLink>
               </NavItem>
 {/*              <NavItem>
                 <NavLink
-                  href="#pablo" onClick={(e) => {
-                    e.preventDefault();
+                  href="#team-section" onClick={(e) => {
                     document.getElementById("team-section").scrollIntoView();
+                    document.documentElement.classList.toggle("nav-open");
                   }}>
-                  <p>Contact</p>
+                  Contact
                 </NavLink>
               </NavItem>*/}
              

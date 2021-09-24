@@ -14,10 +14,12 @@ const ContributorLarge = (props) => {
           </div>
           <div className="contributor-bio">
             <h6><span className="highlight-underline-primary">{props.name}</span></h6>
-            {/*<div className="back"><h6>{props.title}</h6></div>*/}
-            <span className="contributor-short-bio">
+            <div className="contributor-short-bio">
               {props.bio}
-            </span>
+            </div>
+            <div className="contributor-links">
+              {props.bioLinks}
+            </div>
           </div>
         </div>
         <div className="back">
@@ -29,32 +31,18 @@ const ContributorLarge = (props) => {
           </div>
           <div className="contributor-bio">
             <h6 className="contributor-title">{props.title}</h6>
-            <span className="contributor-long-bio">
+            <div className="contributor-long-bio">
               {props.longBio}
-            </span>
-            <span className="contributor-links">
+            </div>
+            <div className="contributor-links">
               {props.bioLinks}
-            </span>
+            </div>
           </div>
         </div>
       </div>
     </>
     )
 };
-
- {/*bioLinks={
-  <>
-   <Button
-    className="btn-icon btn-round"
-    color="primary"
-    href="https://linkedin.com/in/lokaren"
-    target = "_blank" 
-    rel = "noopener noreferrer"
-  >
-    <i className="fab fa-linkedin"></i>
-  </Button>
-  </>
-}*/}
 
 
 export default ContributorLarge;

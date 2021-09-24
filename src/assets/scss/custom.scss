@@ -72,7 +72,22 @@ $screen-xl-min: 1200px;
   background-size: 100% 50%;
 }
 
-  
+html {
+  scroll-behavior: smooth;
+}
+
+.navbar-at-top {
+  background: linear-gradient(rgba(27,158,202, 1), rgba(27,158,202, 0.8)) !important;
+  //box-shadow: none;
+}
+.sidebar-collapse .navbar-collapse:before {
+      background: $info-color;
+}
+
+
+.nav-item a {
+    font-size: $font-size-small !important;
+}
 
 // TEXT & FONTS
 
@@ -158,8 +173,8 @@ a {
 }
 
 @media screen and (max-width: 991px) {
-  .nav-open .navbar-collapse {
-    width: 150px;
+  .navbar .container {
+    max-width: 100%;
   }
 }
 
@@ -246,7 +261,7 @@ a {
             margin: 40px auto 0;
         }
 
-        @media screen and (max-width: 768px) {
+        @media screen and (max-width: $screen-md-min) {
             max-width: 360px;
             margin: 40px auto 0;
         }
@@ -470,7 +485,7 @@ a {
           margin: 40px auto 0;
       }
 
-      @media screen and (max-width: 768px) {
+      @media screen and (max-width: $screen-md-min) {
           max-width: 360px;
           margin: 40px auto 0;
       }
@@ -514,7 +529,7 @@ a {
             margin: 40px auto 0;
         }
 
-        @media screen and (max-width: 768px) {
+        @media screen and (max-width: $screen-md-min) {
             max-width: 360px;
             margin: 40px auto 0;
         }
@@ -541,35 +556,64 @@ a {
   }
 }
 
-.contributor-large {
-  height: 15em;
-  flex: 0 0 30%;
-  font-size: 14px;
-  @media screen and (max-width: 1024px) { 
-    flex: 0 0 50%;
-  }
-}
-
-.contributor-small {  
-  height: 15em;
-  flex: 0 0 15%;
-  font-size: 12px;
-}
-
 .contributor-image {
   width: 6em;
   height: 6em;
-  margin: 0 auto;
+  margin: 0 auto $margin-bottom;
   position: relative;
   img {border-radius: 100%;}
 }
 
 .contributor-bio {
-  padding: $padding-base-vertical;
+  padding: $padding-base-vertical $padding-base-vertical 0;
   text-align: center;
+  a { color: inherit;}
 }
 
-@media screen and (max-width: 768px) { 
+.contributor-title {
+  margin-bottom: $padding-small-vertical;
+}
+
+.contributor-long-bio {
+}
+
+.contributor-links {
+  margin-top: $padding-base-vertical;
+  a { padding: 0 $padding-base-vertical;}
+  .fab, .fa { 
+    font-size: $btn-icon-font-size-lg;
+    color: $danger-color-opacity;
+    transition: color 300ms ease-in-out;
+    &:hover {
+      color: $primary-color;
+    }
+  }
+}
+
+
+// Set size of the contributors containers
+.contributor-large {
+  height: 19em;
+  flex: 0 0 30%;
+  @media screen and (max-width: $screen-lg-min) { 
+    flex: 0 0 50%;
+  }
+  @media screen and (max-width: $screen-sm-min) { 
+    flex: 0 0 100%;
+  }
+}
+
+.contributor-small {  
+  height: 15em;
+  flex: 0 0 15em;
+  font-size: $font-size-small;
+  @media screen and (max-width: $screen-sm-min) { 
+    flex: 0 0 50%;
+  }
+}
+
+// Contributors as seen on mobile
+@media screen and (max-width: $screen-md-min) { 
   .contributor-large,
   .contributor-small {
     height: auto;
@@ -578,17 +622,10 @@ a {
       transform: none !important;
       position: static !important;
     }
-    .back {
-      .contributor-long-bio,
-      .contributor-links,
-      .contributor-image,
-      .contributor-title
-      {
-        display: none;
-        transition: all 0.4s ease-in;
-      }
-    }
-    &:hover .back .contributor-image { 
+    
+    & .front .contributor-image { visibility: hidden;}
+    & .front .contributor-links { display: none;}
+    & .back .contributor-image { 
       display: block;
       position: absolute;
       top: 22px;
@@ -619,11 +656,13 @@ a {
     background: $white-color;
   }
   
-  &:hover > .front{
+  &:hover > .front,
+  &:focus > .front {
     transform: perspective(600px) rotateY(-180deg);
     cursor: default;
   }
-  &:hover > .back{
+  &:hover > .back,
+  &:focus > .back {
     transform: perspective(600px) rotateY(0deg);
     cursor: default;
   }
@@ -708,7 +747,7 @@ a {
         }
     }
 
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: $screen-md-min) {
         .image-container img{
             left: 0px;
             top: 0;
