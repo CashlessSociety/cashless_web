@@ -68,10 +68,10 @@ function Contributors() {
               name="Ari Rodriguez"
               title="Cryptographer"
               bio={
-                <p>Mathematician &amp; cryptographer</p>
+                <p>Smart contracts &amp; cryptographer</p>
               }
               longBio={
-                 <p>Mathematician &amp; cryptographer, leader in homomorphic encryption and block chain developer.</p>
+                 <p>Block chain developer &amp; cryptographer, leader in homomorphic encryption and liquidity pooling.</p>
               }
               profileUrl={'https://avataaars.io/?avatarStyle=Circle&topType=LongHairNotTooLong&accessoriesType=Blank&hairColor=BlondeGolden&facialHairType=BeardMajestic&facialHairColor=BlondeGolden&clotheType=Hoodie&clotheColor=Gray02&eyeType=Default&eyebrowType=Default&mouthType=Default&skinColor=Light'}
             />
