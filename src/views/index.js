@@ -10,10 +10,11 @@ import Contributors from "components/Contributors.js";
 import IntroRow from "components/IntroRow.js";
 import Why from "components/Why.js";
 import GetInvolved from "components/GetInvolved.js";
-import Governance from "components/Governance.js";
-import ContactUs from "components/ContactUs.js";
 import Details from "components/Details.js";
 import Guarantees from "components/Guarantees.js";
+import Differences from "components/Differences.js";
+import Governance from "components/Governance.js";
+import ContactUs from "components/ContactUs.js";
 import CurrentStatus from "components/CurrentStatus.js";
 
 function IndexPage() {
@@ -41,6 +42,7 @@ function IndexPage() {
         <Why />
         <Details />
         <Guarantees />
+        <Differences />
         <Governance />
         <CurrentStatus />
         <GetInvolved />
