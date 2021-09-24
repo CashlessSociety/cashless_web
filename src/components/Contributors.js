@@ -24,7 +24,17 @@ function Contributors() {
               profileUrl={"https://avataaars.io/?avatarStyle=Circle&topType=ShortHairShortWaved&accessoriesType=Blank&hairColor=BlondeGolden&facialHairType=BeardMajestic&facialHairColor=BlondeGolden&clotheType=BlazerShirt&eyeType=Side&eyebrowType=Default&mouthType=Smile&skinColor=Light"}
               flipProfileUrl={require("assets/img/miles_in_front_of_church.jpg")}
               longBio={
-                 <p>Founding CTO at NY financial research company CreditSights, acquired 2020, and AI startup Chatterize, seed round 2020. AI Lead Dev at <a href="http://papareo.nz">Papa Reo</a>. In 2020, co-founder of <a href="http://mutualaid.world">Mutual Aid World</a> project.</p>
+                <p>Founding CTO at NY financial research company CreditSights, acquired 2020, and AI startup Chatterize, seed round 2020. AI Lead Dev at <a href="http://papareo.nz">Papa Reo</a>. In 2020, co-founder of <a href="http://mutualaid.world">Mutual Aid World</a> project.</p>
+              }
+              bioLinks={
+                <>
+                  <a href="https://linkedin.com/in/milesthompson" target="_blank">
+                    <i className="fab fa-linkedin"></i>
+                  </a>
+                  <a href="https://github.com/utunga" target="_blank">
+                    <i className="fab fa-github"></i>
+                  </a>
+                </>
               }
             />
 
@@ -35,10 +45,20 @@ function Contributors() {
                 <p>Full-Stack UX & Product Designer</p>
               }
               longBio={
-                 <p>Full-Stack UX & Product Designer · Consultant · UX · UI · Systems/Platforms Design</p>
+                <p>UX/UI systems/platforms designer who's been jamming for the past 10+ years. Taking things from conception to implementation – from big picture to fine details.</p>
               }
-              profileUrl={require("assets/img/avataaars-karen.svg")}
+              profileUrl={'https://avataaars.io/?avatarStyle=Circle&topType=LongHairStraight&accessoriesType=Blank&hairColor=Black&facialHairType=Blank&clotheType=BlazerSweater&eyeType=Side&eyebrowType=Default&mouthType=Twinkle&skinColor=Light'}
               flipProfileUrl={require("assets/img/karen_lo.jpg")}
+              bioLinks={
+                <>
+                  <a href="https://linkedin.com/in/lokaren" target="_blank">
+                    <i className="fab fa-linkedin"></i>
+                  </a>
+                  <a href="https://github.com/karenkun" target="_blank">
+                    <i className="fab fa-github"></i>
+                  </a>
+                </>
+              }
             />
             
             <ContributorLarge 
@@ -48,9 +68,16 @@ function Contributors() {
                 <p>Community leader on community timebanks in NZ</p>
               }
               longBio={
-                 <p>Developer and leader for community timebanks in Christchurch, NZ. Rites-of-passage facilitator, Masters Ecology, end-to-end Wordpress. Listener, learner, joker. Tech enthusiast, perpetual optimist.</p>
+                <p>Developer and leader for community timebanks in Christchurch, NZ. Rites-of-passage facilitator, Masters Ecology, end-to-end Wordpress. Listener, learner, joker. Tech enthusiast, perpetual optimist.</p>
               }
-              profileUrl='https://avataaars.io/?accessoriesType=Blank&avatarStyle=Circle&clotheColor=PastelRed&clotheType=ShirtScoopNeck&eyeType=Happy&eyebrowType=DefaultNatural&facialHairColor=BrownDark&facialHairType=BeardLight&hairColor=Brown&hatColor=Blue03&mouthType=Smile&skinColor=Light&topType=LongHairNotTooLong'
+              profileUrl={'https://avataaars.io/?accessoriesType=Blank&avatarStyle=Circle&clotheColor=PastelRed&clotheType=ShirtScoopNeck&eyeType=Happy&eyebrowType=DefaultNatural&facialHairColor=BrownDark&facialHairType=BeardLight&hairColor=Brown&hatColor=Blue03&mouthType=Smile&skinColor=Light&topType=LongHairNotTooLong'}
+              bioLinks={
+                <>
+                  <a href="https://nz.linkedin.com/in/dean-harliwich-ba3a6622" target="_blank">
+                    <i className="fab fa-linkedin"></i>
+                  </a>
+                </>
+              }
             />
            
             <ContributorLarge 
@@ -62,6 +89,11 @@ function Contributors() {
                  <p>30 years serial entrepreneur. First startup acquired DreamWorks. Founded Volumetric industry as CEO of multi-million dollar <a href="https://8i.com/">8i</a>. Award-winning photographer. Emmy Award finalist. Co-founder Women Without Borders.</p>
               }
               profileUrl={'https://avataaars.io/?avatarStyle=Circle&topType=ShortHairShortFlat&accessoriesType=Blank&hairColor=Black&facialHairType=BeardLight&facialHairColor=Auburn&clotheType=BlazerShirt&eyeType=Default&eyebrowType=RaisedExcitedNatural&mouthType=Smile&skinColor=Pale'}
+              bioLinks={
+                <a href="https://www.linkedin.com/in/lincgasking" target="_blank">
+                  <i className="fab fa-linkedin"></i>
+                </a>
+              }
             />
             
             <ContributorLarge 
@@ -74,6 +106,16 @@ function Contributors() {
                  <p>Block chain developer &amp; cryptographer, leader in homomorphic encryption and liquidity pooling.</p>
               }
               profileUrl={'https://avataaars.io/?avatarStyle=Circle&topType=LongHairNotTooLong&accessoriesType=Blank&hairColor=BlondeGolden&facialHairType=BeardMajestic&facialHairColor=BlondeGolden&clotheType=Hoodie&clotheColor=Gray02&eyeType=Default&eyebrowType=Default&mouthType=Default&skinColor=Light'}
+              bioLinks={
+                <>
+                  <a href="https://linkedin.com/in/ari-rodriguez-9b201b33" target="_blank">
+                    <i className="fab fa-linkedin"></i>
+                  </a>
+                  <a href="https://github.com/superarius" target="_blank">
+                    <i className="fab fa-github"></i>
+                  </a>
+                </>
+              }
             />
 
             <ContributorLarge 
@@ -97,6 +139,13 @@ function Contributors() {
                  <p>Developer experimenting with distributed tools for the purpose of #decolonisation from Moinho people Brazil. Believer in a global Swaraj.</p>
               }
               profileUrl={'https://avataaars.io/?avatarStyle=Circle&topType=LongHairCurly&hairColor=BrownDark&facialHairType=BeardMajestic&facialHairColor=BrownDark&clotheType=Overall&clotheColor=Gray01&eyeType=Close&eyebrowType=RaisedExcitedNatural&mouthType=Eating&skinColor=Light'}
+              bioLinks={
+                <>
+                  <a href="https://github.com/luandro" target="_blank">
+                    <i className="fab fa-github"></i>
+                  </a>
+                </>
+              }
             />
 
         </div>
@@ -107,7 +156,12 @@ function Contributors() {
               bio={
                 <p>Senior react dev</p>
               }
-              profileUrl={'https://avataaars.io/?avatarStyle=Circle&topType=ShortHairShortFlat&accessoriesType=Blank&hairColor=Black&facialHairType=Blank&clotheType=GraphicShirt&clotheColor=PastelBlue&graphicType=Cumbia&eyeType=Side&eyebrowType=DefaultNatural&mouthType=Default&skinColor=Tanned'}
+              profileUrl={require("assets/img/avataaars-contributor.svg")}
+              oneLink={
+                <a href="http://joshuawu.me"  target="_blank">
+                  <i className="fa fa-link"></i>
+                </a>
+              }
             />
 
             <ContributorSmall
@@ -115,7 +169,12 @@ function Contributors() {
               bio={
                 <p>Project manager</p>
               }
-              profileUrl={'https://avataaars.io/?avatarStyle=Circle&topType=ShortHairShortFlat&accessoriesType=Blank&hairColor=Black&facialHairType=Blank&clotheType=GraphicShirt&clotheColor=PastelBlue&graphicType=Cumbia&eyeType=Side&eyebrowType=DefaultNatural&mouthType=Default&skinColor=Tanned'}
+              profileUrl={require("assets/img/avataaars-contributor.svg")}
+              oneLink={
+                <a href="https://www.linkedin.com/in/daniel-huerta-34868631"  target="_blank">
+                  <i className="fab fa-linkedin"></i>
+                </a>
+              }
             />
 
             <ContributorSmall
@@ -123,7 +182,12 @@ function Contributors() {
               bio={
                 <p>Developer from NZ</p>
               }
-              profileUrl={'https://avataaars.io/?avatarStyle=Circle&topType=ShortHairShortFlat&accessoriesType=Blank&hairColor=Black&facialHairType=Blank&clotheType=GraphicShirt&clotheColor=PastelBlue&graphicType=Cumbia&eyeType=Side&eyebrowType=DefaultNatural&mouthType=Default&skinColor=Tanned'}
+              profileUrl={require("assets/img/avataaars-contributor.svg")}
+              oneLink={
+                <a href="https://github.com/sarah-arrrgh"  target="_blank">
+                  <i className="fab fa-github"></i>
+                </a>
+              }
             />
 
 
@@ -132,7 +196,7 @@ function Contributors() {
               bio={
                 <p>Developer from Cuba</p>
               }
-              profileUrl={'https://avataaars.io/?avatarStyle=Circle&topType=ShortHairShortFlat&accessoriesType=Blank&hairColor=Black&facialHairType=Blank&clotheType=GraphicShirt&clotheColor=PastelBlue&graphicType=Cumbia&eyeType=Side&eyebrowType=DefaultNatural&mouthType=Default&skinColor=Tanned'}
+              profileUrl={require("assets/img/avataaars-contributor.svg")}
             />
 
 
