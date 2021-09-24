@@ -268,189 +268,213 @@ a {
     .title { color:$default-color;}
 }
 
-/* .features-5 == Details */
+/* .features-5 == Differences / Differences */
 .features-5 {
   
   .card-body {
     p { font-size: $font-size-small;}
   }
   
-    .credit-lifecycle {
-      
-      .info { 
-        padding-left :80px;
-        .icon { 
-          position: absolute;
-          margin: 0 0 0 -80px;
-          transition: all 200ms ease-in-out;
-          border: 1px solid $brand-primary;
-          color:  $brand-primary;
-          
-          > i {
-            line-height: 80px;
-          }
+  .differences {
+    
+    .info { 
+      .description {
+        opacity: 0.6;
+        transition: all 200ms ease-in-out;
+      }
+
+      &:hover {
+        .icon {
+          background-color: $brand-primary;
+          color: white;
+        }
+        .info-title {
+          color: $brand-primary;
         }
         .description {
-          opacity: 0.6;
-          transition: all 200ms ease-in-out;
+          opacity: 1;
         }
+      }
+
+    }  
+  }
+
+  .credit-lifecycle {
+    
+    .info { 
+      padding-left :80px;
+      .icon { 
+        position: absolute;
+        margin: 0 0 0 -80px;
+        transition: all 200ms ease-in-out;
+        border: 1px solid $brand-primary;
+        color:  $brand-primary;
         
+        > i {
+          line-height: 80px;
+        }
+      }
+      .description {
+        opacity: 0.6;
+        transition: all 200ms ease-in-out;
+      }
+      
+      &:before {  
+        // vertical line
+        content: "";
+        display: block;
+        width: 0;
+        height: 100%;
+        border-left: 10px solid $brand-primary;
+        position: absolute;
+        left: 35px;
+        z-index: 0;
+        animation: border-arrow-animation 1.5s infinite;
+      }
+      
+      &:after {
+        // down arrow
+        content: "";
+        display: block;
+        width: 0; 
+        height: 0; 
+        border-left: 15px solid transparent;
+        border-right: 15px solid transparent;
+        border-top: 15px solid $brand-primary;
+        position: absolute;
+        top: -40px;
+        left: 25px;
+        z-index: 1;
+        margin-top: 40px;
+      }
+              
+      
+      &:hover {
+        .icon {
+          background-color: $brand-primary;
+          color: white;
+        }
+        .info-title {
+          color: $brand-primary;
+        }
+        .description {
+          opacity: 1;
+        }
+      
+      }
+  
+      .alt-up-line {
         &:before {  
           // vertical line
           content: "";
           display: block;
           width: 0;
-          height: 100%;
-          border-left: 10px solid $brand-primary;
+          height: calc(100% - 15px);
+          border-left: 5px solid $success-color;
           position: absolute;
-          left: 35px;
+          left: 60px;
           z-index: 0;
           animation: border-arrow-animation 1.5s infinite;
+          border-left-style: dotted;
+          margin-top: 15px;
         }
-        
         &:after {
+          // up arrow
+          content: "";
+          display: block;
+          width: 0; 
+          height: 0; 
+          border-left: 8px solid transparent;
+          border-right: 8px solid transparent;
+          border-bottom: 8px solid $success-color;
+          position: absolute;
+          top: 80px;
+          left: 54px;
+          z-index: 1;
+        }
+      }
+      
+      .alt-down-line {
+        &:before {  
+          // vertical line
+          content: "";
+          display: block;
+          width: 0;
+          height: calc(100% - 15px);
+          border-left: 5px solid $default-color;
+          position: absolute;
+          left: 60px;
+          z-index: 0;
+          animation: border-arrow-animation 1.5s infinite;
+          border-left-style: dotted;
+          margin-top: 15px;
+        }
+      }
+      
+      .alt-down-arrow {
+        &:before {
           // down arrow
           content: "";
           display: block;
           width: 0; 
           height: 0; 
-          border-left: 15px solid transparent;
-          border-right: 15px solid transparent;
-          border-top: 15px solid $brand-primary;
+          border-left: 8px solid transparent;
+          border-right: 8px solid transparent;
+          border-top: 8px solid $default-color;
           position: absolute;
-          top: -40px;
-          left: 25px;
+          top: 6px;
+          left: 54px;
           z-index: 1;
-          margin-top: 40px;
-        }
-                
-        
-        &:hover {
-          .icon {
-            background-color: $brand-primary;
-            color: white;
-          }
-          .info-title {
-            color: $brand-primary;
-          }
-          .description {
-            opacity: 1;
-          }
-        
-        }
     
-        .alt-up-line {
-          &:before {  
-            // vertical line
-            content: "";
-            display: block;
-            width: 0;
-            height: calc(100% - 15px);
-            border-left: 5px solid $success-color;
-            position: absolute;
-            left: 60px;
-            z-index: 0;
-            animation: border-arrow-animation 1.5s infinite;
-            border-left-style: dotted;
-            margin-top: 15px;
-          }
-          &:after {
-            // up arrow
-            content: "";
-            display: block;
-            width: 0; 
-            height: 0; 
-            border-left: 8px solid transparent;
-            border-right: 8px solid transparent;
-            border-bottom: 8px solid $success-color;
-            position: absolute;
-            top: 80px;
-            left: 54px;
-            z-index: 1;
-          }
         }
-        
-        .alt-down-line {
-          &:before {  
-            // vertical line
-            content: "";
-            display: block;
-            width: 0;
-            height: calc(100% - 15px);
-            border-left: 5px solid $default-color;
-            position: absolute;
-            left: 60px;
-            z-index: 0;
-            animation: border-arrow-animation 1.5s infinite;
-            border-left-style: dotted;
-            margin-top: 15px;
-          }
-        }
-        
-        .alt-down-arrow {
-          &:before {
-            // down arrow
-            content: "";
-            display: block;
-            width: 0; 
-            height: 0; 
-            border-left: 8px solid transparent;
-            border-right: 8px solid transparent;
-            border-top: 8px solid $default-color;
-            position: absolute;
-            top: 6px;
-            left: 54px;
-            z-index: 1;
-      
-          }
-        }
-      }  
-      
-      // vertical lines
-      div[class^=col-]{
-        &:first-child {
-          .info:after { 
-            display: none;
-          }
-        }
-        &:nth-child(2){
-          .info:before { 
-            animation-delay: 0.2s;
-          }
-        }
-        &:nth-child(3){
-          .info:before {
-            animation-delay: 0.5s;
-          }
-        }
-        &:last-child {
-          .info:before {
-            display: none;
-          }
-          
-        } 
       }
-      
-
-    }
-    .cashless-cheque-container {
-        margin: 50px auto 0;
-        max-width: 560px;
-    }
-    .cashless-cycle-container {
-        margin: 50px auto 0;
-        max-width: 560px;
+    }  
+    
+    // vertical lines
+    div[class^=col-]{
+      &:first-child {
+        .info:after { 
+          display: none;
+        }
+      }
+      &:nth-child(2){
+        .info:before { 
+          animation-delay: 0.2s;
+        }
+      }
+      &:nth-child(3){
+        .info:before {
+          animation-delay: 0.5s;
+        }
+      }
+      &:last-child {
+        .info:before {
+          display: none;
+        }
         
-        @media screen and (min-width: 1024px) {
-            max-width: 360px;
-            margin: 40px auto 0;
-        }
-
-        @media screen and (max-width: 768px) {
-            max-width: 360px;
-            margin: 40px auto 0;
-        }
+      } 
     }
+  }
+
+  .cashless-cheque-container {
+      margin: 50px auto 0;
+      max-width: 560px;
+  }
+
+  .cashless-cycle-container {
+      margin: 50px auto 0;
+      max-width: 560px;
+      
+      @media screen and (min-width: 1024px) {
+          max-width: 360px;
+          margin: 40px auto 0;
+      }
+
+      @media screen and (max-width: 768px) {
+          max-width: 360px;
+          margin: 40px auto 0;
+      }
+  }
    
 }
 
