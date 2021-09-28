@@ -121,10 +121,10 @@ function Contributors() {
             <ContributorLarge 
               name="Graham Munro"
               bio={
-                <p>Currency expert.</p>
+                <p>Entrepreneur and monetary theorist.</p>
               }
               longBio={
-                 <p>Community Currency expert. Crypto pioneer.</p>
+                 <p>With a background in physics and technology Graham is a serial tech entrepreneur turned monetary theorist and currency design expert.</p>
               }
               profileUrl={'https://avataaars.io/?avatarStyle=Circle&topType=ShortHairShortFlat&accessoriesType=Blank&hairColor=Black&facialHairType=Blank&clotheType=BlazerShirt&eyeType=Side&eyebrowType=Default&mouthType=Default&skinColor=Light'}
             />
