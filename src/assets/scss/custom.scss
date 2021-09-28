@@ -283,7 +283,15 @@ a {
     .title { color:$default-color;}
 }
 
-/* .features-5 == Differences / Differences */
+.details {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  .credit-lifecycle {
+    margin-top: 0px !important;
+  }
+}
+
+/* .features-5 == Details / Gaurantees */
 .features-5 {
   
   .card-body {
