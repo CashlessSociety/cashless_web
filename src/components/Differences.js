@@ -6,7 +6,7 @@ import { Container, Row, Col, Card, CardBody } from "reactstrap";
 function Differences() {
   return (
     <>
-      <div id="differences" className="">
+      <div id="differences">
         <div className="differences bg-grey py-5 my-5">
           <Container>
             <Row>
@@ -72,7 +72,7 @@ function Differences() {
                     <div className="description text-left">
                       <h5 className="info-title font-weight-bold">Cashless is a hybrid
                       </h5>
-                      <p>Cashless is strongly informed by years in the mutual credit / alternative currency movement and is an attempt to address the practical problems that arose when running a timebank. It's also informed by years of providing technology for credit analysis on Wall Street. At the end of the day it's something of a hybrid of mutual credit, block chain and more mainstream credit risk management technology.
+                      <p>Cashless is strongly informed by years in the mutual credit and alternative currency movement and is an attempt to address the practical problems that arise with running a timebank. It's also informed by technology used for credit analysis on Wall Street. At the end of the day it's something of a hybrid of mutual credit, blockchain and mainstream credit risk management approaches.
                       </p>
                     </div>
                   </CardBody>
