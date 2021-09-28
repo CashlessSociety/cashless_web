@@ -6,7 +6,7 @@ import { Container, Row, Col, Card, CardBody } from "reactstrap";
 function Differences() {
   return (
     <>
-      <div id="differences" className="">
+      <div id="differences">
         <div className="differences bg-grey py-5 my-5">
           <Container>
             <Row>
@@ -55,9 +55,9 @@ function Differences() {
                       <Col>
                         <h5 className="info-title font-weight-bold">Mutual credit and timebanking
                         </h5>
-                        <p>Cashless is a type of mutual credit. But each cashless credit starts off as a peer to peer promise of value between individuals. There is still a key role for community pools of value, that act like mutual credit associations in practice, but instead of a shared ledger for each  association, each individual has their own credit ledger.</p>
-                        <p>Another key difference is that while it is possible to settle debts in a mutual way (using 'reciprocity loops') Cashless also lets you settle promises using currency reserves 'staked' on the block chain.</p>
-                        <p>These things together mean each individual runs their own credit ledger and, as a result, carries their own reputation and risk estimate.
+                        <p>Cashless is a type of mutual credit and can be used to run a timebank. But unlike most mutual credit, each cashless credit starts off as a peer to peer promise of value between individuals. There is still a key role for community pools of value, that act like mutual credit associations in practice.</p>
+                        <p>Another key difference is that while it is possible to settle debts in a mutual credit way (using 'reciprocity loops') Cashless also lets you settle promises using currency reserves 'staked' on the block chain.</p>
+                        <p>These things together mean each individual runs their own credit ledger and, as a result, carries their own reputation and risk estimation.
                         </p>
                       </Col>
                     </Row>
@@ -72,7 +72,7 @@ function Differences() {
                     <div className="description text-left">
                       <h5 className="info-title font-weight-bold">Cashless is a hybrid
                       </h5>
-                      <p>Cashless is a type of mutual credit strongly informed by years in the alternative currency movement and attempts to address the practical problems that arose when running a timebank. It's also informed by years of providing technology for credit analysis on Wall Street. At the end of the day it's something of a hybrid of mutual credit, block chain and more mainstream credit risk management technology.
+                      <p>Cashless is strongly informed by years in the mutual credit and alternative currency movement and is an attempt to address the practical problems that arise with running a timebank. It's also informed by technology used for credit analysis on Wall Street. At the end of the day it's something of a hybrid of mutual credit, blockchain and mainstream credit risk management approaches.
                       </p>
                     </div>
                   </CardBody>

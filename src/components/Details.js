@@ -6,7 +6,7 @@ import { Container, Row, Col } from "reactstrap";
 function Details() {
   return (
     <>
-      <div id="details" className="features-5">
+      <div id="details" className="features-5 details">
         <div className="credit-lifecycle bg-grey py-5 my-5">
           <Container>
             <Row>
