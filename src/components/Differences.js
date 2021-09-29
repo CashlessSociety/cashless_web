@@ -7,7 +7,7 @@ function Differences() {
   return (
     <>
       <div id="differences">
-        <div className="differences bg-grey py-5 my-5">
+        <div className="differences bg-grey py-5">
           <Container>
             <Row>
               <Col sm="12">

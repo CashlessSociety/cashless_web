@@ -42,7 +42,7 @@ $screen-xl-min: 1200px;
 
 
 .bg-grey { 
-  background: linear-gradient( $smoke-bg, $white-bg);
+  background: linear-gradient( $white-bg, $smoke-bg);
 }
 .bg-sunset { 
   background: linear-gradient(#ffd9d6, #fff3e7);
@@ -286,9 +286,7 @@ a {
 .details {
   padding-top: 0px;
   padding-bottom: 0px;
-  .credit-lifecycle {
-    margin-top: 0px !important;
-  }
+
 }
 
 /* .features-5 == Details / Gaurantees */
@@ -322,7 +320,7 @@ a {
     }  
   }
 
-  .credit-lifecycle {
+  .credit-lifecycle-steps {
     
     .info { 
       padding-left :80px;
@@ -350,6 +348,7 @@ a {
         height: 100%;
         border-left: 10px solid $brand-primary;
         position: absolute;
+        top: 15px;
         left: 35px;
         z-index: 0;
         animation: border-arrow-animation 1.5s infinite;
@@ -365,7 +364,7 @@ a {
         border-right: 15px solid transparent;
         border-top: 15px solid $brand-primary;
         position: absolute;
-        top: -40px;
+        top: -35px;
         left: 25px;
         z-index: 1;
         margin-top: 40px;
@@ -452,31 +451,31 @@ a {
         }
       }
     }  
-    
-    // vertical lines
-    div[class^=col-]{
-      &:first-child {
-        .info:after { 
-          display: none;
-        }
+  }
+  
+  // vertical lines and arrows finetuning
+  .credit-lifecycle-steps {
+    .row:first-child {
+      .info:after { 
+        display: none !important;
       }
-      &:nth-child(2){
-        .info:before { 
-          animation-delay: 0.2s;
-        }
-      }
-      &:nth-child(3){
-        .info:before {
-          animation-delay: 0.5s;
-        }
-      }
-      &:last-child {
-        .info:before {
-          display: none;
-        }
-        
-      } 
     }
+    .row:nth-child(2){
+      .info:before { 
+        animation-delay: 0.2s;
+      }
+    }
+    .row:nth-child(3){
+      .info:before {
+        animation-delay: 0.5s;
+      }
+    }
+    .row:last-child {
+      .info:before {
+        display: none;
+      }
+      
+    } 
   }
 
   .cashless-cheque-container {
