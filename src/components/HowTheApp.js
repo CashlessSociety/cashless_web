@@ -10,10 +10,9 @@ function HowTheApp() {
     <>
       <div id="how-the-app" className="how_it_works cashless-features">
         <Container>
+          <h2 className="title pt-0">How It Works</h2>
           <Row>
             <Col md="5">
-              <h2 className="title">How It Works</h2>
-
               <div className="info info-horizontal">
                 <div className="icon icon-info icon-circle">
                   <i className="now-ui-icons sport_user-run"></i>
@@ -49,8 +48,56 @@ function HowTheApp() {
               </div>
             </Col>
             <Col md="7">
+            
               <div className="phone-container">
-                <img alt="..." src={require("assets/img/cashless_mob1.png")}></img>
+                <div className="phone-container-screens">
+                  <section className="carousel" aria-label="Gallery">
+                    <ol className="carousel__viewport">
+                      <li id="carousel__slide1"
+                          tabIndex="0"
+                          className="carousel__slide">
+                        <div className="carousel__snapper"></div>
+                      </li>
+                      <li id="carousel__slide2"
+                          tabIndex="0"
+                          className="carousel__slide">
+                        <div className="carousel__snapper"></div>
+                      </li>
+                      <li id="carousel__slide3"
+                          tabIndex="0"
+                          className="carousel__slide">
+                        <div className="carousel__snapper"></div>
+                      </li>
+                      <li id="carousel__slide4"
+                          tabIndex="0"
+                          className="carousel__slide">
+                        <div className="carousel__snapper"></div>
+                      </li>
+                    </ol>
+                    { /*
+                    <aside className="carousel__navigation">
+                      <ol className="carousel__navigation-list">
+                        <li className="carousel__navigation-item">
+                          <a href="#carousel__slide1"
+                             className="carousel__navigation-button" >Go to slide 1</a>
+                        </li>
+                        <li className="carousel__navigation-item">
+                          <a href="#carousel__slide2"
+                             className="carousel__navigation-button" >Go to slide 2</a>
+                        </li>
+                        <li className="carousel__navigation-item">
+                          <a href="#carousel__slide3"
+                             className="carousel__navigation-button" >Go to slide 3</a>
+                        </li>
+                        <li className="carousel__navigation-item">
+                          <a href="#carousel__slide4"
+                             className="carousel__navigation-button" >Go to slide 4</a>
+                        </li>
+                      </ol>
+                    </aside>*/}
+                  </section>
+                  {/* <img alt="..." src={require("assets/img/cashless_mob1.png")}></img> */}
+                </div>
               </div>
             </Col>
           </Row>

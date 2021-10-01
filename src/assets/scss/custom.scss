@@ -1,3 +1,4 @@
+@import "mobile-gallery";
 
 // Small tablets and large smartphones (landscape view)
 $screen-sm-min: 576px;
@@ -253,18 +254,7 @@ a {
         }
     }
     .phone-container{
-        max-width: 300px;
-        margin: 50px auto 0;
-    
-        @media screen and (min-width: 1024px) {
-            max-width: 300px;
-            margin: 40px auto 0;
-        }
-
-        @media screen and (max-width: $screen-md-min) {
-            max-width: 360px;
-            margin: 40px auto 0;
-        }
+        margin: 5% auto 0;
     }
 }
    
