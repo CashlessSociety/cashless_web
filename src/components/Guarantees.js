@@ -77,7 +77,7 @@ function Guarantees() {
                   <div>
                     <h4 className="info-title">Social and viral </h4>
                     <p>
-                      An obligation can be a hard nosed promise of payment. Or it can just be a nice <b>thank you</b> - a promise to pay it forward that you might attach to a more social expression of gratitude. Gratitude can also be money. Once we recover from our collective PTSD about money, we can hopefully start to see the new possibilities.
+                      An obligation can be a hard nosed promise of payment. Or it can just be a nice <b>thank you</b> - a promise to pay it forward that you might attach to a more social expression of gratitude. Gratitude can also be a form of money. Once we recover from our collective PTSD about money, and build a system that lets us express our humanity, new possibilities are created. It's time to heal our scarcity mindset around money and together step into a new kinder more gentle future.
                     </p>
                   </div>
                 </div>

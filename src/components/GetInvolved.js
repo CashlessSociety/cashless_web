@@ -19,21 +19,16 @@ function GetInvolved() {
                     <img alt="future" src={require("assets/img/future.png")}></img>
                     <h5 className="info-title font-weight-bold">There are so many possibilities.</h5>
                     <p>
-                    The above is just a brief summary of the work so far. But it is not the only way to enable peer-to-peer mutual credit. We are open to your ideas, your contributions and your partnerships.         
+                    The above is just a brief summary of the work so far. But it is not the only way to enable peer-to-peer mutual credit. At this early stage we remain open to your ideas, your contributions and even potential key partnerships.        
                     </p>
-                    <p>Right now we're open to expanding the team. would like to offer an invitation for interested contributors to get in touch. There are a range of areas that we could look for contribution.</p>
+                    <p>Right now we're looking into expanding the team and so we are offering an invitation for interested contributors to get in touch. We're especially keen to hear from you if you think you might be able to:</p>
                     <ul>
-                      <li>DAO, Governance and Community</li>
-                      <li>Design, UX, Front End and Product </li>
-                      <li>Protocol, Whitepaper and Messaging Layer</li>
-                      <li>Smart contract development and SSB</li>
-                      <li>Research and Social Science  </li>
-                      <li>Implementations and Community Outreach </li>
-                      <li>Partnerships and Collaborations</li>
-                      <li>Messaging, Outreach, Marketing, Hype</li>
-                      <li>Funding outreach and Tokenomics </li>                    
+                      <li>Help us design our DAO, Governance and Community</li>
+                      <li>Help us design the front end experience or code in React, Rust, Holochain or NodeJs</li>
+                      <li>Help us with protocol, whitepaper, ssb or holochain messaging, and/or smart contract development</li>
+                      <li>Be a pilot community and connect us to real world people and real world needs.</li>                  
                     </ul>
-                    <p>Contributors earn tokens which convey voting rights in our early stage DAO as well as possible for earnings, as explained in <a href="">our contributors handbook</a>.  
+                    <p>Contributors earn tokens which convey voting rights in our early stage DAO as well as possible for earnings, as explained in <a href="https://mutualaidworld.gitbook.io/cashless/">our contributors handbook</a>.  
                     </p>
                   </div>
                 
@@ -50,12 +45,13 @@ function GetInvolved() {
                       <li><b>Compassionate</b> - We believe in a kinder and gentler form of money.</li>
                       <li><b>Transparent</b> - Data needs boundaries but corruption, inequality and instability grow in darkness. </li>
                       <li><b>Distributed</b> - We are building structures that put the user in control of their own data, and their own credit.</li>
+                      <li><b>Human centered</b> - By giving people room to act with humanity we believe we can co-create a kinder, gentler more prosperous future.</li>
                     </ul>
                   </CardBody>
                 </Card>
                 <Card>
                   <CardBody className="p-4">
-                     <p>If you are interested in joining us please fill in this short survey and we'll be in touch </p>
+                     <p>If you are interested in joining us please let us know by filling in this short survey, and we'll be in touch. </p>
                       <Button className="btn-round" color="success" type="button">
                           <i className="now-ui-icons ui-2_favourite-28"></i>&nbsp;
                           Get involved! &gt; 
