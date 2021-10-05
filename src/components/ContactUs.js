@@ -129,10 +129,10 @@ function ContactUs() {
             <Col md="5">
               <h2 className="title">Contact us</h2>
               <p className="lead">
-                We're putting together a team. See above for more details on that, but if you would like to leave us a general message, feel free.
+                If you wish to find out more about possible collaboration, please see above. 
               </p>
               <p className="lead">
-                  Have questions, comments, ideas? 
+                  Have questions, comments, ideas? If you would like to leave us a more general message, feel free to do so here.
               </p>
             </Col>
             <Col className="ml-auto mr-auto" md="5">

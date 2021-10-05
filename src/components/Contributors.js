@@ -24,7 +24,7 @@ function Contributors() {
               profileUrl={"https://avataaars.io/?avatarStyle=Circle&topType=ShortHairShortWaved&accessoriesType=Blank&hairColor=BlondeGolden&facialHairType=BeardMajestic&facialHairColor=BlondeGolden&clotheType=BlazerShirt&eyeType=Side&eyebrowType=Default&mouthType=Smile&skinColor=Light"}
               flipProfileUrl={require("assets/img/miles_in_front_of_church.jpg")}
               longBio={
-                <p>Founding CTO at NY financial research company CreditSights, acquired 2020, and AI startup Chatterize, seed round 2020. AI Lead Dev at <a href="http://papareo.nz">Papa Reo</a>. In 2020, co-founder of <a href="http://mutualaid.world">Mutual Aid World</a> project.</p>
+                <p>Founding CTO at NYC financial research company CreditSights (<a href="https://www.businesswire.com/news/home/20210114005711/en/Fitch-Group-to-Acquire-CreditSights-Inc.-a-Leading-Provider-of-Independent-Credit-Research" target="_blank">acquired $200m+</a> 2020). AI Lead Dev at <a href="http://papareo.nz">Papa Reo</a>, an Iwi-led project building language AI tools for indigenous languages. Co-summoner of <a href="http://mutualaid.world">Mutual Aid World</a> project.</p>
               }
               bioLinks={
                 <>
@@ -42,7 +42,7 @@ function Contributors() {
               name="Karen Lo"
               title="Designer"
               bio={
-                <p>Full-Stack UX & Product Designer</p>
+                <p>Full-Stack UX &amp; Product Designer</p>
               }
               longBio={
                 <p>UX/UI systems/platforms designer who's been jamming for the past 10+ years. Taking things from conception to implementation – from big picture to fine details.</p>
@@ -82,6 +82,7 @@ function Contributors() {
            
             <ContributorLarge 
               name="Linc Gasking"
+              title="Entrepreneur"
               bio={
                 <p>30 years serial entrepreneur.</p>
               }
@@ -100,7 +101,7 @@ function Contributors() {
               name="Ari Rodriguez"
               title="Cryptographer"
               bio={
-                <p>Smart contracts &amp; cryptographer</p>
+                <p>Smart contracts &amp; cryptography</p>
               }
               longBio={
                  <p>Block chain developer &amp; cryptographer, leader in homomorphic encryption and liquidity pooling.</p>
@@ -120,6 +121,7 @@ function Contributors() {
 
             <ContributorLarge 
               name="Graham Munro"
+              title="Monetary theorist"
               bio={
                 <p>Entrepreneur and monetary theorist.</p>
               }
@@ -136,7 +138,7 @@ function Contributors() {
                 <p>React and ssb developer</p>
               }
               longBio={
-                 <p>Developer experimenting with distributed tools for the purpose of #decolonisation from Moinho people Brazil. Believer in a global Swaraj.</p>
+                 <p>Developer living deep in Amazon and experimenting with distributed tools to support #decolonisation from Moinho people Brazil. Believer in a global Swaraj</p>
               }
               profileUrl={'https://avataaars.io/?avatarStyle=Circle&topType=LongHairCurly&hairColor=BrownDark&facialHairType=BeardMajestic&facialHairColor=BrownDark&clotheType=Overall&clotheColor=Gray01&eyeType=Close&eyebrowType=RaisedExcitedNatural&mouthType=Eating&skinColor=Light'}
               bioLinks={
