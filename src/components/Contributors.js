@@ -24,7 +24,7 @@ function Contributors() {
               profileUrl={"https://avataaars.io/?avatarStyle=Circle&topType=ShortHairShortWaved&accessoriesType=Blank&hairColor=BlondeGolden&facialHairType=BeardMajestic&facialHairColor=BlondeGolden&clotheType=BlazerShirt&eyeType=Side&eyebrowType=Default&mouthType=Smile&skinColor=Light"}
               flipProfileUrl={require("assets/img/miles_in_front_of_church.jpg")}
               longBio={
-                <p>Founding CTO at NYC financial research company CreditSights (<a href="https://www.businesswire.com/news/home/20210114005711/en/Fitch-Group-to-Acquire-CreditSights-Inc.-a-Leading-Provider-of-Independent-Credit-Research" target="_blank">acquired $200m+</a> 2020). AI Lead Dev at <a href="http://papareo.nz">Papa Reo</a>, an Iwi-led project building language AI tools for indigenous languages. Co-summoner of <a href="http://mutualaid.world">Mutual Aid World</a> project.</p>
+                <p>Founding CTO at financial research company <a href="https://www.businesswire.com/news/home/20210114005711/en/Fitch-Group-to-Acquire-CreditSights-Inc.-a-Leading-Provider-of-Independent-Credit-Research" target="_blank">CreditSights (acquired $200m+</a> 2020). <a href="http://papareo.nz">AI Lead Dev at Papa Reo</a>, an Iwi-led project building AI for indigenous languages. Co-summoner of <a href="http://mutualaid.world">Mutual Aid World project.</a></p>
               }
               bioLinks={
                 <>
@@ -62,7 +62,7 @@ function Contributors() {
             />
             
             <ContributorLarge 
-              name="Dean"
+              name="Dean Harliwich"
               title="Coordinator"
               bio={
                 <p>Community leader on community timebanks in NZ</p>
@@ -138,7 +138,7 @@ function Contributors() {
                 <p>React and ssb developer</p>
               }
               longBio={
-                 <p>Developer living deep in Amazon and experimenting with distributed tools to support #decolonisation from Moinho people Brazil. Believer in a global Swaraj</p>
+                 <p>A distributed developer living deep in Amazon basin and experimenting with distributed tools to support #decolonisation especially for Moinho people in Brazil. Believer in a global Swaraj</p>
               }
               profileUrl={'https://avataaars.io/?avatarStyle=Circle&topType=LongHairCurly&hairColor=BrownDark&facialHairType=BeardMajestic&facialHairColor=BrownDark&clotheType=Overall&clotheColor=Gray01&eyeType=Close&eyebrowType=RaisedExcitedNatural&mouthType=Eating&skinColor=Light'}
               bioLinks={

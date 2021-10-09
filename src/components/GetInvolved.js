@@ -11,7 +11,7 @@ function GetInvolved() {
       <div id="get-involved" className="">
         <div className="py-5 my-5">
           <Container>
-            <h2 className="title text-center">Is it for you?</h2>
+            <h2 className="title text-center">Get involved: Is it for you?</h2>
             <Row>
               <Col lg="6">
                 
@@ -51,10 +51,10 @@ function GetInvolved() {
                 </Card>
                 <Card>
                   <CardBody className="p-4">
-                     <p>If you are interested in joining us please let us know by filling in this short survey, and we'll be in touch. </p>
+                     <p>If you are interested in helping us change the future, express your interest here: </p>
                       <Button className="btn-round" color="success" type="button">
                           <i className="now-ui-icons ui-2_favourite-28"></i>&nbsp;
-                          Get involved! &gt; 
+                          I'm interested !! &gt; 
                       </Button>
                      
                   </CardBody>
