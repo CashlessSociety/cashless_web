@@ -33,6 +33,16 @@ function DefaultFooter() {
                   Faction Cooperative
                 </a>
               </li>
+              <li>|</li>
+              <li>
+                <a
+                  href="https://mutualaidworld.gitbook.io/cashless/
+"
+                  target="_blank"
+                >
+                  Contributor's Handbook
+                </a>
+              </li>
             </ul>
           </nav>
           <div className="copyright" id="copyright">
