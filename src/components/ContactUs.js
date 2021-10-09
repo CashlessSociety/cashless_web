@@ -129,7 +129,7 @@ function ContactUs() {
             <Col md="5">
               <h2 className="title">Contact us</h2>
               <p className="lead">
-                If you wish to find out more about possible collaboration, please see above. 
+                If you wish to find out more about possible collaboration, please <a href="#get-involved">see above</a>. 
               </p>
               <p className="lead">
                   Have questions, comments, ideas? If you would like to leave us a more general message, feel free to do so here.

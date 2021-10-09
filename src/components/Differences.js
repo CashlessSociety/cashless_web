@@ -19,9 +19,9 @@ function Differences() {
                 
                   <div className="description text-left">
                     <h5 className="info-title font-weight-bold">Bitcoin, Ethereum or other crypto?</h5>
-                     <p>Cashless credit is a relationship not a token. Most crypto is like gold in that it has value because of market sentiment. Credit, on the other hand, has value because it is a promise of future payment. Bitcoin has a proof of work to enforce limited supply. But Credit as needed, and accepted whenever plausible. 
+                     <p>Cashless credit is a relationship not a token. Most crypto is like gold in that it has value because of market sentiment. Credit, on the other hand, has value because it is a promise of future payment. Bitcoin has a proof of work to enforce limited supply. Credit, on the other hand, can be created as needed, but (plausibly) only between two people, and only sometimes.
                      </p>
-                     <p>Cashless is a bit like "bitcoin meets personal checking". It has no central server, nor even a global blockchain ledger. It is composed of a separate hashchains - a network of communities that keep trust, data, and credit small-world and local.
+                     <p>Cashless is a bit like "bitcoin meets personal checking". It has no central server, nor even a global blockchain ledger. It is composed of a separate hashchains - a network of communities keeping data, and therefore trust and credit, small-world and local.
                       </p>
                       <p>
                         From a crypto perspective Cashless is a layer 2 solution in that promises of reserves are kept local but exchange of underlying currency reserves, when necessary, happens using smart contracts on mainnet.
