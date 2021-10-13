@@ -13,7 +13,7 @@ function Governance() {
           Governance
         </h2>
         <h4 className="lead">
-          Cashless is a Distributed Autonomous Organisation
+          We're building a Distributed Autonomous Organisation
         </h4>
       </Col>
       <Container>
