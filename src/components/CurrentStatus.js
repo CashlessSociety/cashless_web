@@ -22,7 +22,7 @@ function CurrentStatus() {
                   <li><a href="https://www.figma.com/file/sq4aGgw7IQAbuRkXcFTaap/Cashless?node-id=1874%3A29551">Designs for</a> and the start of a much nicer, <a href="https://github.com/CashlessSociety/cashless-ui">open source MVP</a> (<a href="https://github.com/CashlessSociety/cashless-ui/issues/120">roadmap</a> here) </li>
                   <li>Some credit network simulations</li>
                   <li>A nascent governance token on colony and an intention (formalized as an MOU for now) to create a DAO around that token. </li>
-                  <li>A <a href="https://youtu.be/W1pN8GIa_XU?t=41">video from the moneylab conference</a> explaining the project more generally</li>
+                  <li>A <a href="https://youtu.be/W1pN8GIa_XU">video from the moneylab conference</a> explaining the project more generally</li>
               </ul>
             
               <p>
