@@ -117,6 +117,15 @@ function IndexNavbar() {
                   Governance 
                 </NavLink>
               </NavItem>
+               <NavItem>
+                <NavLink
+                  href="#status" onClick={(e) => {
+                    document.getElementById("status").scrollIntoView();
+                    document.documentElement.classList.toggle("nav-open");
+                  }}>
+                  Status
+                </NavLink>
+              </NavItem>
               <NavItem>
                 <NavLink
                   href="#get-involved" onClick={(e) => {

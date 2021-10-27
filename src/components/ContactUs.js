@@ -132,7 +132,7 @@ function ContactUs() {
                 If you wish to find out more about possible collaboration, please <a href="#get-involved">see above</a>. 
               </p>
               <p className="lead">
-                  Have questions, comments, ideas? If you would like to leave us a more general message, feel free to do so here.
+                  For any other questions, comments, ideas - or to leave us a more general message, feel free to do so here.
               </p>
             </Col>
             <Col className="ml-auto mr-auto" md="5">

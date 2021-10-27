@@ -47,7 +47,7 @@ function IndexPage() {
         <CurrentStatus />
         <GetInvolved />
         <Contributors />
-        <ContactUs />
+  {/*   <ContactUs /> */}
         <DefaultFooter />
       </div>
     </>

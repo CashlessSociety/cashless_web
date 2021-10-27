@@ -24,7 +24,7 @@ function Contributors() {
               profileUrl={"https://avataaars.io/?avatarStyle=Circle&topType=ShortHairShortWaved&accessoriesType=Blank&hairColor=BlondeGolden&facialHairType=BeardMajestic&facialHairColor=BlondeGolden&clotheType=BlazerShirt&eyeType=Side&eyebrowType=Default&mouthType=Smile&skinColor=Light"}
               flipProfileUrl={require("assets/img/miles_in_front_of_church.jpg")}
               longBio={
-                <p>Founding CTO at financial research company <a href="https://www.businesswire.com/news/home/20210114005711/en/Fitch-Group-to-Acquire-CreditSights-Inc.-a-Leading-Provider-of-Independent-Credit-Research" target="_blank">CreditSights (acquired $200m+</a> 2020). <a href="http://papareo.nz">AI Lead Dev at Papa Reo</a>, an Iwi-led project building AI for indigenous languages. Co-summoner of <a href="http://mutualaid.world">Mutual Aid World project.</a></p>
+                <p>Founding CTO at financial research company <a href="https://creditsights.com">CreditSights</a> (<a href="https://www.businesswire.com/news/home/20210114005711/en/Fitch-Group-to-Acquire-CreditSights-Inc.-a-Leading-Provider-of-Independent-Credit-Research" target="_blank">acquired $200m+, 2020</a>). <a href="http://papareo.nz">AI Lead Dev at Papa Reo</a>, an Iwi-led project building AI for indigenous languages. Co-summoner of <a href="http://mutualaid.world">Mutual Aid World project.</a></p>
               }
               bioLinks={
                 <>
@@ -38,6 +38,45 @@ function Contributors() {
               }
             />
 
+
+            <ContributorLarge 
+              name="Linc Gasking"
+              title="Entrepreneur"
+              bio={
+                <p>30 years serial entrepreneur.</p>
+              }
+              longBio={
+                 <p>30 years serial entrepreneur. First startup acquired DreamWorks. Founded Volumetric industry as CEO of multi-million dollar <a href="https://8i.com/">8i</a>. Award-winning photographer. Emmy Award finalist. Co-founder Women Without Borders.</p>
+              }
+              profileUrl={'https://avataaars.io/?avatarStyle=Circle&topType=ShortHairShortFlat&accessoriesType=Blank&hairColor=Black&facialHairType=BeardLight&facialHairColor=Auburn&clotheType=BlazerShirt&eyeType=Default&eyebrowType=RaisedExcitedNatural&mouthType=Smile&skinColor=Pale'}
+              flipProfileUrl={require("assets/img/linc_gasking.png")}
+              bioLinks={
+                <a href="https://www.linkedin.com/in/lincgasking" target="_blank">
+                  <i className="fab fa-linkedin"></i>
+                </a>
+              }
+            />
+
+            <ContributorLarge 
+              name="Dean Harliwich"
+              title="Coordinator"
+              bio={
+                <p>Community leader on community timebanks in NZ</p>
+              }
+              longBio={
+                <p>Developer and leader for community timebanks in Christchurch, NZ. Rites-of-passage facilitator, Masters Ecology, end-to-end Wordpress. Listener, learner, joker. Tech enthusiast, perpetual optimist.</p>
+              }
+              profileUrl={'https://avataaars.io/?accessoriesType=Blank&avatarStyle=Circle&clotheColor=PastelRed&clotheType=ShirtScoopNeck&eyeType=Happy&eyebrowType=DefaultNatural&facialHairColor=BrownDark&facialHairType=BeardLight&hairColor=Brown&hatColor=Blue03&mouthType=Smile&skinColor=Light&topType=LongHairNotTooLong'}
+              bioLinks={
+                <>
+                  <a href="https://nz.linkedin.com/in/dean-harliwich-ba3a6622" target="_blank">
+                    <i className="fab fa-linkedin"></i>
+                  </a>
+                </>
+              }
+            />
+           
+            
             <ContributorLarge 
               name="Karen Lo"
               title="Designer"
@@ -62,42 +101,6 @@ function Contributors() {
             />
             
             <ContributorLarge 
-              name="Dean Harliwich"
-              title="Coordinator"
-              bio={
-                <p>Community leader on community timebanks in NZ</p>
-              }
-              longBio={
-                <p>Developer and leader for community timebanks in Christchurch, NZ. Rites-of-passage facilitator, Masters Ecology, end-to-end Wordpress. Listener, learner, joker. Tech enthusiast, perpetual optimist.</p>
-              }
-              profileUrl={'https://avataaars.io/?accessoriesType=Blank&avatarStyle=Circle&clotheColor=PastelRed&clotheType=ShirtScoopNeck&eyeType=Happy&eyebrowType=DefaultNatural&facialHairColor=BrownDark&facialHairType=BeardLight&hairColor=Brown&hatColor=Blue03&mouthType=Smile&skinColor=Light&topType=LongHairNotTooLong'}
-              bioLinks={
-                <>
-                  <a href="https://nz.linkedin.com/in/dean-harliwich-ba3a6622" target="_blank">
-                    <i className="fab fa-linkedin"></i>
-                  </a>
-                </>
-              }
-            />
-           
-            <ContributorLarge 
-              name="Linc Gasking"
-              title="Entrepreneur"
-              bio={
-                <p>30 years serial entrepreneur.</p>
-              }
-              longBio={
-                 <p>30 years serial entrepreneur. First startup acquired DreamWorks. Founded Volumetric industry as CEO of multi-million dollar <a href="https://8i.com/">8i</a>. Award-winning photographer. Emmy Award finalist. Co-founder Women Without Borders.</p>
-              }
-              profileUrl={'https://avataaars.io/?avatarStyle=Circle&topType=ShortHairShortFlat&accessoriesType=Blank&hairColor=Black&facialHairType=BeardLight&facialHairColor=Auburn&clotheType=BlazerShirt&eyeType=Default&eyebrowType=RaisedExcitedNatural&mouthType=Smile&skinColor=Pale'}
-              bioLinks={
-                <a href="https://www.linkedin.com/in/lincgasking" target="_blank">
-                  <i className="fab fa-linkedin"></i>
-                </a>
-              }
-            />
-            
-            <ContributorLarge 
               name="Ari Rodriguez"
               title="Cryptographer"
               bio={
@@ -107,6 +110,7 @@ function Contributors() {
                  <p>Block chain developer &amp; cryptographer, leader in homomorphic encryption and liquidity pooling.</p>
               }
               profileUrl={'https://avataaars.io/?avatarStyle=Circle&topType=LongHairNotTooLong&accessoriesType=Blank&hairColor=BlondeGolden&facialHairType=BeardMajestic&facialHairColor=BlondeGolden&clotheType=Hoodie&clotheColor=Gray02&eyeType=Default&eyebrowType=Default&mouthType=Default&skinColor=Light'}
+              flipProfileUrl={require("assets/img/ari_rodriguez.png")}
               bioLinks={
                 <>
                   <a href="https://linkedin.com/in/ari-rodriguez-9b201b33" target="_blank">
@@ -133,7 +137,7 @@ function Contributors() {
 
             <ContributorLarge 
               name="Luandro"
-              title="Ssb developer"
+              title="SSB / React developer"
               bio={
                 <p>React and ssb developer</p>
               }
@@ -141,6 +145,7 @@ function Contributors() {
                  <p>A distributed developer living deep in Amazon basin and experimenting with distributed tools to support #decolonisation especially for Moinho people in Brazil. Believer in a global Swaraj</p>
               }
               profileUrl={'https://avataaars.io/?avatarStyle=Circle&topType=LongHairCurly&hairColor=BrownDark&facialHairType=BeardMajestic&facialHairColor=BrownDark&clotheType=Overall&clotheColor=Gray01&eyeType=Close&eyebrowType=RaisedExcitedNatural&mouthType=Eating&skinColor=Light'}
+              flipProfileUrl={require("assets/img/luandro_200.png")}
               bioLinks={
                 <>
                   <a href="https://github.com/luandro" target="_blank">

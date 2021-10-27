@@ -42,7 +42,7 @@ function HowTheApp() {
                 <div className="description">
                   <h4 className="info-title">Act as your own bank</h4>
                     <p>
-                      With Cashless, people create and extend credit to each other, building natural networks of reciprocity. See our whitepaper for why this form of credit is the next step in distributed finance. 
+                      With Cashless, people create and extend credit to each other, building natural networks of reciprocity. Our whitepaper (in progress) will explain how our credit clearing method is the next step in distributed finance. 
                     </p>
                 </div>
               </div>
