@@ -15,28 +15,26 @@ function DefaultFooter() {
             <ul>
               <li>
                 <a
-                  href="https://cashless.social"
+                  href="https://github.com/CashlessSociety" target="_blank"
                 >
-                  Cashless
-                </a>
-              </li>
-              <li>|</li>
-              <li>
-                <a
-                  href="https://github.com/factn"
-                  target="_blank"
-                >
-                  Faction Cooperative
+                  Cashless Source Code
                 </a>
               </li>
               <li>|</li>
               <li>
                 <a
                   href="https://mutualaidworld.gitbook.io/cashless/
-"
-                  target="_blank"
+" target="_blank"
                 >
                   Contributor's Handbook
+                </a>
+              </li>
+              <li>|</li>
+              <li>
+                <a
+                  href="#get-involved"
+                >
+                  Get involved ! 
                 </a>
               </li>
             </ul>

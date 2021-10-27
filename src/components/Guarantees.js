@@ -29,7 +29,7 @@ function Guarantees() {
                     <img alt="rating" src={require("assets/img/clip-payment.png")} height={150}  className="m-3"></img>
                     <h6>Your personal reserves </h6>
                     <p className="text-small">
-                      To have your credit more widely accepted, <b>back yourself by 'staking'</b> any crypto - stable coins like USDC or DAI. Reserves placed in our non-custodial smart contract are transparent to all and can be claimed by your counter-parties as soon as they vest.
+                      To have your credit more widely accepted, <b>back yourself by 'staking'</b> any crypto - stable coins like USDC or DAI. Reserves placed in our non-custodial smart contract are transparent to all and can be claimed by counter-parties as soon as they vest.
                     </p>
                   </CardBody>
                 </Card>
