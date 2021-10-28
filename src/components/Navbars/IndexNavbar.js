@@ -48,11 +48,8 @@ function IndexNavbar() {
         <Container>
           <div className="navbar-translate">
             <NavbarBrand
-              href="//"
-              target="_blank"
               id="navbar-brand"
               onClick={(e) => {
-               
                 document
                   .getElementById("video-header")
                   .scrollIntoView();
