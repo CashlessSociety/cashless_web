@@ -36,7 +36,7 @@ function IntroRow() {
                 </div>
                 <h4 className="info-title">Autonomous</h4>
                  <p className="description">
-                 <b>Give anyone credit.</b> You choose who to accept it from and within which communities. We provide credit clearing and reputation. You <b>act as your own bank</b>.
+                 <b>Give anyone credit.</b> You choose who to accept it from and within which communities. We provide credit clearing and reputation. You act as your own bank.
                 </p>
               </div>
             </Col>

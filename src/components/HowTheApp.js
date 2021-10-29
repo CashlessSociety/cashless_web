@@ -3,6 +3,9 @@ import React from "react";
 // reactstrap components
 import { Container, Row, Col } from "reactstrap";
 
+//
+import AppCarousel from "./AppCarousel";
+
 // core components
 
 function HowTheApp() {
@@ -20,7 +23,7 @@ function HowTheApp() {
                 <div className="description">
                   <h4 className="info-title">Send anyone credit</h4>
                   <p>
-                    <span className="comment">With the app you can send anyone payment in the form of a cashless credit. Back it with your crypto reserves and your reputation.</span><br />
+                    <span className="comment">With the app you can send anyone payment in the form of a cashless credit. Back it with your reserves and your reputation.</span><br />
                   </p>
                 </div>
               </div>
@@ -48,57 +51,9 @@ function HowTheApp() {
               </div>
             </Col>
             <Col md="7">
-            
-              <div className="phone-container">
-                <div className="phone-container-screens">
-                  <section className="carousel" aria-label="Gallery">
-                    <ol className="carousel__viewport">
-                      <li id="carousel__slide1"
-                          tabIndex="0"
-                          className="carousel__slide">
-                        <div className="carousel__snapper"></div>
-                      </li>
-                      <li id="carousel__slide2"
-                          tabIndex="0"
-                          className="carousel__slide">
-                        <div className="carousel__snapper"></div>
-                      </li>
-                      <li id="carousel__slide3"
-                          tabIndex="0"
-                          className="carousel__slide">
-                        <div className="carousel__snapper"></div>
-                      </li>
-                      <li id="carousel__slide4"
-                          tabIndex="0"
-                          className="carousel__slide">
-                        <div className="carousel__snapper"></div>
-                      </li>
-                    </ol>
-                    { /*
-                    <aside className="carousel__navigation">
-                      <ol className="carousel__navigation-list">
-                        <li className="carousel__navigation-item">
-                          <a href="#carousel__slide1"
-                             className="carousel__navigation-button" >Go to slide 1</a>
-                        </li>
-                        <li className="carousel__navigation-item">
-                          <a href="#carousel__slide2"
-                             className="carousel__navigation-button" >Go to slide 2</a>
-                        </li>
-                        <li className="carousel__navigation-item">
-                          <a href="#carousel__slide3"
-                             className="carousel__navigation-button" >Go to slide 3</a>
-                        </li>
-                        <li className="carousel__navigation-item">
-                          <a href="#carousel__slide4"
-                             className="carousel__navigation-button" >Go to slide 4</a>
-                        </li>
-                      </ol>
-                    </aside>*/}
-                  </section>
-                  {/* <img alt="..." src={require("assets/img/cashless_mob1.png")}></img> */}
-                </div>
-              </div>
+
+              <AppCarousel />
+              
             </Col>
           </Row>
         </Container>

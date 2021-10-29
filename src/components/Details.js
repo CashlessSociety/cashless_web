@@ -77,7 +77,7 @@ function Details() {
                         <Col>
                           <h5 className="info-title font-weight-bold">Vest & Spend</h5>
                           <p>
-                            If no reciprocity is found, cashless credits also have a reserves system. As they mature, promises bear fruit in the form of hard currency reserves, that can be transferred into the receiver’s wallet as soon as they vest. Like any living system, the reserves underpinning cashless promises undergo a natural birth, growth and decay cycle. The value of reserves build up over time, rewarding the recipient for holding on to the promise token.
+                            If no reciprocity is found, cashless credits also have a reserves system. As they mature, promises bear fruit in the form of token reserves, that can be transferred into the receiver’s wallet as soon as they vest. Like any living system, the reserves underpinning cashless promises undergo a natural birth, growth and decay cycle. The value of reserves build up over time, rewarding the recipient for holding on to the promise token.
                           </p>
                         </Col>
                       </Row>

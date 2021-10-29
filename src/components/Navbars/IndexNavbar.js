@@ -114,6 +114,17 @@ function IndexNavbar() {
                   Governance 
                 </NavLink>
               </NavItem>
+
+              <NavItem>
+                <NavLink
+                  href="#contributors" onClick={(e) => {
+                    document.getElementById("contributors").scrollIntoView();
+                    document.documentElement.classList.toggle("nav-open");
+                  }}>
+                  Contributors
+                </NavLink>
+              </NavItem>
+
                <NavItem>
                 <NavLink
                   href="#status" onClick={(e) => {
@@ -130,16 +141,6 @@ function IndexNavbar() {
                     document.documentElement.classList.toggle("nav-open");
                   }}>
                   Get Involved
-                </NavLink>
-              </NavItem>
-
-              <NavItem>
-                <NavLink
-                  href="#contributors" onClick={(e) => {
-                    document.getElementById("contributors").scrollIntoView();
-                    document.documentElement.classList.toggle("nav-open");
-                  }}>
-                  Contributors
                 </NavLink>
               </NavItem>
 {/*              <NavItem>
