@@ -6,6 +6,7 @@ import DefaultFooter from "components/Footers/DefaultFooter.js";
 //import VideoHeader from "components/VideoHeader.js";
 import NetworkHeader from "components/NetworkHeader.js";
 import HowTheApp from "components/HowTheApp.js";
+
 import Contributors from "components/Contributors.js";
 import IntroRow from "components/IntroRow.js";
 import Why from "components/Why.js";
@@ -44,10 +45,10 @@ function IndexPage() {
         <Guarantees />
         <Differences />
         <Governance />
+        <Contributors />
         <CurrentStatus />
         <GetInvolved />
-        <Contributors />
-  {/*   <ContactUs /> */}
+{/*         <ContactUs />*/}
         <DefaultFooter />
       </div>
     </>

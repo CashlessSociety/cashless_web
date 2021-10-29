@@ -14,14 +14,11 @@ function DefaultFooter() {
           <nav>
             <ul>
               <li>
-                Brought to you by:
-              </li>
-              <li>
                 <a
                   href="https://github.com/cashlesssociety"
                   target="_blank"
                 >
-                  Cashless Society
+                  Cashless Source Code
                 </a>
               </li>
               <li>|</li>

@@ -31,10 +31,10 @@ function Governance() {
                   <h5 className="info-title"> Business model</h5>
                   <p>We have uncovered a strong demand for a service like ours in specific communities and within the small business / startup scene</p>
                   <p>
-                    Cashless aims to work with a million communities that build on top of the open protocol. Their success directly influences our success and vice versa. Cashless will make early investments in the community tokens that issue on top of Cashless protocol.
+                    Cashless plans to work with thousands communities that build on top of our open protocol. Cashless will make early investments in the community tokens that issue on top of Cashless protocol. Their success will directly influence our success and vice versa.
                     </p>
                     <p>
-                    Longer term, Cashless is an AI  play. Our reference implementation will always be free and open but we can also offer an AI concierge to facilitate credit worthy  transactions optimized for your success.
+                    Longer term, Cashless is about AI. Our reference implementation will always be free and open but we will also offer an intelligent service to facilitate credit worthy transactions optimized for your success.
                   </p>
                 </div>
               </div>

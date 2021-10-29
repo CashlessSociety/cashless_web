@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.f567ac7f.chunk.css",
-    "main.js": "/static/js/main.d74f18ee.chunk.js",
-    "main.js.map": "/static/js/main.d74f18ee.chunk.js.map",
+    "main.css": "/static/css/main.916ea823.chunk.css",
+    "main.js": "/static/js/main.f8dfd101.chunk.js",
+    "main.js.map": "/static/js/main.f8dfd101.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.931f22c1.js",
     "runtime-main.js.map": "/static/js/runtime-main.931f22c1.js.map",
-    "static/js/2.58558a5a.chunk.js": "/static/js/2.58558a5a.chunk.js",
-    "static/js/2.58558a5a.chunk.js.map": "/static/js/2.58558a5a.chunk.js.map",
+    "static/js/2.2be92306.chunk.js": "/static/js/2.2be92306.chunk.js",
+    "static/js/2.2be92306.chunk.js.map": "/static/js/2.2be92306.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.7a94290aca14abecb2d9750650ffd244.js": "/precache-manifest.7a94290aca14abecb2d9750650ffd244.js",
+    "precache-manifest.1108fe1039fcb1d214bb0123aa5f184b.js": "/precache-manifest.1108fe1039fcb1d214bb0123aa5f184b.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.f567ac7f.chunk.css.map": "/static/css/main.f567ac7f.chunk.css.map",
-    "static/js/2.58558a5a.chunk.js.LICENSE.txt": "/static/js/2.58558a5a.chunk.js.LICENSE.txt",
+    "static/css/main.916ea823.chunk.css.map": "/static/css/main.916ea823.chunk.css.map",
+    "static/js/2.2be92306.chunk.js.LICENSE.txt": "/static/js/2.2be92306.chunk.js.LICENSE.txt",
     "static/media/ari_rodriguez.png": "/static/media/ari_rodriguez.a2f3dba2.png",
     "static/media/avataaars-contributor.svg": "/static/media/avataaars-contributor.2de668f3.svg",
     "static/media/cashless_logo_white.png": "/static/media/cashless_logo_white.7db2ee08.png",
@@ -21,7 +21,7 @@
     "static/media/clip-rating.png": "/static/media/clip-rating.590851db.png",
     "static/media/clip-welcome.png": "/static/media/clip-welcome.9965dd59.png",
     "static/media/future.png": "/static/media/future.369509c2.png",
-    "static/media/now-ui-kit.scss?v=1.4.0": "/static/media/screenshot-skills.588a052f.png",
+    "static/media/now-ui-kit.scss?v=1.4.0": "/static/media/nucleo-outline.8ebec31f.woff2",
     "static/media/graphic-money.svg": "/static/media/graphic-money.fc85fae0.svg",
     "static/media/graphic-time.svg": "/static/media/graphic-time.5ac60917.svg",
     "static/media/karen_lo.jpg": "/static/media/karen_lo.cc25aba6.jpg",
@@ -32,13 +32,17 @@
     "static/media/output.webm": "/static/media/output.b142a881.webm",
     "static/media/output.mp4": "/static/media/output.f3d002f9.mp4",
     "static/media/pay_it_4wd_horiz.png": "/static/media/pay_it_4wd_horiz.00b9f501.png",
+    "static/media/screenshot-profile.png": "/static/media/screenshot-profile.b1c874a5.png",
+    "static/media/screenshot-send.png": "/static/media/screenshot-send.0bdd8c40.png",
+    "static/media/screenshot-sent.png": "/static/media/screenshot-sent.494568cf.png",
+    "static/media/screenshot-skills.png": "/static/media/screenshot-skills.588a052f.png",
     "static/media/video_cover.png": "/static/media/video_cover.612d1a51.png",
     "static/media/working.jpg": "/static/media/working.431d9e9f.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.931f22c1.js",
-    "static/js/2.58558a5a.chunk.js",
-    "static/css/main.f567ac7f.chunk.css",
-    "static/js/main.d74f18ee.chunk.js"
+    "static/js/2.2be92306.chunk.js",
+    "static/css/main.916ea823.chunk.css",
+    "static/js/main.f8dfd101.chunk.js"
   ]
 }

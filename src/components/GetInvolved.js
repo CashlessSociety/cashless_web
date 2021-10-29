@@ -17,19 +17,19 @@ function GetInvolved() {
                 
                   <div className=" text-left">
                     <img alt="future" src={require("assets/img/future.png")}></img>
-                    <h5 className="info-title font-weight-bold">There are so many possibilities.</h5>
+                    <h5 className="info-title font-weight-bold">Yes - let's work together!</h5>
                     <p>
-                    The above is a brief summary of the work so far. But there are many ways to enable peer-to-peer mutual credit. Perhaps you are already working on another related project. Let's not work in isolation! At this early stage we are open to your ideas, your contributions and even potential key partnerships - as long as they fit within the boundaries of collaboration described to the right (or below).      
+                    The above is a summary of the work so far. But there are many ways to enable peer-to-peer mutual credit. You may already be working on another related project. Let's not work in isolation! At this stage we are open to  contributions and partnerships that take us in new directions as far as product design goes. Just so long as we are all working on solving mutual credit within the boundaries of collaboration described to the right (or below) then we want to hear from you.     
                     </p>
-                    <p>Right now we're expanding our list of advisors through private contacts. However we're also especially keen to hear from you if you think you might be able to:</p>
+                    <p>Right now we're expanding our list of advisors through private contacts. We also especially want to hear from potential collaborators if you think you might be able to:</p>
                     <ul>
                       <li>Help us design our the fundamentals of our token issuance and DAO founding documents.</li>
                        <li>Help us build healthy processes that recognize and value our contributors within a DAO context.</li>
-                      <li>Help us design the front end experience and build code in React, Rust, Holochain or NodeJs</li>
-                      <li>Help us with the protocol, whitepaper and/or smart contract development</li>
+                      <li>Help us design the front end experience and/or build code and smart contracts in React, Rust, Holochain/SSB or NodeJs</li>
+                      <li>Help us with the protocol, whitepaper and  simulations.</li>
                       <li>Be a pilot community and connect us to real world people and real world needs.</li>                  
                     </ul>
-                    <p>Contributors will earn tokens that convey voting rights in our DAO, as explained in <a href="https://mutualaidworld.gitbook.io/cashless/">our contributors handbook</a>.  
+                    <p>Contributors will earn tokens that convey governance voting rights as well as a share in future profits of our DAO, as explained in <a href="https://mutualaidworld.gitbook.io/cashless/">our contributors handbook</a>.  
                     </p>
                   </div>
                 
@@ -38,13 +38,13 @@ function GetInvolved() {
                 <Card>
                   <CardBody className="p-5">
                     <p className="lead">
-                      The boundary of this collaboration is good people who agree to work on <b>peer-to-peer mutual credit</b> that is:
+                      The boundary of our collaboration is good people working on <b>peer-to-peer mutual credit</b> that is:
                     </p>
                     <ul className="custom_bullets">
                       <li><b>Fair</b> - Reducing inequality is at the heart of what we are doing.</li>
                       <li><b>Robust</b> - By distributing risk we are building a form of credit suited to changeable times ahead.</li>
-                      <li><b>Compassionate</b> - We believe in a kinder and gentler form of money.</li>
-                      <li><b>Transparent</b> - Data needs boundaries but corruption, inequality and instability grow in darkness. </li>
+                      <li><b>Compassionate</b> - We believe in kinder and gentler forms of money.</li>
+                      <li><b>Transparent</b> - Data needs privacy boundaries but corruption, inequality and instability grow in darkness. </li>
                       <li><b>Distributed</b> - We are building structures that put the user in control of their own data, and their own credit.</li>
                       <li><b>Human centered</b> - By giving people room to act with humanity we believe we can co-create a kinder, gentler more prosperous future.</li>
                     </ul>
@@ -52,12 +52,11 @@ function GetInvolved() {
                 </Card>
                 <Card>
                   <CardBody className="p-4">
-                     <p>If you are interested in helping us change the future, click here: </p>
-                      <a className="btn-round button" color="success" href="https://mp72k7t29rj.typeform.com/to/GfVdv7Uz">
+                     <p>If you can get behind these principles and want to change the future with us, let us know here: </p>
+                      <a className="btn btn-primary btn-round btn-success" color="success" href="https://mp72k7t29rj.typeform.com/to/GfVdv7Uz">
                           <i className="now-ui-icons ui-2_favourite-28"></i>&nbsp;
                           Yes, I'm interested ! 
                       </a>
-                     
                   </CardBody>
                 </Card>
               </Col>

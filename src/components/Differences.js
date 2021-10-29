@@ -40,7 +40,7 @@ function Differences() {
                         </h5>
                         <p>Most of the money in the world is created as interest bearing debt by private banks. It can pass through your till without interest, but almost every dollar owes interest to a bank somewhere. 
                         </p>
-                        <p>Banks are good at keeping track of debt and keeping tabs on who owes who what. But we think it's time to take the systems of credit out of the hands of a few centralized organizations and put it in the hands of individuals and communities. We aim to empower people with the ability to create and use credit without the need for banks or interest.
+                        <p>Banks are good at keeping track of debt and keeping tabs on who owes who what and then resolving those obligation graphs using as little reserves as possible. But we think it's time to take the systems of credit out of the hands of centralized organizations and put it in the hands of individuals and communities. We aim to empower people with the ability to create, use, and resolve credit obligations without the need for banks - or interest.
                         </p>
                       </Col>
                     </Row>
@@ -56,11 +56,11 @@ function Differences() {
                       <Col>
                         <h5 className="info-title font-weight-bold">Mutual credit and timebanking
                         </h5>
-                        <p>Cashless is a type of mutual credit. It can be used to run a timebank. However each cashless credit starts off as a peer to peer promise of value between individuals. There is still a key role for community pools of value, that act like mutual credit associations in practice.
+                        <p>Cashless is, in fact, a type of mutual credit. It can be used to run a timebank. But it is more peer to peer. Each cashless credit starts off as a peer to peer promise of value between individuals instead of an entry on a local community ledger. Community tokens (or liquidity providers) only get involved later in the lifecycle. There is a key role for community pools of value that provide liquidity and act like mutual credit associations, in practice.
                         </p>
-                        <p>Another key difference is that while it is possible to settle debts in a mutual credit way (using 'reciprocity loops') Cashless also lets you settle promises using currency reserves 'staked' on the block chain.
+                        <p>Another key difference is that while it is possible to settle debts in a mutual credit way (using 'reciprocity loops') Cashless allows you to settle promises using currency reserves 'staked' on any blockchain.
                         </p>
-                        <p>These things together mean each individual runs their own credit ledger and, as a result, carries their own reputation and risk estimation.
+                        <p>These things together mean each individual runs their own credit ledger and each relationship carries it's own reputation (and risk). Mutual credit communities play a key role in vouching for and gauranteeing those relationships, however. 
                         </p>
                       </Col>
                     </Row>
@@ -75,7 +75,7 @@ function Differences() {
                     <div className="description text-left">
                       <h5 className="info-title font-weight-bold">Cashless is a hybrid
                       </h5>
-                      <p>Cashless is strongly informed by years in the mutual credit and alternative currency movement and is an attempt to address the practical problems that arise with running a timebank. It's also informed by technology used for credit analysis on Wall Street. At the end of the day it's something of a hybrid of mutual credit, blockchain and mainstream credit risk management approaches.
+                      <p>Cashless is strongly informed by years in the mutual credit and alternative currency space. It was, initially, an attempt to address the practical problems that arose from running a timebank by marrying mutual credit with block chain. It's also informed by the technology used for credit analysis on Wall Street. At the end of the day it's something of a hybrid of mutual credit, blockchain and mainstream credit risk management.
                       </p>
                     </div>
                   </CardBody>

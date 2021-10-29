@@ -30,9 +30,10 @@ function CurrentStatus() {
               </p>
               <ul>
                 <li>Our founding documents and DAO structure.</li>
-                <li>Designs and code for the reference implementation.</li>
-                <li>The protocol details and white paper.</li>
+                <li>Designs and code for the reference (MVP) implementation.</li>
+                <li>The protocol details, white paper and simulations.</li>
                 <li>Finding our founding team.</li>
+                <li>Finding the right communities to work with initially.</li>
               </ul>
 
               <p>
