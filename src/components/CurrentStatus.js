@@ -33,15 +33,17 @@ function CurrentStatus() {
                 <li>Designs and code for the reference (MVP) implementation.</li>
                 <li>The protocol details, white paper and simulations.</li>
                 <li>Finding our founding team.</li>
-                <li>Finding the right communities to work with initially.</li>
+                <li>Finding the right pilot communities to work with.</li>
               </ul>
 
               <p>
                 We'd like your help! 
               </p>
               <ul>
-                <li>We're looking to carefully expand our team with the right advisors and contributors. .</li>
+                <li>We're looking to carefully expand our team with the right advisors and contributors.</li>
               </ul>
+
+      
       
             </Col>
             <Col md={4} className="pt-5">

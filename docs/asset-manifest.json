@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.916ea823.chunk.css",
-    "main.js": "/static/js/main.f8dfd101.chunk.js",
-    "main.js.map": "/static/js/main.f8dfd101.chunk.js.map",
+    "main.js": "/static/js/main.b31a79b8.chunk.js",
+    "main.js.map": "/static/js/main.b31a79b8.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.931f22c1.js",
     "runtime-main.js.map": "/static/js/runtime-main.931f22c1.js.map",
-    "static/js/2.2be92306.chunk.js": "/static/js/2.2be92306.chunk.js",
-    "static/js/2.2be92306.chunk.js.map": "/static/js/2.2be92306.chunk.js.map",
+    "static/js/2.e22d0370.chunk.js": "/static/js/2.e22d0370.chunk.js",
+    "static/js/2.e22d0370.chunk.js.map": "/static/js/2.e22d0370.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.1108fe1039fcb1d214bb0123aa5f184b.js": "/precache-manifest.1108fe1039fcb1d214bb0123aa5f184b.js",
+    "precache-manifest.5def86d9a826ff8506a6ba5ec5654849.js": "/precache-manifest.5def86d9a826ff8506a6ba5ec5654849.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.916ea823.chunk.css.map": "/static/css/main.916ea823.chunk.css.map",
-    "static/js/2.2be92306.chunk.js.LICENSE.txt": "/static/js/2.2be92306.chunk.js.LICENSE.txt",
+    "static/js/2.e22d0370.chunk.js.LICENSE.txt": "/static/js/2.e22d0370.chunk.js.LICENSE.txt",
     "static/media/ari_rodriguez.png": "/static/media/ari_rodriguez.a2f3dba2.png",
     "static/media/avataaars-contributor.svg": "/static/media/avataaars-contributor.2de668f3.svg",
     "static/media/cashless_logo_white.png": "/static/media/cashless_logo_white.7db2ee08.png",
@@ -36,13 +36,13 @@
     "static/media/screenshot-send.png": "/static/media/screenshot-send.0bdd8c40.png",
     "static/media/screenshot-sent.png": "/static/media/screenshot-sent.494568cf.png",
     "static/media/screenshot-skills.png": "/static/media/screenshot-skills.588a052f.png",
-    "static/media/video_cover.png": "/static/media/video_cover.612d1a51.png",
+    "static/media/video_cover_min.png": "/static/media/video_cover_min.95973e4b.png",
     "static/media/working.jpg": "/static/media/working.431d9e9f.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.931f22c1.js",
-    "static/js/2.2be92306.chunk.js",
+    "static/js/2.e22d0370.chunk.js",
     "static/css/main.916ea823.chunk.css",
-    "static/js/main.f8dfd101.chunk.js"
+    "static/js/main.b31a79b8.chunk.js"
   ]
 }

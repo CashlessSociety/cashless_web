@@ -19,7 +19,7 @@ function GetInvolved() {
                     <img alt="future" src={require("assets/img/future.png")}></img>
                     <h5 className="info-title font-weight-bold">Yes - let's work together!</h5>
                     <p>
-                    The above is a summary of the work so far. But there are many ways to enable peer-to-peer mutual credit. You may already be working on another related project. Let's not work in isolation! At this stage we are open to  contributions and partnerships that take us in new directions as far as product design goes. Just so long as we are all working on solving mutual credit within the boundaries of collaboration described to the right (or below) then we want to hear from you.     
+                    The above is a summary of the work so far. But there are many ways to enable peer-to-peer mutual credit. You may already be working on another related project. Let's not work in isolation! At this stage we are open to  contributions and partnerships that take us in new directions as far as product design goes. Just so long as we are all working on solving mutual credit within the "boundaries of collaboration" described below (or to the right) then we want to hear from you.     
                     </p>
                     <p>Right now we're expanding our list of advisors through private contacts. We also especially want to hear from potential collaborators if you think you might be able to:</p>
                     <ul>
