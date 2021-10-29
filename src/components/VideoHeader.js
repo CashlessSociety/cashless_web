@@ -33,7 +33,7 @@ function VideoHeader() {
               autoPlay="autoplay" 
               muted="muted" 
               loop="loop"
-              poster={require("assets/img/video_cover.png")} >
+              poster={require("assets/img/video_cover_min.png")} >
             <source src={require("assets/img/output.mp4")} type="video/mp4" />
             <source src={require("assets/img/output.webm")} type="video/webm" />
             <source src={require("assets/img/output.ogv")} type="video/ogg" />

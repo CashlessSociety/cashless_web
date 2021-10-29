@@ -22,6 +22,10 @@ function IndexPage() {
   // const [firstFocus, setFirstFocus] = React.useState(false);
   // const [lastFocus, setLastFocus] = React.useState(false);
   React.useEffect(() => {
+    //preload video cover 
+    const img = new Image();
+    img.src = require("assets/img/video_cover_min.png");
+
     document.body.classList.add("landing-page");
     document.body.classList.add("sidebar-collapse");
     document.documentElement.classList.remove("nav-open");
