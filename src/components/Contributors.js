@@ -38,25 +38,6 @@ function Contributors() {
               }
             />
 
-
-            <ContributorLarge 
-              name="Linc Gasking"
-              title="Entrepreneur"
-              bio={
-                <p>30 years serial entrepreneur.</p>
-              }
-              longBio={
-                 <p>30 years serial entrepreneur. First startup acquired DreamWorks. Founded Volumetric industry as CEO of multi-million dollar <a href="https://8i.com/">8i</a>. Award-winning photographer. Emmy Award finalist. Co-founder Women Without Borders.</p>
-              }
-              profileUrl={'https://avataaars.io/?avatarStyle=Circle&topType=ShortHairShortFlat&accessoriesType=Blank&hairColor=Black&facialHairType=BeardLight&facialHairColor=Auburn&clotheType=BlazerShirt&eyeType=Default&eyebrowType=RaisedExcitedNatural&mouthType=Smile&skinColor=Pale'}
-              flipProfileUrl={require("assets/img/linc_gasking.png")}
-              bioLinks={
-                <a href="https://www.linkedin.com/in/lincgasking" target="_blank">
-                  <i className="fab fa-linkedin"></i>
-                </a>
-              }
-            />
-
             <ContributorLarge 
               name="Dean Harliwich"
               title="Coordinator"
@@ -76,7 +57,6 @@ function Contributors() {
               }
             />
            
-            
             <ContributorLarge 
               name="Karen Lo"
               title="Designer"
@@ -94,6 +74,26 @@ function Contributors() {
                     <i className="fab fa-linkedin"></i>
                   </a>
                   <a href="https://github.com/karenkun" target="_blank">
+                    <i className="fab fa-github"></i>
+                  </a>
+                </>
+              }
+            />
+
+            <ContributorLarge 
+              name="Luandro"
+              title="SSB / React developer"
+              bio={
+                <p>React and ssb developer</p>
+              }
+              longBio={
+                 <p>A distributed developer living deep in Amazon basin and experimenting with distributed tools to support #decolonisation especially for Moinho people in Brazil. Believer in a global Swaraj</p>
+              }
+              profileUrl={'https://avataaars.io/?avatarStyle=Circle&topType=LongHairCurly&hairColor=BrownDark&facialHairType=BeardMajestic&facialHairColor=BrownDark&clotheType=Overall&clotheColor=Gray01&eyeType=Close&eyebrowType=RaisedExcitedNatural&mouthType=Eating&skinColor=Light'}
+              flipProfileUrl={require("assets/img/luandro_200.png")}
+              bioLinks={
+                <>
+                  <a href="https://github.com/luandro" target="_blank">
                     <i className="fab fa-github"></i>
                   </a>
                 </>
@@ -122,6 +122,24 @@ function Contributors() {
                 </>
               }
             />
+            
+            <ContributorLarge 
+              name="Linc Gasking"
+              title="Entrepreneur"
+              bio={
+                <p>30 years serial entrepreneur.</p>
+              }
+              longBio={
+                 <p>30 years serial entrepreneur. First startup acquired DreamWorks. Founded Volumetric industry as CEO of multi-million dollar <a href="https://8i.com/">8i</a>. Award-winning photographer. Emmy Award finalist. Co-founder Women Without Borders.</p>
+              }
+              profileUrl={'https://avataaars.io/?avatarStyle=Circle&topType=ShortHairShortFlat&accessoriesType=Blank&hairColor=Black&facialHairType=BeardLight&facialHairColor=Auburn&clotheType=BlazerShirt&eyeType=Default&eyebrowType=RaisedExcitedNatural&mouthType=Smile&skinColor=Pale'}
+              flipProfileUrl={require("assets/img/linc_gasking.png")}
+              bioLinks={
+                <a href="https://www.linkedin.com/in/lincgasking" target="_blank">
+                  <i className="fab fa-linkedin"></i>
+                </a>
+              }
+            />
 
             <ContributorLarge 
               name="Graham Munro"
@@ -133,26 +151,6 @@ function Contributors() {
                  <p>With a background in physics and technology Graham is a serial tech entrepreneur turned monetary theorist and currency design expert.</p>
               }
               profileUrl={'https://avataaars.io/?avatarStyle=Circle&topType=ShortHairShortFlat&accessoriesType=Blank&hairColor=Black&facialHairType=Blank&clotheType=BlazerShirt&eyeType=Side&eyebrowType=Default&mouthType=Default&skinColor=Light'}
-            />
-
-            <ContributorLarge 
-              name="Luandro"
-              title="SSB / React developer"
-              bio={
-                <p>React and ssb developer</p>
-              }
-              longBio={
-                 <p>A distributed developer living deep in Amazon basin and experimenting with distributed tools to support #decolonisation especially for Moinho people in Brazil. Believer in a global Swaraj</p>
-              }
-              profileUrl={'https://avataaars.io/?avatarStyle=Circle&topType=LongHairCurly&hairColor=BrownDark&facialHairType=BeardMajestic&facialHairColor=BrownDark&clotheType=Overall&clotheColor=Gray01&eyeType=Close&eyebrowType=RaisedExcitedNatural&mouthType=Eating&skinColor=Light'}
-              flipProfileUrl={require("assets/img/luandro_200.png")}
-              bioLinks={
-                <>
-                  <a href="https://github.com/luandro" target="_blank">
-                    <i className="fab fa-github"></i>
-                  </a>
-                </>
-              }
             />
 
         </div>
