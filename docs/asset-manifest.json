@@ -1,20 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.916ea823.chunk.css",
-    "main.js": "/static/js/main.175c0802.chunk.js",
-    "main.js.map": "/static/js/main.175c0802.chunk.js.map",
+    "main.css": "/static/css/main.d1e2b5a5.chunk.css",
+    "main.js": "/static/js/main.a242e1f7.chunk.js",
+    "main.js.map": "/static/js/main.a242e1f7.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.931f22c1.js",
     "runtime-main.js.map": "/static/js/runtime-main.931f22c1.js.map",
-    "static/js/2.e22d0370.chunk.js": "/static/js/2.e22d0370.chunk.js",
-    "static/js/2.e22d0370.chunk.js.map": "/static/js/2.e22d0370.chunk.js.map",
+    "static/js/2.a06283dd.chunk.js": "/static/js/2.a06283dd.chunk.js",
+    "static/js/2.a06283dd.chunk.js.map": "/static/js/2.a06283dd.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.7a0833f64fc9302cff3209e3bdedbbcc.js": "/precache-manifest.7a0833f64fc9302cff3209e3bdedbbcc.js",
+    "precache-manifest.674e30ce1bc610d9f9f06cd6a249497b.js": "/precache-manifest.674e30ce1bc610d9f9f06cd6a249497b.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.916ea823.chunk.css.map": "/static/css/main.916ea823.chunk.css.map",
-    "static/js/2.e22d0370.chunk.js.LICENSE.txt": "/static/js/2.e22d0370.chunk.js.LICENSE.txt",
+    "static/css/main.d1e2b5a5.chunk.css.map": "/static/css/main.d1e2b5a5.chunk.css.map",
+    "static/js/2.a06283dd.chunk.js.LICENSE.txt": "/static/js/2.a06283dd.chunk.js.LICENSE.txt",
     "static/media/ari_rodriguez.png": "/static/media/ari_rodriguez.a2f3dba2.png",
     "static/media/avataaars-contributor.svg": "/static/media/avataaars-contributor.2de668f3.svg",
     "static/media/cashless_logo_white.png": "/static/media/cashless_logo_white.7db2ee08.png",
+    "static/media/cheque_216.png": "/static/media/cheque_216.a2df2dfa.png",
+    "static/media/cheque_216_demurrage.png": "/static/media/cheque_216_demurrage.2d69d4f7.png",
+    "static/media/cheque_216_reciprocity.png": "/static/media/cheque_216_reciprocity.5ac0896b.png",
+    "static/media/cheque_216_usdc.png": "/static/media/cheque_216_usdc.30f73eef.png",
+    "static/media/cheque_hr.png": "/static/media/cheque_hr.967a2664.png",
     "static/media/clip-brainstorm.png": "/static/media/clip-brainstorm.3e698adb.png",
     "static/media/clip-coop.png": "/static/media/clip-coop.57331861.png",
     "static/media/clip-payment.png": "/static/media/clip-payment.edcd2d7c.png",
@@ -36,13 +41,14 @@
     "static/media/screenshot-send.png": "/static/media/screenshot-send.0bdd8c40.png",
     "static/media/screenshot-sent.png": "/static/media/screenshot-sent.494568cf.png",
     "static/media/screenshot-skills.png": "/static/media/screenshot-skills.588a052f.png",
+    "static/media/sshot_alice.png": "/static/media/sshot_alice.c1d6d261.png",
     "static/media/video_cover_min.png": "/static/media/video_cover_min.95973e4b.png",
     "static/media/working.jpg": "/static/media/working.431d9e9f.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.931f22c1.js",
-    "static/js/2.e22d0370.chunk.js",
-    "static/css/main.916ea823.chunk.css",
-    "static/js/main.175c0802.chunk.js"
+    "static/js/2.a06283dd.chunk.js",
+    "static/css/main.d1e2b5a5.chunk.css",
+    "static/js/main.a242e1f7.chunk.js"
   ]
 }

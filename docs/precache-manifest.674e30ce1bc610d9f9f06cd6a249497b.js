@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4bf4b02793ff414480d6209d65617fc8",
+    "revision": "21d273f32d849bb49f30aa151e95372a",
     "url": "/index.html"
   },
   {
-    "revision": "38bfc28ccb976037447e",
-    "url": "/static/css/main.916ea823.chunk.css"
+    "revision": "fce86d0a6634d04635fa",
+    "url": "/static/css/main.d1e2b5a5.chunk.css"
   },
   {
-    "revision": "3263ae1cc8f96a54d7e9",
-    "url": "/static/js/2.e22d0370.chunk.js"
+    "revision": "1cf9111c2bf302b7a7b9",
+    "url": "/static/js/2.a06283dd.chunk.js"
   },
   {
     "revision": "db4833b02f62bd470bb1579a2ec8a284",
-    "url": "/static/js/2.e22d0370.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.a06283dd.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "38bfc28ccb976037447e",
-    "url": "/static/js/main.175c0802.chunk.js"
+    "revision": "fce86d0a6634d04635fa",
+    "url": "/static/js/main.a242e1f7.chunk.js"
   },
   {
     "revision": "1d319c5107bbf1468a46",
@@ -34,6 +34,26 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "7db2ee086ac34f769f6f0a421c18102b",
     "url": "/static/media/cashless_logo_white.7db2ee08.png"
+  },
+  {
+    "revision": "a2df2dfa79560872d2b4d09f0a63f257",
+    "url": "/static/media/cheque_216.a2df2dfa.png"
+  },
+  {
+    "revision": "2d69d4f7cef6094e27079c30ee34455a",
+    "url": "/static/media/cheque_216_demurrage.2d69d4f7.png"
+  },
+  {
+    "revision": "5ac0896b36864dd1013686be531ec4d2",
+    "url": "/static/media/cheque_216_reciprocity.5ac0896b.png"
+  },
+  {
+    "revision": "30f73eef737a5304b3b1f448df77f629",
+    "url": "/static/media/cheque_216_usdc.30f73eef.png"
+  },
+  {
+    "revision": "967a26643257c4f5cb8c04beb2cc62fa",
+    "url": "/static/media/cheque_hr.967a2664.png"
   },
   {
     "revision": "3e698adb36aff84c2f6118d2fe87ce47",
@@ -138,6 +158,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "588a052fa9240c640a22e220533fccb7",
     "url": "/static/media/screenshot-skills.588a052f.png"
+  },
+  {
+    "revision": "c1d6d261595d52bdca4318284a64fe2f",
+    "url": "/static/media/sshot_alice.c1d6d261.png"
   },
   {
     "revision": "95973e4b6d3b5973753e53ceafe8a2ee",
