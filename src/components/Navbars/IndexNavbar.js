@@ -117,16 +117,6 @@ function IndexNavbar() {
 
               <NavItem>
                 <NavLink
-                  href="#contributors" onClick={(e) => {
-                    document.getElementById("contributors").scrollIntoView();
-                    document.documentElement.classList.toggle("nav-open");
-                  }}>
-                  Contributors
-                </NavLink>
-              </NavItem>
-
-               <NavItem>
-                <NavLink
                   href="#status" onClick={(e) => {
                     document.getElementById("status").scrollIntoView();
                     document.documentElement.classList.toggle("nav-open");
@@ -134,6 +124,7 @@ function IndexNavbar() {
                   Status
                 </NavLink>
               </NavItem>
+
               <NavItem>
                 <NavLink
                   href="#get-involved" onClick={(e) => {
@@ -143,16 +134,17 @@ function IndexNavbar() {
                   Get Involved
                 </NavLink>
               </NavItem>
-{/*              <NavItem>
+
+              <NavItem>
                 <NavLink
-                  href="#team-section" onClick={(e) => {
-                    document.getElementById("team-section").scrollIntoView();
+                  href="#contributors" onClick={(e) => {
+                    document.getElementById("contributors").scrollIntoView();
                     document.documentElement.classList.toggle("nav-open");
                   }}>
-                  Contact
+                  Contributors
                 </NavLink>
-              </NavItem>*/}
-             
+              </NavItem>
+              
               <NavItem>
                 <NavLink
                   href="https://twitter.com/cashless_social?ref=cashless_web"

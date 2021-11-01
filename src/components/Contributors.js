@@ -12,7 +12,9 @@ function Contributors() {
     <>
       <div id="contributors" className="contributors">
         <Container>
-          <h2 className="title text-center">Contributors</h2>
+
+          <h3 className="title text-center">Contributors</h3>
+
           <div className="d-flex flex-wrap justify-content-center">
 
             <ContributorLarge 
@@ -122,7 +124,7 @@ function Contributors() {
                 </>
               }
             />
-            
+
             <ContributorLarge 
               name="Linc Gasking"
               title="Entrepreneur"
@@ -140,18 +142,7 @@ function Contributors() {
                 </a>
               }
             />
-
-            <ContributorLarge 
-              name="Graham Munro"
-              title="Monetary theorist"
-              bio={
-                <p>Entrepreneur and monetary theorist.</p>
-              }
-              longBio={
-                 <p>With a background in physics and technology Graham is a serial tech entrepreneur turned monetary theorist and currency design expert.</p>
-              }
-              profileUrl={'https://avataaars.io/?avatarStyle=Circle&topType=ShortHairShortFlat&accessoriesType=Blank&hairColor=Black&facialHairType=Blank&clotheType=BlazerShirt&eyeType=Side&eyebrowType=Default&mouthType=Default&skinColor=Light'}
-            />
+            
 
         </div>
         <div className="d-flex flex-wrap justify-content-center">
@@ -195,7 +186,6 @@ function Contributors() {
               }
             />
 
-
             <ContributorSmall
               name="Reinor"
               bio={
@@ -204,14 +194,26 @@ function Contributors() {
               profileUrl={require("assets/img/avataaars-contributor.svg")}
             />
 
+          </div>
+          <h3 className="title text-center">Key Advisors</h3>
+
+
+          <div className="d-flex flex-wrap justify-content-center">
+          
+
+            <ContributorLarge 
+              name="Graham Munro"
+              title="Monetary theorist"
+              bio={
+                <p>Entrepreneur and monetary theorist.</p>
+              }
+              longBio={
+                 <p>With a background in physics and technology Graham is a serial tech entrepreneur turned monetary theorist and currency design expert.</p>
+              }
+              profileUrl={'https://avataaars.io/?avatarStyle=Circle&topType=ShortHairShortFlat&accessoriesType=Blank&hairColor=Black&facialHairType=Blank&clotheType=BlazerShirt&eyeType=Side&eyebrowType=Default&mouthType=Default&skinColor=Light'}
+            />
 
           </div>
-          {/*<h5 className="mt-3 text-center">Key Advisors and/or Investors </h5>
-          <div className="d-flex flex-wrap justify-content-center">
-
-           -- Put advisors and investors here --
-
-          </div>*/}
 
         </Container>
       </div>

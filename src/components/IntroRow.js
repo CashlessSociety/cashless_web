@@ -12,7 +12,7 @@ function IntroRow() {
         <Container>
           <Row>
             <Col className="ml-auto mr-auto" md="12">
-              <h2 className="title">Live life on your own terms with Cashless.</h2>
+              <h2 className="title">Making money human again</h2>
               <h4 className="description">
                 Cashless is an alternative way to keep track of credit through communities. <br />We provide trust and transparency but <b>you are your own bank.</b></h4>
             </Col>

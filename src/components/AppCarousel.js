@@ -18,6 +18,11 @@ const items = [
     caption: ""
   },
   {
+    src: require("assets/img/sshot_alice.png"),
+    altText: "",
+    caption: ""
+  },
+  {
     src: require("assets/img/screenshot-send.png"),
     altText: "",
     caption: ""
@@ -66,6 +71,7 @@ function AppCarousel() {
                 activeIndex={activeIndex}
                 next={next}
                 previous={previous}
+                ride="carousel"
               >
 
                 <CarouselIndicators

@@ -3,6 +3,8 @@ import React from "react";
 // reactstrap components
 import { Container, Row, Col } from "reactstrap";
 
+import ChequeCarousel from "./ChequeCarousel.js"
+
 function Details() {
   return (
     <>
@@ -28,8 +30,9 @@ function Details() {
                     <div className="description text-left">
                       <h5 className="info-title font-weight-bold">Send</h5>
                       <p>
-                      Send anyone money in the form of a cashless credit. A credit is a signed, irrevocable ‘promise to pay it forward’ backed by your reserves and reputation. Send a credit as payment or acknowledgement of work done for you by others. They don't have to be a member, you can send credit to any email address or social media handle.
+                        Send anyone money in the form of a cashless credit. A credit is a signed, irrevocable ‘promise to pay it forward’ backed by your reserves and reputation. Send a credit as payment or acknowledgement of work done for you by others. They don't have to be a member, you can send credit to any email address or social media handle.
                       </p>
+                      <ChequeCarousel />
                     </div>
                   </div>
                 </Col>
@@ -58,6 +61,7 @@ function Details() {
                         <h5 className="info-title font-weight-bold">Reciprocity</h5>
                           <p>
                             The best way to pay off cashless credits you send is to offer back an equal value of your time in exchange. For example, a graphic designer helped you design a logo and you helped with some of their work in return. You have found a two person ‘reciprocity’ loop that erases both debts. But you don't have to find an exact swap. The Cashless AI works hard at finding and suggesting trades that will help everyone cancel outstanding debts and spend their credits.
+                            <br /><img className="cheque_image" src={require("assets/img/cheque_216_reciprocity.png")} /> 
                           </p>
                         </Col>
                       </Row>
@@ -78,6 +82,7 @@ function Details() {
                           <h5 className="info-title font-weight-bold">Vest & Spend</h5>
                           <p>
                             If no reciprocity is found, cashless credits also have a reserves system. As they mature, promises bear fruit in the form of token reserves, that can be transferred into the receiver’s wallet as soon as they vest. Like any living system, the reserves underpinning cashless promises undergo a natural birth, growth and decay cycle. The value of reserves build up over time, rewarding the recipient for holding on to the promise token.
+                            <br /><img className="cheque_image" src={require("assets/img/cheque_216_usdc.png")} /> 
                           </p>
                         </Col>
                       </Row>
@@ -96,6 +101,7 @@ function Details() {
                       <h5 className="info-title font-weight-bold">Demurrage</h5>
                       <p>
                         Unlike the growth imperative of traditional debt based money, or the speculation incentives on most blockchains, Cashless credits live in balance with nature. They start to depreciate back to zero a few months after reaching their highest value. We believe that credit should serve the community, not the other way around. Nobody should be subjected to endless cycles of compounding debt. Cashless credits ‘want’ to be spent and dissapear. This encourages your local community, local relationships, and local engagement.
+                        <br /><img className="cheque_image" src={require("assets/img/cheque_216_demurrage.png")} /> 
                       </p>
                     </div>
                   </div>

@@ -49,10 +49,10 @@ function IndexPage() {
         <Guarantees />
         <Differences />
         <Governance />
-        <Contributors />
         <CurrentStatus />
         <GetInvolved />
 {/*         <ContactUs />*/}
+        <Contributors />
         <DefaultFooter />
       </div>
     </>

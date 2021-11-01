@@ -8,7 +8,7 @@ import { Card, CardBody, Button, Container, Row, Col } from "reactstrap";
 function GetInvolved() {
   return (
     <>
-      <div id="get-involved" className="">
+      <div id="get-involved" className="get_involved">
         <div className="py-5 my-5">
           <Container>
             <h2 className="title text-center">Is this for you?</h2>
@@ -50,12 +50,17 @@ function GetInvolved() {
                     </ul>
                   </CardBody>
                 </Card>
+                
+              </Col>
+            </Row>
+            <Row>
+              <Col>
                 <Card>
                   <CardBody className="p-4">
-                     <p>If you can get behind these principles and want to change the future with us, let us know here: </p>
-                      <a className="btn btn-primary btn-round btn-success" color="success" href="https://mp72k7t29rj.typeform.com/to/GfVdv7Uz">
+                     <p>If you can get behind the above principles and want to change the future, let us know </p>
+                      <a className="btn-large  btn-round btn-success cta_button" href="https://mp72k7t29rj.typeform.com/to/GfVdv7Uz">
                           <i className="now-ui-icons ui-2_favourite-28"></i>&nbsp;
-                          Yes, I'm interested ! 
+                          Yes, I'm interested !
                       </a>
                   </CardBody>
                 </Card>

@@ -21,7 +21,7 @@ function DefaultFooter() {
                   Cashless Source Code
                 </a>
               </li>
-              <li>|</li>
+              <li>|</li>{/*
               <li>
                 <a
                   href="https://github.com/factn"
@@ -30,7 +30,7 @@ function DefaultFooter() {
                   Faction Cooperative
                 </a>
               </li>
-              <li>|</li>
+              <li>|</li>*/}
               <li>
                 <a
                   href="https://mutualaidworld.gitbook.io/cashless/
